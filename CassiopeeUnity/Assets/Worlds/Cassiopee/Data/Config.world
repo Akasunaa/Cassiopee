@@ -1,8 +1,15 @@
 {
-	"maps": [
-		{
-			"fileName": "Intro.tmx"
-		}
-	],
-	"type": "world"
+    "type": "world",
+    "maps": [
+        {
+            "fileName": "Intro.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "AkaZone.tmx",
+            "x": 0,
+            "y": 0
+        }
+    ]
 }

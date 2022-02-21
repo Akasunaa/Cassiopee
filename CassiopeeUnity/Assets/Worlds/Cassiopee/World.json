@@ -1,6 +1,7 @@
 {
-    "version": "0.0.9",
-    "versionCode": 9,
+    "key": "Cassiopee",
+    "version": "0.0.14",
+    "versionCode": 14,
     "name": "My Game",
     "shortDescription": "My game description.",
     "measures": [
@@ -25,7 +26,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 543,
+        "totalObjects": 743,
         "referencedWorlds": [
             "Base",
             "Cassiopee"
@@ -39,6 +40,7 @@
             "/Base/Data/MazeRightCorner",
             "/Base/Materials/Bricks",
             "/Base/Materials/DarkGrid",
+            "/Base/Pieces/Button",
             "/Base/Pieces/ButtonCentered",
             "/Base/Pieces/Ceiling",
             "/Base/Pieces/Corner",
@@ -72,6 +74,7 @@
             "/Base/Pieces/Transition",
             "/Base/Pieces/Wall",
             "/Base/Pieces/Waypoint",
+            "/Cassiopee/Data/AkaZone",
             "/Cassiopee/Data/Intro",
             "[exit]"
         ],

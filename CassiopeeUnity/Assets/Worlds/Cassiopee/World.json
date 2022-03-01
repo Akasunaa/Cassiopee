@@ -1,18 +1,31 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.14",
-    "versionCode": 14,
-    "name": "My Game",
-    "shortDescription": "My game description.",
+    "version": "0.0.8",
+    "versionCode": 76,
+    "name": "Cassiopee",
+    "shortDescription": "Jeu cr�e � l'occasion du projet Cassiop�e",
+    "coverImage": "/Images/Cassiopee",
     "measures": [
         "Time",
         "Distance"
+    ],
+    "initialVariables": [
+        {
+            "key": "combo-laser",
+            "value": false,
+            "order": "Static",
+            "targetOrder": [
+                "combo-laser-one",
+                "combo-laser-two",
+                "combo-laser-three"
+            ]
+        }
     ],
     "replacements": [
         {
             "type": "Material",
             "key": "[walls]",
-            "materials": "/Base/Bricks"
+            "materials": "/Base/DarkGrid"
         },
         {
             "type": "Material",
@@ -38,7 +51,6 @@
             "/Base/Data/Maze",
             "/Base/Data/MazeLeftCorner",
             "/Base/Data/MazeRightCorner",
-            "/Base/Materials/Bricks",
             "/Base/Materials/DarkGrid",
             "/Base/Pieces/Button",
             "/Base/Pieces/ButtonCentered",
@@ -76,6 +88,7 @@
             "/Base/Pieces/Waypoint",
             "/Cassiopee/Data/AkaZone",
             "/Cassiopee/Data/Intro",
+            "/Cassiopee/Pieces/Laser",
             "[exit]"
         ],
         "referencedSpeech": [

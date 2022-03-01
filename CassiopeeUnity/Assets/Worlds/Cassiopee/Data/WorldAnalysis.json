@@ -12,7 +12,6 @@
         "/Base/Data/Maze",
         "/Base/Data/MazeLeftCorner",
         "/Base/Data/MazeRightCorner",
-        "/Base/Materials/Bricks",
         "/Base/Materials/DarkGrid",
         "/Base/Pieces/Button",
         "/Base/Pieces/ButtonCentered",
@@ -50,6 +49,7 @@
         "/Base/Pieces/Waypoint",
         "/Cassiopee/Data/AkaZone",
         "/Cassiopee/Data/Intro",
+        "/Cassiopee/Pieces/Laser",
         "[exit]"
     ],
     "referencedSpeech": [

@@ -84,12 +84,12 @@
    </object>
    <object id="96" gid="14" x="50" y="200" width="50" height="50">
     <properties>
-     <property name="Variable" value="laser"/>
+     <property name="Variable" value="combo-laser-four"/>
     </properties>
    </object>
-   <object id="97" gid="13" x="50" y="50" width="50" height="50" rotation="90">
+   <object id="97" type="Laser" gid="13" x="50" y="50" width="50" height="50" rotation="90">
     <properties>
-     <property name="Variable" value="laser"/>
+     <property name="Variable" value="combo-laser"/>
     </properties>
    </object>
    <object id="98" gid="14" x="100" y="200" width="50" height="50">

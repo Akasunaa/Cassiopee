@@ -1,14 +1,17 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.8",
-    "versionCode": 76,
+    "version": "0.0.24",
+    "versionCode": 92,
     "name": "Cassiopee",
-    "shortDescription": "Jeu cr�e � l'occasion du projet Cassiop�e",
-    "coverImage": "/Images/Cassiopee",
+    "shortDescription": "Jeu cree a l'occasion du projet Cassiop�e",
     "measures": [
         "Time",
         "Distance"
     ],
+    "inventoryItems": [
+        "/Base/PlasmaGun"
+    ],
+    "initialItemMain": "/Base/PlasmaGun",
     "initialVariables": [
         {
             "key": "combo-laser",
@@ -17,7 +20,8 @@
             "targetOrder": [
                 "combo-laser-one",
                 "combo-laser-two",
-                "combo-laser-three"
+                "combo-laser-three",
+                "combo-laser-four"
             ]
         }
     ],
@@ -39,7 +43,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 743,
+        "totalObjects": 745,
         "referencedWorlds": [
             "Base",
             "Cassiopee"

@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.24",
-    "versionCode": 92,
+    "version": "0.0.26",
+    "versionCode": 94,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiop�e",
     "measures": [
@@ -43,7 +43,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 745,
+        "totalObjects": 829,
         "referencedWorlds": [
             "Base",
             "Cassiopee"
@@ -91,7 +91,9 @@
             "/Base/Pieces/Wall",
             "/Base/Pieces/Waypoint",
             "/Cassiopee/Data/AkaZone",
+            "/Cassiopee/Data/AkaZone2",
             "/Cassiopee/Data/Intro",
+            "/Cassiopee/Pieces/Cube",
             "/Cassiopee/Pieces/Laser",
             "[exit]"
         ],

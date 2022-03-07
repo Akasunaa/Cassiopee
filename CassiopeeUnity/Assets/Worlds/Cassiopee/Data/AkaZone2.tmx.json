@@ -1,13 +1,13 @@
 { "compressionlevel":0,
- "height":3,
+ "height":4,
  "infinite":false,
  "layers":[
         {
          "id":5,
          "layers":[
                 {
-                 "data":[4, 4, 4, 4, 4, 4, 4, 4, 4],
-                 "height":3,
+                 "data":[4, 4, 4, 0, 4, 4, 4, 0, 4, 4, 4, 0, 0, 0, 0, 0],
+                 "height":4,
                  "id":1,
                  "name":"Ground",
                  "opacity":1,
@@ -24,13 +24,13 @@
                         }],
                  "type":"tilelayer",
                  "visible":true,
-                 "width":3,
+                 "width":4,
                  "x":0,
                  "y":0
                 }, 
                 {
-                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3],
-                 "height":3,
+                 "data":[3, 3, 3, 0, 3, 3, 3, 0, 3, 3, 3, 0, 0, 0, 0, 0],
+                 "height":4,
                  "id":28,
                  "name":"Ceiling",
                  "opacity":1,
@@ -47,13 +47,13 @@
                         }],
                  "type":"tilelayer",
                  "visible":false,
-                 "width":3,
+                 "width":4,
                  "x":0,
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 3221225477, 3221225478, 2684354565, 0, 1610612741, 6, 5, 1610612742],
-                 "height":3,
+                 "data":[2684354566, 3221225477, 3221225478, 0, 2684354565, 0, 1610612741, 0, 6, 5, 1610612742, 0, 0, 0, 0, 0],
+                 "height":4,
                  "id":3,
                  "name":"Walls",
                  "opacity":1,
@@ -70,7 +70,7 @@
                         }],
                  "type":"tilelayer",
                  "visible":true,
-                 "width":3,
+                 "width":4,
                  "x":0,
                  "y":0
                 }, 
@@ -78,7 +78,25 @@
                  "draworder":"topdown",
                  "id":4,
                  "name":"Transitions",
-                 "objects":[],
+                 "objects":[
+                        {
+                         "gid":1073741832,
+                         "height":50,
+                         "id":66,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"[exit]"
+                                }],
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":50
+                        }],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -89,7 +107,19 @@
                  "draworder":"topdown",
                  "id":27,
                  "name":"Objects",
-                 "objects":[],
+                 "objects":[
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":65,
+                         "name":"",
+                         "rotation":0,
+                         "type":"CubeGrab",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":50
+                        }],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -110,7 +140,7 @@
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":65,
+ "nextobjectid":67,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -1022,5 +1052,5 @@
  "tilewidth":50,
  "type":"map",
  "version":"1.6",
- "width":3
+ "width":4
 }

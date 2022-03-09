@@ -75,7 +75,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 2684354565, 0, 0, 0, 3221225477, 3221225477, 2684354565, 0, 2684354571, 5, 2684354565, 0, 0, 0, 0],
+                 "data":[0, 0, 1610612741, 0, 0, 2684354566, 3221225477, 0, 0, 3221225478, 1610612742, 0, 3221225478, 0, 0, 0],
                  "height":4,
                  "id":29,
                  "name":"Walls2",
@@ -143,7 +143,7 @@
                 {
                  "name":"Height",
                  "type":"float",
-                 "value":1.5
+                 "value":1
                 }],
          "type":"group",
          "visible":true,
@@ -165,7 +165,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.8.1",
  "tileheight":50,
  "tilesets":[
         {
@@ -1062,6 +1062,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.6",
+ "version":"1.8",
  "width":4
 }

@@ -6,7 +6,7 @@
          "id":5,
          "layers":[
                 {
-                 "data":[4, 4, 4, 0, 4, 4, 4, 0, 4, 4, 4, 0, 0, 0, 0, 0],
+                 "data":[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
                  "height":4,
                  "id":1,
                  "name":"Ground",
@@ -52,7 +52,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 3221225477, 3221225478, 0, 2684354565, 0, 1610612741, 0, 6, 5, 1610612742, 0, 0, 0, 0, 0],
+                 "data":[2684354566, 3221225477, 3221225477, 3221225478, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -94,8 +94,8 @@
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":100,
-                         "y":50
+                         "x":150,
+                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -111,14 +111,269 @@
                         {
                          "gid":40,
                          "height":50,
-                         "id":65,
+                         "id":67,
                          "name":"",
                          "rotation":0,
                          "type":"CubeGrab",
                          "visible":true,
                          "width":50,
+                         "x":150,
+                         "y":50
+                        }, 
+                        {
+                         "gid":14,
+                         "height":50,
+                         "id":80,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Orientation",
+                                 "type":"string",
+                                 "value":"Bottom"
+                                }, 
+                                {
+                                 "name":"Z",
+                                 "type":"int",
+                                 "value":3
+                                }],
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
+                        }, 
+                        {
+                         "gid":14,
+                         "height":50,
+                         "id":81,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Orientation",
+                                 "type":"string",
+                                 "value":"Bottom"
+                                }, 
+                                {
+                                 "name":"Z",
+                                 "type":"int",
+                                 "value":3
+                                }],
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":100
+                        }, 
+                        {
+                         "gid":14,
+                         "height":50,
+                         "id":82,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Orientation",
+                                 "type":"string",
+                                 "value":"Bottom"
+                                }, 
+                                {
+                                 "name":"Z",
+                                 "type":"int",
+                                 "value":3
+                                }],
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":84,
+                         "name":"Button",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"wsh"
+                                }],
+                         "rotation":0,
+                         "type":"Button",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":88,
+                         "name":"Button",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"wsh"
+                                }],
+                         "rotation":0,
+                         "type":"Button",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":89,
+                         "name":"Button",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"wsh"
+                                }],
+                         "rotation":0,
+                         "type":"Button",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":90,
+                         "name":"Button",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"wsh"
+                                }],
+                         "rotation":0,
+                         "type":"Button",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":91,
+                         "name":"Button",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"wsh"
+                                }],
+                         "rotation":0,
+                         "type":"Button",
+                         "visible":true,
+                         "width":50,
                          "x":0,
                          "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":92,
+                         "name":"Button",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"wsh"
+                                }],
+                         "rotation":0,
+                         "type":"Button",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":50
+                        }, 
+                        {
+                         "gid":13,
+                         "height":50,
+                         "id":94,
+                         "name":"",
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
+                        }, 
+                        {
+                         "gid":13,
+                         "height":50,
+                         "id":95,
+                         "name":"",
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":96,
+                         "name":"Button",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"wsh"
+                                }],
+                         "rotation":0,
+                         "type":"Button",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":97,
+                         "name":"Button",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"wsh"
+                                }],
+                         "rotation":0,
+                         "type":"Button",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":98,
+                         "name":"Button",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"wsh"
+                                }],
+                         "rotation":0,
+                         "type":"Button",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":150
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -140,7 +395,7 @@
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":67,
+ "nextobjectid":99,
  "orientation":"orthogonal",
  "properties":[
         {

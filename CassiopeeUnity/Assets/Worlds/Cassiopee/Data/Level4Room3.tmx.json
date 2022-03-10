@@ -67,24 +67,6 @@
                          "width":50,
                          "x":50,
                          "y":150
-                        }, 
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":69,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"Hugo"
-                                }],
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":150
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -222,7 +204,7 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":70,
+ "nextobjectid":69,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -236,7 +218,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.8.1",
  "tileheight":50,
  "tilesets":[
         {
@@ -1133,6 +1115,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.6",
+ "version":"1.8",
  "width":4
 }

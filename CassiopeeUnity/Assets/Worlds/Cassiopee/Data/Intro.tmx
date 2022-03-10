@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="28" nextobjectid="83">
+=======
+<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="31" nextobjectid="72">
+>>>>>>> 77641a0f976ed135a1656f07089984808b3f53a1
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -23,11 +27,23 @@
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
+<<<<<<< HEAD
    <object id="65" gid="20" x="150" y="150" width="50" height="50" rotation="90"/>
    <object id="66" gid="8" x="150" y="50" width="50" height="50" rotation="-90">
+=======
+   <object id="65" gid="20" x="50" y="150" width="50" height="50"/>
+   <object id="66" gid="8" x="100" y="45" width="50" height="50" rotation="180">
+>>>>>>> 77641a0f976ed135a1656f07089984808b3f53a1
     <properties>
      <property name="OneWay" type="bool" value="false"/>
-     <property name="TargetZone" value="AkaZone"/>
+     <property name="TargetZone" value="Hugo"/>
+     <property name="ZoneExit" type="bool" value="true"/>
+    </properties>
+   </object>
+   <object id="71" gid="8" x="150" y="45" width="50" height="50" rotation="180">
+    <properties>
+     <property name="OneWay" type="bool" value="false"/>
+     <property name="TargetZone" value="Hugo"/>
      <property name="ZoneExit" type="bool" value="true"/>
     </properties>
    </object>
@@ -46,6 +62,17 @@
    <object id="81" type="Engrenage" gid="40" x="150" y="150" width="50" height="50"/>
    <object id="82" type="Engrenage" gid="40" x="100" y="100" width="50" height="50"/>
   </objectgroup>
+  <objectgroup id="30" name="Objets" visible="0">
+   <object id="69" type="Vent" gid="40" x="50" y="100" width="50" height="50">
+    <properties>
+     <property name="Move" value=""/>
+     <property name="Offset" value="0.6;0.35;0.5"/>
+     <property name="Rotate" value="-90;-90;0"/>
+     <property name="Scale" value="0.2;0.3;0.2"/>
+     <property name="Snap" type="bool" value="false"/>
+    </properties>
+   </object>
+  </objectgroup>
   <layer id="3" name="Walls" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
@@ -60,8 +87,26 @@
   </layer>
   <layer id="27" name="Wall2" width="4" height="4">
    <data encoding="csv">
+<<<<<<< HEAD
 0,0,0,0,
 0,0,0,0,
+=======
+1610612741,0,0,2684354565,
+1610612742,0,0,6,
+0,0,0,0,
+0,0,0,0
+</data>
+  </layer>
+  <layer id="28" name="WallsAboveVent" width="4" height="4" offsetx="0" offsety="1">
+   <properties>
+    <property name="ConnectToCeiling" type="bool" value="true"/>
+    <property name="Materials" value="[walls]"/>
+    <property name="Y" type="int" value="2"/>
+   </properties>
+   <data encoding="csv">
+0,0,0,0,
+0,3221225477,3221225477,0,
+>>>>>>> 77641a0f976ed135a1656f07089984808b3f53a1
 0,0,0,0,
 0,0,0,0
 </data>

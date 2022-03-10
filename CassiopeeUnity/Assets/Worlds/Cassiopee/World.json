@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.166",
-    "versionCode": 234,
+    "version": "0.0.170",
+    "versionCode": 238,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiop�e",
     "measures": [
@@ -43,7 +43,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 932,
+        "totalObjects": 960,
         "referencedWorlds": [
             "Base",
             "Cassiopee"
@@ -60,6 +60,8 @@
             "/Base/Pieces/ButtonCentered",
             "/Base/Pieces/Ceiling",
             "/Base/Pieces/Corner",
+            "/Base/Pieces/Corridor",
+            "/Base/Pieces/CorridorEnd",
             "/Base/Pieces/DirectionIndicator",
             "/Base/Pieces/Door",
             "/Base/Pieces/EntryPortal",
@@ -91,7 +93,7 @@
             "/Base/Pieces/Wall",
             "/Base/Pieces/Waypoint",
             "/Cassiopee/Data/AkaZone",
-            "/Cassiopee/Data/AkaZone2",
+            "/Cassiopee/Data/Hugo",
             "/Cassiopee/Data/Intro",
             "/Cassiopee/Pieces/Engrenage",
             "/Cassiopee/Pieces/Four",

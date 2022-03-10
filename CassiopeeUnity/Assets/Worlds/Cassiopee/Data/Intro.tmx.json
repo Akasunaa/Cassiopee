@@ -29,311 +29,30 @@
                  "y":0
                 }, 
                 {
-                 "draworder":"topdown",
-                 "id":4,
-                 "name":"Transitions",
-                 "objects":[
-                        {
-                         "gid":20,
-                         "height":50,
-                         "id":65,
-                         "name":"",
-                         "rotation":90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":150
-                        }, 
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":66,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"OneWay",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"Hugo"
-                                }, 
-                                {
-                                 "name":"ZoneExit",
-                                 "type":"bool",
-                                 "value":true
-                                }],
-                         "rotation":-90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":50
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":69,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":200
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":70,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":200
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":71,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Molette",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-<<<<<<< HEAD
-                         "y":200
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":72,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":73,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":100
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":74,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":50
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":75,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":76,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":50
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":77,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":50
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":78,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Molette",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":79,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Molette",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":80,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Molette",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":100
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":81,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":82,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":100
-=======
-                         "y":45
-                        }, 
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":71,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"OneWay",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"Hugo"
-                                }, 
-                                {
-                                 "name":"ZoneExit",
-                                 "type":"bool",
-                                 "value":true
-                                }],
-                         "rotation":180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":45
->>>>>>> 77641a0f976ed135a1656f07089984808b3f53a1
-                        }],
+                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "height":4,
+                 "id":28,
+                 "name":"Ceiling",
                  "opacity":1,
-                 "type":"objectgroup",
-                 "visible":true,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-<<<<<<< HEAD
-                 "data":[2684354566, 7, 7, 1610612747, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
-=======
-                 "draworder":"topdown",
-                 "id":30,
-                 "name":"Objets",
-                 "objects":[
+                 "properties":[
                         {
-                         "gid":40,
-                         "height":50,
-                         "id":69,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Move",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0.6;0.35;0.5"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"-90;-90;0"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.2;0.3;0.2"
-                                }, 
-                                {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":false
-                                }],
-                         "rotation":0,
-                         "type":"Vent",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
+                         "name":"AtCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ceiling]"
                         }],
-                 "opacity":1,
-                 "type":"objectgroup",
+                 "type":"tilelayer",
                  "visible":false,
+                 "width":4,
                  "x":0,
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 3221225477, 3221225477, 3221225478, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
->>>>>>> 77641a0f976ed135a1656f07089984808b3f53a1
+                 "data":[2684354566, 7, 7, 1610612747, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -356,48 +75,222 @@
                  "y":0
                 }, 
                 {
-<<<<<<< HEAD
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-=======
-                 "data":[1610612741, 0, 0, 2684354565, 1610612742, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0],
->>>>>>> 77641a0f976ed135a1656f07089984808b3f53a1
-                 "height":4,
-                 "id":27,
-                 "name":"Wall2",
+                 "draworder":"topdown",
+                 "id":4,
+                 "name":"Transitions",
+                 "objects":[
+                        {
+                         "gid":8,
+                         "height":50,
+                         "id":65,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"AkaZone"
+                                }],
+                         "rotation":-90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":50
+                        }, 
+                        {
+                         "gid":20,
+                         "height":50,
+                         "id":69,
+                         "name":"",
+                         "rotation":90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":150
+                        }],
                  "opacity":1,
-                 "type":"tilelayer",
+                 "type":"objectgroup",
                  "visible":true,
-                 "width":4,
                  "x":0,
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 0, 3221225477, 3221225477, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                 "height":4,
-                 "id":28,
-                 "name":"WallsAboveVent",
-                 "offsetx":0,
-                 "offsety":1,
-                 "opacity":1,
-                 "properties":[
+                 "draworder":"topdown",
+                 "id":27,
+                 "name":"Objects",
+                 "objects":[
                         {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
+                         "gid":40,
+                         "height":50,
+                         "id":70,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Molette",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":200
                         }, 
                         {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[walls]"
+                         "gid":40,
+                         "height":50,
+                         "id":71,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Engrenage",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":200
                         }, 
                         {
-                         "name":"Y",
-                         "type":"int",
-                         "value":2
+                         "gid":40,
+                         "height":50,
+                         "id":72,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Marteau",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":73,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Marteau",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":74,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Marteau",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":75,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Marteau",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":76,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Marteau",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":77,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Engrenage",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":78,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Engrenage",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":79,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Engrenage",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":80,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Engrenage",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":81,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Molette",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":82,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Molette",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":83,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Molette",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
                         }],
-                 "type":"tilelayer",
+                 "opacity":1,
+                 "type":"objectgroup",
                  "visible":true,
-                 "width":4,
                  "x":0,
                  "y":0
                 }],
@@ -414,13 +307,8 @@
          "x":0,
          "y":0
         }],
-<<<<<<< HEAD
- "nextlayerid":28,
- "nextobjectid":83,
-=======
- "nextlayerid":31,
- "nextobjectid":72,
->>>>>>> 77641a0f976ed135a1656f07089984808b3f53a1
+ "nextlayerid":29,
+ "nextobjectid":84,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -434,7 +322,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1331,6 +1219,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

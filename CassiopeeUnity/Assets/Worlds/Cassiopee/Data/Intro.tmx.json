@@ -38,11 +38,11 @@
                          "height":50,
                          "id":65,
                          "name":"",
-                         "rotation":0,
+                         "rotation":90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":50,
+                         "x":150,
                          "y":150
                         }, 
                         {
@@ -66,12 +66,180 @@
                                  "type":"bool",
                                  "value":true
                                 }],
-                         "rotation":180,
+                         "rotation":-90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":100,
+                         "x":150,
                          "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":69,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Marteau",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":70,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Engrenage",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":71,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Molette",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":72,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Marteau",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":73,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Marteau",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":74,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Marteau",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":75,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Engrenage",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":76,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Engrenage",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":77,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Engrenage",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":78,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Molette",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":79,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Molette",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":80,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Molette",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":81,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Engrenage",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":82,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Engrenage",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -80,7 +248,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 3221225477, 3221225477, 3221225478, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
+                 "data":[2684354566, 7, 7, 1610612747, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -103,27 +271,11 @@
                  "y":0
                 }, 
                 {
-                 "data":[1610612741, 0, 2684354565, 0, 1610612742, 0, 3221225477, 6, 0, 0, 0, 0, 0, 0, 0, 0],
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":4,
-                 "id":12,
-                 "name":"Walls2",
+                 "id":27,
+                 "name":"Wall2",
                  "opacity":1,
-                 "properties":[
-                        {
-                         "name":"Anchor",
-                         "type":"string",
-                         "value":"-1,0"
-                        }, 
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[walls]"
-                        }],
                  "type":"tilelayer",
                  "visible":true,
                  "width":4,
@@ -143,8 +295,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":27,
- "nextobjectid":69,
+ "nextlayerid":28,
+ "nextobjectid":83,
  "orientation":"orthogonal",
  "properties":[
         {

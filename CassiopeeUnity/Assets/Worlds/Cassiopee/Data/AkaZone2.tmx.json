@@ -29,7 +29,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[3, 3, 3, 0, 3, 3, 3, 0, 3, 3, 3, 0, 0, 0, 0, 0],
+                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
                  "height":4,
                  "id":28,
                  "name":"Ceiling",
@@ -109,18 +109,6 @@
                  "name":"Objects",
                  "objects":[
                         {
-                         "gid":40,
-                         "height":50,
-                         "id":67,
-                         "name":"",
-                         "rotation":0,
-                         "type":"CubeGrab",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":50
-                        }, 
-                        {
                          "gid":14,
                          "height":50,
                          "id":80,
@@ -192,52 +180,52 @@
                         {
                          "gid":40,
                          "height":50,
-                         "id":84,
-                         "name":"Button",
+                         "id":97,
+                         "name":"",
                          "properties":[
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"wsh"
+                                 "value":"whs"
                                 }],
                          "rotation":0,
-                         "type":"Button",
+                         "type":"Engrenage",
                          "visible":true,
                          "width":50,
                          "x":0,
-                         "y":200
+                         "y":150
                         }, 
                         {
                          "gid":40,
                          "height":50,
-                         "id":88,
-                         "name":"Button",
+                         "id":120,
+                         "name":"",
                          "properties":[
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"wsh"
+                                 "value":"whs"
                                 }],
                          "rotation":0,
-                         "type":"Button",
+                         "type":"Molette",
                          "visible":true,
                          "width":50,
-                         "x":50,
-                         "y":200
+                         "x":150,
+                         "y":150
                         }, 
                         {
                          "gid":40,
                          "height":50,
-                         "id":89,
-                         "name":"Button",
+                         "id":121,
+                         "name":"",
                          "properties":[
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"wsh"
+                                 "value":"whs"
                                 }],
                          "rotation":0,
-                         "type":"Button",
+                         "type":"Engrenage",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -246,16 +234,106 @@
                         {
                          "gid":40,
                          "height":50,
-                         "id":90,
-                         "name":"Button",
+                         "id":122,
+                         "name":"",
                          "properties":[
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"wsh"
+                                 "value":"whs"
                                 }],
                          "rotation":0,
-                         "type":"Button",
+                         "type":"Molette",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":123,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"whs"
+                                }],
+                         "rotation":0,
+                         "type":"Marteau",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":124,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"whs"
+                                }],
+                         "rotation":0,
+                         "type":"Engrenage",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":125,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"whs"
+                                }],
+                         "rotation":0,
+                         "type":"Engrenage",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":126,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"whs"
+                                }],
+                         "rotation":0,
+                         "type":"Marteau",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":127,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"whs"
+                                }],
+                         "rotation":0,
+                         "type":"Engrenage",
                          "visible":true,
                          "width":50,
                          "x":150,
@@ -264,58 +342,34 @@
                         {
                          "gid":40,
                          "height":50,
-                         "id":91,
-                         "name":"Button",
+                         "id":128,
+                         "name":"",
                          "properties":[
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"wsh"
+                                 "value":"whs"
                                 }],
                          "rotation":0,
-                         "type":"Button",
+                         "type":"Molette",
                          "visible":true,
                          "width":50,
-                         "x":0,
+                         "x":100,
                          "y":50
                         }, 
                         {
                          "gid":40,
                          "height":50,
-                         "id":92,
-                         "name":"Button",
+                         "id":129,
+                         "name":"",
                          "properties":[
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"wsh"
+                                 "value":"whs"
                                 }],
                          "rotation":0,
-                         "type":"Button",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":50
-                        }, 
-                        {
-                         "gid":13,
-                         "height":50,
-                         "id":94,
-                         "name":"",
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
-                        }, 
-                        {
-                         "gid":13,
-                         "height":50,
-                         "id":95,
-                         "name":"",
-                         "rotation":0,
-                         "type":"",
+                         "type":"Marteau",
                          "visible":true,
                          "width":50,
                          "x":0,
@@ -324,56 +378,56 @@
                         {
                          "gid":40,
                          "height":50,
-                         "id":96,
-                         "name":"Button",
+                         "id":130,
+                         "name":"",
                          "properties":[
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"wsh"
+                                 "value":"whs"
                                 }],
                          "rotation":0,
-                         "type":"Button",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":97,
-                         "name":"Button",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"wsh"
-                                }],
-                         "rotation":0,
-                         "type":"Button",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":98,
-                         "name":"Button",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"wsh"
-                                }],
-                         "rotation":0,
-                         "type":"Button",
+                         "type":"Marteau",
                          "visible":true,
                          "width":50,
                          "x":150,
-                         "y":150
+                         "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":131,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"whs"
+                                }],
+                         "rotation":0,
+                         "type":"Marteau",
+                         "visible":true,
+                         "width":50,
+                         "x":10.25,
+                         "y":49.75
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":132,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"whs"
+                                }],
+                         "rotation":0,
+                         "type":"Marteau",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -395,7 +449,7 @@
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":99,
+ "nextobjectid":133,
  "orientation":"orthogonal",
  "properties":[
         {

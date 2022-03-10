@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.66",
-    "versionCode": 134,
+    "version": "0.0.166",
+    "versionCode": 234,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiop�e",
     "measures": [
@@ -43,7 +43,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 886,
+        "totalObjects": 932,
         "referencedWorlds": [
             "Base",
             "Cassiopee"
@@ -93,9 +93,14 @@
             "/Cassiopee/Data/AkaZone",
             "/Cassiopee/Data/AkaZone2",
             "/Cassiopee/Data/Intro",
-            "/Cassiopee/Pieces/Button",
-            "/Cassiopee/Pieces/CubeGrab",
+            "/Cassiopee/Pieces/Engrenage",
+            "/Cassiopee/Pieces/Four",
             "/Cassiopee/Pieces/Laser",
+            "/Cassiopee/Pieces/Marteau",
+            "/Cassiopee/Pieces/Molette",
+            "/Cassiopee/Pieces/One",
+            "/Cassiopee/Pieces/Three",
+            "/Cassiopee/Pieces/Two",
             "[exit]"
         ],
         "referencedSpeech": [

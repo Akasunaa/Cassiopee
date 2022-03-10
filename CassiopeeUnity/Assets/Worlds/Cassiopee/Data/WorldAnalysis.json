@@ -1,5 +1,5 @@
 {
-    "totalObjects": 886,
+    "totalObjects": 932,
     "totalAgents": 0,
     "referencedWorlds": [
         "Base",
@@ -17,6 +17,8 @@
         "/Base/Pieces/ButtonCentered",
         "/Base/Pieces/Ceiling",
         "/Base/Pieces/Corner",
+        "/Base/Pieces/Corridor",
+        "/Base/Pieces/CorridorEnd",
         "/Base/Pieces/DirectionIndicator",
         "/Base/Pieces/Door",
         "/Base/Pieces/EntryPortal",
@@ -50,9 +52,14 @@
         "/Cassiopee/Data/AkaZone",
         "/Cassiopee/Data/AkaZone2",
         "/Cassiopee/Data/Intro",
-        "/Cassiopee/Pieces/Button",
-        "/Cassiopee/Pieces/CubeGrab",
+        "/Cassiopee/Pieces/Engrenage",
+        "/Cassiopee/Pieces/Four",
         "/Cassiopee/Pieces/Laser",
+        "/Cassiopee/Pieces/Marteau",
+        "/Cassiopee/Pieces/Molette",
+        "/Cassiopee/Pieces/One",
+        "/Cassiopee/Pieces/Three",
+        "/Cassiopee/Pieces/Two",
         "[exit]"
     ],
     "referencedSpeech": [

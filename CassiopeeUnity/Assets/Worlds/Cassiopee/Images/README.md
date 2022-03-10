@@ -1,1 +1,0 @@
-This folder should be used for images and cover art.

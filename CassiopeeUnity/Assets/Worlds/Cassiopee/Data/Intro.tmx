@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="27" nextobjectid="69">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="28" nextobjectid="83">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -23,14 +23,28 @@
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
-   <object id="65" gid="20" x="50" y="150" width="50" height="50"/>
-   <object id="66" gid="8" x="100" y="50" width="50" height="50" rotation="180">
+   <object id="65" gid="20" x="150" y="150" width="50" height="50" rotation="90"/>
+   <object id="66" gid="8" x="150" y="50" width="50" height="50" rotation="-90">
     <properties>
      <property name="OneWay" type="bool" value="false"/>
      <property name="TargetZone" value="AkaZone"/>
      <property name="ZoneExit" type="bool" value="true"/>
     </properties>
    </object>
+   <object id="69" type="Marteau" gid="40" x="0" y="200" width="50" height="50"/>
+   <object id="70" type="Engrenage" gid="40" x="50" y="200" width="50" height="50"/>
+   <object id="71" type="Molette" gid="40" x="100" y="200" width="50" height="50"/>
+   <object id="72" type="Marteau" gid="40" x="50" y="150" width="50" height="50"/>
+   <object id="73" type="Marteau" gid="40" x="150" y="100" width="50" height="50"/>
+   <object id="74" type="Marteau" gid="40" x="50" y="50" width="50" height="50"/>
+   <object id="75" type="Engrenage" gid="40" x="50" y="100" width="50" height="50"/>
+   <object id="76" type="Engrenage" gid="40" x="150" y="50" width="50" height="50"/>
+   <object id="77" type="Engrenage" gid="40" x="0" y="50" width="50" height="50"/>
+   <object id="78" type="Molette" gid="40" x="0" y="150" width="50" height="50"/>
+   <object id="79" type="Molette" gid="40" x="100" y="150" width="50" height="50"/>
+   <object id="80" type="Molette" gid="40" x="0" y="100" width="50" height="50"/>
+   <object id="81" type="Engrenage" gid="40" x="150" y="150" width="50" height="50"/>
+   <object id="82" type="Engrenage" gid="40" x="100" y="100" width="50" height="50"/>
   </objectgroup>
   <layer id="3" name="Walls" width="4" height="4">
    <properties>
@@ -38,21 +52,16 @@
     <property name="Materials" value="[walls]"/>
    </properties>
    <data encoding="csv">
-2684354566,3221225477,3221225477,3221225478,
+2684354566,7,7,1610612747,
 2684354565,0,0,1610612741,
 2684354565,0,0,1610612741,
 6,5,5,1610612742
 </data>
   </layer>
-  <layer id="12" name="Walls2" width="4" height="4">
-   <properties>
-    <property name="Anchor" value="-1,0"/>
-    <property name="ConnectToCeiling" type="bool" value="true"/>
-    <property name="Materials" value="[walls]"/>
-   </properties>
+  <layer id="27" name="Wall2" width="4" height="4">
    <data encoding="csv">
-1610612741,0,2684354565,0,
-1610612742,0,3221225477,6,
+0,0,0,0,
+0,0,0,0,
 0,0,0,0,
 0,0,0,0
 </data>

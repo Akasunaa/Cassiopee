@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="29" nextobjectid="99">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="29" nextobjectid="133">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -28,10 +28,10 @@
     <property name="Materials" value="[ceiling]"/>
    </properties>
    <data encoding="csv">
-3,3,3,0,
-3,3,3,0,
-3,3,3,0,
-0,0,0,0
+3,3,3,3,
+3,3,3,3,
+3,3,3,3,
+3,3,3,3
 </data>
   </layer>
   <layer id="3" name="Walls" width="4" height="4">
@@ -54,7 +54,6 @@
    </object>
   </objectgroup>
   <objectgroup id="27" name="Objects">
-   <object id="67" type="CubeGrab" gid="40" x="150" y="50" width="50" height="50"/>
    <object id="80" gid="14" x="50" y="100" width="50" height="50">
     <properties>
      <property name="Orientation" value="Bottom"/>
@@ -73,51 +72,74 @@
      <property name="Z" type="int" value="3"/>
     </properties>
    </object>
-   <object id="84" name="Button" type="Button" gid="40" x="0" y="200" width="50" height="50">
+   <object id="97" type="Engrenage" gid="40" x="0" y="150" width="50" height="50">
     <properties>
-     <property name="Variable" value="wsh"/>
+     <property name="Variable" value="whs"/>
     </properties>
    </object>
-   <object id="88" name="Button" type="Button" gid="40" x="50" y="200" width="50" height="50">
+   <object id="120" type="Molette" gid="40" x="150" y="150" width="50" height="50">
     <properties>
-     <property name="Variable" value="wsh"/>
+     <property name="Variable" value="whs"/>
     </properties>
    </object>
-   <object id="89" name="Button" type="Button" gid="40" x="100" y="200" width="50" height="50">
+   <object id="121" type="Engrenage" gid="40" x="100" y="200" width="50" height="50">
     <properties>
-     <property name="Variable" value="wsh"/>
+     <property name="Variable" value="whs"/>
     </properties>
    </object>
-   <object id="90" name="Button" type="Button" gid="40" x="150" y="200" width="50" height="50">
+   <object id="122" type="Molette" gid="40" x="50" y="150" width="50" height="50">
     <properties>
-     <property name="Variable" value="wsh"/>
+     <property name="Variable" value="whs"/>
     </properties>
    </object>
-   <object id="91" name="Button" type="Button" gid="40" x="0" y="50" width="50" height="50">
+   <object id="123" type="Marteau" gid="40" x="0" y="200" width="50" height="50">
     <properties>
-     <property name="Variable" value="wsh"/>
+     <property name="Variable" value="whs"/>
     </properties>
    </object>
-   <object id="92" name="Button" type="Button" gid="40" x="50" y="50" width="50" height="50">
+   <object id="124" type="Engrenage" gid="40" x="50" y="200" width="50" height="50">
     <properties>
-     <property name="Variable" value="wsh"/>
+     <property name="Variable" value="whs"/>
     </properties>
    </object>
-   <object id="94" gid="13" x="50" y="100" width="50" height="50"/>
-   <object id="95" gid="13" x="0" y="100" width="50" height="50"/>
-   <object id="96" name="Button" type="Button" gid="40" x="50" y="150" width="50" height="50">
+   <object id="125" type="Engrenage" gid="40" x="50" y="50" width="50" height="50">
     <properties>
-     <property name="Variable" value="wsh"/>
+     <property name="Variable" value="whs"/>
     </properties>
    </object>
-   <object id="97" name="Button" type="Button" gid="40" x="0" y="150" width="50" height="50">
+   <object id="126" type="Marteau" gid="40" x="50" y="100" width="50" height="50">
     <properties>
-     <property name="Variable" value="wsh"/>
+     <property name="Variable" value="whs"/>
     </properties>
    </object>
-   <object id="98" name="Button" type="Button" gid="40" x="150" y="150" width="50" height="50">
+   <object id="127" type="Engrenage" gid="40" x="150" y="200" width="50" height="50">
     <properties>
-     <property name="Variable" value="wsh"/>
+     <property name="Variable" value="whs"/>
+    </properties>
+   </object>
+   <object id="128" type="Molette" gid="40" x="100" y="50" width="50" height="50">
+    <properties>
+     <property name="Variable" value="whs"/>
+    </properties>
+   </object>
+   <object id="129" type="Marteau" gid="40" x="0" y="100" width="50" height="50">
+    <properties>
+     <property name="Variable" value="whs"/>
+    </properties>
+   </object>
+   <object id="130" type="Marteau" gid="40" x="150" y="50" width="50" height="50">
+    <properties>
+     <property name="Variable" value="whs"/>
+    </properties>
+   </object>
+   <object id="131" type="Marteau" gid="40" x="10.25" y="49.75" width="50" height="50">
+    <properties>
+     <property name="Variable" value="whs"/>
+    </properties>
+   </object>
+   <object id="132" type="Marteau" gid="40" x="100" y="100" width="50" height="50">
+    <properties>
+     <property name="Variable" value="whs"/>
     </properties>
    </object>
   </objectgroup>

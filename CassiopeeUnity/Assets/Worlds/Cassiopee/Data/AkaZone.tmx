@@ -38,7 +38,7 @@
    <object id="70" gid="8" x="50" y="50" width="50" height="50" rotation="180">
     <properties>
      <property name="MazeTransitions" type="int" value="0"/>
-     <property name="TargetZone" value="Hugo"/>
+     <property name="TargetZone" value="Level4Room1"/>
     </properties>
    </object>
   </objectgroup>

@@ -1,5 +1,5 @@
 {
-    "totalObjects": 1376,
+    "totalObjects": 1448,
     "totalAgents": 0,
     "referencedWorlds": [
         "Base",
@@ -50,11 +50,12 @@
         "/Base/Pieces/Wall",
         "/Base/Pieces/Waypoint",
         "/Cassiopee/Data/AkaZone",
-        "/Cassiopee/Data/Hugo",
+        "/Cassiopee/Data/Hugo1",
         "/Cassiopee/Data/Intro",
         "/Cassiopee/Data/Level4Room1",
         "/Cassiopee/Data/Level4Room2",
         "/Cassiopee/Data/Level4Room3",
+        "/Cassiopee/Data/TransitionAkaLevel4",
         "/Cassiopee/Pieces/Engrenage",
         "/Cassiopee/Pieces/Four",
         "/Cassiopee/Pieces/Laser",

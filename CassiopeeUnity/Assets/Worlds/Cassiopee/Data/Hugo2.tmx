@@ -61,7 +61,7 @@
   <objectgroup id="4" name="Transitions">
    <object id="76" gid="8" x="100" y="150" width="50" height="50">
     <properties>
-     <property name="TargetZone" value="[exit]"/>
+     <property name="TargetZone" value="AkaZone"/>
     </properties>
    </object>
   </objectgroup>

@@ -111,7 +111,7 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"[exit]"
+                                 "value":"AkaZone"
                                 }],
                          "rotation":0,
                          "type":"",

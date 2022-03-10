@@ -12,16 +12,6 @@
             "y": 0
         },
         {
-            "fileName": "testalex.tmx",
-            "x": 0,
-            "y": 0
-        },
-        {
-            "fileName": "testalex2.tmx",
-            "x": 0,
-            "y": 0
-        },
-        {
             "fileName": "AkaZone2.tmx",
             "x": 0,
             "y": 0
@@ -33,6 +23,21 @@
         },
         {
             "fileName": "Intro.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Intro.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Hugo1.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "TransitionAkaLevel4.tmx",
             "x": 0,
             "y": 0
         }

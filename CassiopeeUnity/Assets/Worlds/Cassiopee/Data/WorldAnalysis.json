@@ -1,5 +1,5 @@
 {
-    "totalObjects": 1547,
+    "totalObjects": 1628,
     "totalAgents": 0,
     "referencedWorlds": [
         "Base",
@@ -55,6 +55,7 @@
         "/Cassiopee/Data/Level1Room1",
         "/Cassiopee/Data/Level2Room1",
         "/Cassiopee/Data/Level2Room2",
+        "/Cassiopee/Data/Level3Room1",
         "/Cassiopee/Data/Level4Room1",
         "/Cassiopee/Data/Level4Room2",
         "/Cassiopee/Data/Level4Room3",
@@ -64,6 +65,7 @@
         "/Cassiopee/Pieces/Marteau",
         "/Cassiopee/Pieces/Molette",
         "/Cassiopee/Pieces/One",
+        "/Cassiopee/Pieces/Tablette",
         "/Cassiopee/Pieces/Three",
         "/Cassiopee/Pieces/Two",
         "/Cassiopee/Pieces/Vent",

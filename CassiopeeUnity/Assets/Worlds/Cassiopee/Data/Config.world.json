@@ -30,10 +30,14 @@
             "fileName": "Level4Room2.tmx",
             "x": 0,
             "y": 0
-
         },
         {
             "fileName": "Level4Room3.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level3Room1.tmx",
             "x": 0,
             "y": 0
         }

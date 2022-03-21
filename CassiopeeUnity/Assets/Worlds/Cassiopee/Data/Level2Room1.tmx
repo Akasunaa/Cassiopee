@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="32" nextobjectid="82">
+ <properties>
+  <property name="NoAgents" type="bool" value="false"/>
+  <property name="NoSpawning" type="bool" value="false"/>
+  <property name="Skybox" value="/Skybox/AllSky_Space_AnotherPlanet"/>
+  <property name="SkyboxRotation" value="180;0;0"/>
+ </properties>
+ <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>
+ <tileset firstgid="34" source="../../_Tiled/Deco.tsx"/>
+ <group id="5" name="Floor 0">
+  <properties>
+   <property name="Height" type="float" value="2.5"/>
+   <property name="Skybox" value="/Skybox/AllSky_Space_AnotherPlanet"/>
+  </properties>
+  <layer id="1" name="Ground" width="4" height="4">
+   <properties>
+    <property name="Materials" value="[ground]"/>
+    <property name="Walkable" type="bool" value="true"/>
+   </properties>
+   <data encoding="csv">
+4,4,4,4,
+4,4,4,4,
+4,4,4,4,
+4,4,4,4
+</data>
+  </layer>
+  <objectgroup id="4" name="Transitions">
+   <object id="66" gid="8" x="150" y="48" width="50" height="50" rotation="180">
+    <properties>
+     <property name="TargetZone" value="Level2Room2"/>
+    </properties>
+   </object>
+   <object id="73" gid="8" x="100" y="48" width="50" height="50" rotation="180">
+    <properties>
+     <property name="TargetZone" value="Level2Room2"/>
+    </properties>
+   </object>
+   <object id="81" gid="20" x="50" y="150" width="50" height="50"/>
+  </objectgroup>
+  <objectgroup id="27" name="Objects" visible="0">
+   <object id="75" gid="40" x="50" y="100" width="50" height="50"/>
+   <object id="76" gid="40" x="50" y="100" width="50" height="50"/>
+   <object id="77" gid="40" x="50" y="100" width="50" height="50"/>
+   <object id="78" gid="40" x="50" y="100" width="50" height="50"/>
+   <object id="79" gid="40" x="50" y="100" width="50" height="50"/>
+   <object id="80" type="Vent" gid="40" x="50" y="100" width="50" height="50">
+    <properties>
+     <property name="Offset" value="0.6;0.35;0.5"/>
+     <property name="Rotate" value="-90;-90;0"/>
+     <property name="Scale" value="0.2;0.3;0.2"/>
+    </properties>
+   </object>
+  </objectgroup>
+  <layer id="28" name="Ceiling" width="4" height="4" visible="0">
+   <properties>
+    <property name="AtCeiling" type="bool" value="true"/>
+    <property name="Materials" value="[ceiling]"/>
+   </properties>
+   <data encoding="csv">
+3,3,3,3,
+3,3,3,3,
+3,3,3,3,
+3,3,3,3
+</data>
+  </layer>
+  <layer id="3" name="Walls" width="4" height="4">
+   <properties>
+    <property name="ConnectToCeiling" type="bool" value="true"/>
+    <property name="Materials" value="[walls]"/>
+   </properties>
+   <data encoding="csv">
+2684354566,3221225477,3221225477,3221225478,
+2684354565,0,0,1610612741,
+2684354565,0,0,1610612741,
+6,5,5,1610612742
+</data>
+  </layer>
+  <layer id="30" name="Walls2" width="4" height="4">
+   <properties>
+    <property name="Anchor" type="int" value="-1"/>
+    <property name="ConnectToCeiling" type="bool" value="true"/>
+    <property name="Materials" value="[walls]"/>
+   </properties>
+   <data encoding="csv">
+1610612741,0,0,2684354565,
+1610612742,3221225477,3221225477,6,
+0,0,0,0,
+0,0,0,0
+</data>
+  </layer>
+  <layer id="31" name="WallsAboveVent" width="4" height="4" offsetx="0" offsety="1">
+   <properties>
+    <property name="ConnectToCeiling" type="bool" value="true"/>
+    <property name="Materials" value="[walls]"/>
+    <property name="Y" value="2"/>
+   </properties>
+   <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+  </layer>
+ </group>
+</map>

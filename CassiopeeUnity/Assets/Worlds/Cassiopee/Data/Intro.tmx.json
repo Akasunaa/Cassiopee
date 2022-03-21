@@ -100,7 +100,7 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"AkaZone"
+                                 "value":"Level1Room1"
                                 }],
                          "rotation":-90,
                          "type":"",

@@ -1,9 +1,10 @@
 {
-    "totalObjects": 1454,
+    "totalObjects": 1547,
     "totalAgents": 0,
     "referencedWorlds": [
         "Base",
-        "Cassiopee"
+        "Cassiopee",
+        "Skybox"
     ],
     "referencedObjects": [
         "/Base/Data/HorizontalMaze",
@@ -50,12 +51,13 @@
         "/Base/Pieces/Wall",
         "/Base/Pieces/Waypoint",
         "/Cassiopee/Data/AkaZone",
-        "/Cassiopee/Data/Hugo1",
         "/Cassiopee/Data/Intro",
+        "/Cassiopee/Data/Level1Room1",
+        "/Cassiopee/Data/Level2Room1",
+        "/Cassiopee/Data/Level2Room2",
         "/Cassiopee/Data/Level4Room1",
         "/Cassiopee/Data/Level4Room2",
         "/Cassiopee/Data/Level4Room3",
-        "/Cassiopee/Data/TransitionAkaLevel4",
         "/Cassiopee/Pieces/Engrenage",
         "/Cassiopee/Pieces/Four",
         "/Cassiopee/Pieces/Laser",
@@ -64,6 +66,8 @@
         "/Cassiopee/Pieces/One",
         "/Cassiopee/Pieces/Three",
         "/Cassiopee/Pieces/Two",
+        "/Cassiopee/Pieces/Vent",
+        "/Skybox/Materials/AllSky_Space_AnotherPlanet",
         "[exit]"
     ],
     "referencedSpeech": [

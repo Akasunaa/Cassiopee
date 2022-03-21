@@ -7,37 +7,33 @@
             "y": 0
         },
         {
-            "fileName": "AkaZone.tmx",
+            "fileName": "Level1Room1.tmx",
             "x": 0,
             "y": 0
         },
         {
-            "fileName": "AkaZone2.tmx",
+            "fileName": "Level2Room1.tmx",
             "x": 0,
             "y": 0
         },
         {
-            "fileName": "Intro.tmx",
+            "fileName": "Level2Room2.tmx",
             "x": 0,
             "y": 0
         },
         {
-            "fileName": "Intro.tmx",
+            "fileName": "Level4Room1.tmx",
             "x": 0,
             "y": 0
         },
         {
-            "fileName": "Intro.tmx",
+            "fileName": "Level4Room2.tmx",
             "x": 0,
             "y": 0
+
         },
         {
-            "fileName": "Hugo1.tmx",
-            "x": 0,
-            "y": 0
-        },
-        {
-            "fileName": "TransitionAkaLevel4.tmx",
+            "fileName": "Level4Room3.tmx",
             "x": 0,
             "y": 0
         }

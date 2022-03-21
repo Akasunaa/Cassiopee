@@ -1,13 +1,13 @@
 { "compressionlevel":0,
- "height":3,
+ "height":4,
  "infinite":false,
  "layers":[
         {
          "id":5,
          "layers":[
                 {
-                 "data":[4, 4, 4, 4, 4, 4, 4, 4, 4],
-                 "height":3,
+                 "data":[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+                 "height":4,
                  "id":1,
                  "name":"Ground",
                  "opacity":1,
@@ -24,13 +24,13 @@
                         }],
                  "type":"tilelayer",
                  "visible":true,
-                 "width":3,
+                 "width":4,
                  "x":0,
                  "y":0
                 }, 
                 {
-                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3],
-                 "height":3,
+                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "height":4,
                  "id":28,
                  "name":"Ceiling",
                  "opacity":1,
@@ -47,13 +47,47 @@
                         }],
                  "type":"tilelayer",
                  "visible":false,
-                 "width":3,
+                 "width":4,
                  "x":0,
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 3221225477, 3221225478, 2684354565, 0, 1610612741, 6, 5, 1610612742],
-                 "height":3,
+                 "draworder":"topdown",
+                 "id":4,
+                 "name":"Transitions",
+                 "objects":[
+                        {
+                         "gid":8,
+                         "height":50,
+                         "id":70,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"MazeTransitions",
+                                 "type":"int",
+                                 "value":0
+                                }, 
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Level2Room1"
+                                }],
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":50
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[2684354566, 3221225477, 1073741829, 3221225478, 2684354565, 0, 0, 1610612741, 3758096389, 0, 0, 1610612741, 6, 0, 5, 1610612742],
+                 "height":4,
                  "id":3,
                  "name":"Walls",
                  "opacity":1,
@@ -70,15 +104,123 @@
                         }],
                  "type":"tilelayer",
                  "visible":true,
-                 "width":3,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0],
+                 "height":4,
+                 "id":34,
+                 "name":"Lion",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 2684354565, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2684354565, 0, 0],
+                 "height":4,
+                 "id":31,
+                 "name":"Walls2",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
                  "x":0,
                  "y":0
                 }, 
                 {
                  "draworder":"topdown",
-                 "id":4,
-                 "name":"Transitions",
-                 "objects":[],
+                 "id":37,
+                 "name":"Enigmes",
+                 "objects":[
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":105,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"Three",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":106,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"Two",
+                         "visible":true,
+                         "width":50,
+                         "x":124.667,
+                         "y":37
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":107,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"One",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":39.6667
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":108,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"Four",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":150
+                        }],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -87,9 +229,137 @@
                 }, 
                 {
                  "draworder":"topdown",
-                 "id":27,
-                 "name":"Objects",
-                 "objects":[],
+                 "id":35,
+                 "name":"Boutons",
+                 "objects":[
+                        {
+                         "gid":13,
+                         "height":50,
+                         "id":95,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"combo-laser"
+                                }],
+                         "rotation":90,
+                         "type":"\/Base\/Door",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
+                        }, 
+                        {
+                         "gid":14,
+                         "height":50,
+                         "id":96,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"combo-laser-four"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"float",
+                                 "value":1
+                                }],
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":200
+                        }, 
+                        {
+                         "gid":13,
+                         "height":50,
+                         "id":97,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"combo-laser"
+                                }],
+                         "rotation":90,
+                         "type":"\/Base\/Door",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":50
+                        }, 
+                        {
+                         "gid":14,
+                         "height":50,
+                         "id":98,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"combo-laser-three"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"float",
+                                 "value":1
+                                }],
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":200
+                        }, 
+                        {
+                         "gid":14,
+                         "height":50,
+                         "id":99,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"combo-laser-one"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"float",
+                                 "value":1
+                                }],
+                         "rotation":-180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":0
+                        }, 
+                        {
+                         "gid":14,
+                         "height":50,
+                         "id":100,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"combo-laser-two"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"float",
+                                 "value":1
+                                }],
+                         "rotation":-180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":0
+                        }],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -109,8 +379,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":29,
- "nextobjectid":65,
+ "nextlayerid":38,
+ "nextobjectid":110,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -1022,5 +1292,5 @@
  "tilewidth":50,
  "type":"map",
  "version":"1.6",
- "width":3
+ "width":4
 }

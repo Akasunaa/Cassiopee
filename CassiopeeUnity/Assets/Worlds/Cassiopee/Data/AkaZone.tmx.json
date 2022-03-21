@@ -244,7 +244,7 @@
                                  "value":"combo-laser"
                                 }],
                          "rotation":90,
-                         "type":"Laser",
+                         "type":"\/Base\/Door",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -285,7 +285,7 @@
                                  "value":"combo-laser"
                                 }],
                          "rotation":90,
-                         "type":"Laser",
+                         "type":"\/Base\/Door",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -380,7 +380,7 @@
          "y":0
         }],
  "nextlayerid":38,
- "nextobjectid":109,
+ "nextobjectid":110,
  "orientation":"orthogonal",
  "properties":[
         {

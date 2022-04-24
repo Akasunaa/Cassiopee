@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="31" nextobjectid="77">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="31" nextobjectid="80">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
+  <property name="Skybox" value="/Skybox/AllSky_Space_AnotherPlanet"/>
+  <property name="SkyboxRotation" value="180;0;0"/>
  </properties>
  <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>
  <tileset firstgid="34" source="../../_Tiled/Deco.tsx"/>
@@ -10,9 +12,9 @@
   <properties>
    <property name="Height" type="float" value="1"/>
   </properties>
-  <layer id="1" name="Ground" width="4" height="4" visible="0">
+  <layer id="1" name="Ground" width="4" height="4">
    <properties>
-    <property name="Materials" value="[ground]"/>
+    <property name="Materials" value="[metalPanel]"/>
     <property name="Walkable" type="bool" value="true"/>
    </properties>
    <data encoding="csv">
@@ -25,7 +27,7 @@
   <layer id="28" name="Ceiling" width="4" height="4">
    <properties>
     <property name="AtCeiling" type="bool" value="true"/>
-    <property name="Materials" value="[ceiling]"/>
+    <property name="Materials" value="[metalPanel]"/>
    </properties>
    <data encoding="csv">
 3,3,3,3,
@@ -37,7 +39,7 @@
   <layer id="3" name="Walls" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
-    <property name="Materials" value="[walls]"/>
+    <property name="Materials" value="[metalPanel]"/>
    </properties>
    <data encoding="csv">
 2684354566,3221225477,3221225477,3221225478,
@@ -49,19 +51,19 @@
   <layer id="29" name="Walls2" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
-    <property name="Materials" value="[walls]"/>
+    <property name="Materials" value="[metalPanel]"/>
    </properties>
    <data encoding="csv">
 0,0,1610612741,0,
-0,2684354566,3221225477,0,
-0,3221225478,1610612742,0,
+0,2684354571,1610612747,0,
+0,1610612741,5,0,
 3221225478,0,0,0
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
-   <object id="76" gid="8" x="100" y="150" width="50" height="50">
+   <object id="76" gid="8" x="100" y="100" width="50" height="50" rotation="90">
     <properties>
-     <property name="TargetZone" value="Level4Room1"/>
+     <property name="TargetZone" value="Level2Room5"/>
     </properties>
    </object>
   </objectgroup>

@@ -78,7 +78,25 @@
                  "draworder":"topdown",
                  "id":4,
                  "name":"Transitions",
-                 "objects":[],
+                 "objects":[
+                        {
+                         "gid":8,
+                         "height":50,
+                         "id":66,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Level2Room1"
+                                }],
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
+                        }],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -95,6 +113,12 @@
                          "height":50,
                          "id":65,
                          "name":"",
+                         "properties":[
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.3"
+                                }],
                          "rotation":0,
                          "type":"Tablette",
                          "visible":true,
@@ -122,7 +146,7 @@
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":66,
+ "nextobjectid":67,
  "orientation":"orthogonal",
  "properties":[
         {

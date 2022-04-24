@@ -15,7 +15,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[ground]"
+                         "value":"[metalPanel]"
                         }, 
                         {
                          "name":"Walkable",
@@ -25,104 +25,6 @@
                  "type":"tilelayer",
                  "visible":true,
                  "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "draworder":"topdown",
-                 "id":4,
-                 "name":"Transitions",
-                 "objects":[
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":66,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"Level2Room2"
-                                }],
-                         "rotation":180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":48
-                        }, 
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":73,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"Level2Room2"
-                                }],
-                         "rotation":180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":48
-                        }, 
-                        {
-                         "gid":20,
-                         "height":50,
-                         "id":81,
-                         "name":"",
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":150
-                        }],
-                 "opacity":1,
-                 "type":"objectgroup",
-                 "visible":true,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "draworder":"topdown",
-                 "id":27,
-                 "name":"Objects",
-                 "objects":[
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":80,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0.6;0.35;0.5"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"-90;-90;0"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.2;0.3;0.2"
-                                }],
-                         "rotation":0,
-                         "type":"Vent",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
-                        }],
-                 "opacity":1,
-                 "type":"objectgroup",
-                 "visible":true,
                  "x":0,
                  "y":0
                 }, 
@@ -141,7 +43,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[ceiling]"
+                         "value":"[metalPanel]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -164,7 +66,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[walls]"
+                         "value":"[metalPanel]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -173,18 +75,13 @@
                  "y":0
                 }, 
                 {
-                 "data":[1610612741, 0, 0, 2684354565, 1610612742, 3221225477, 3221225477, 6, 0, 0, 0, 0, 0, 0, 0, 0],
+                 "data":[0, 0, 1610612741, 0, 0, 2684354571, 1610612747, 0, 0, 1610612741, 5, 0, 3221225478, 0, 0, 0],
                  "height":4,
-                 "id":30,
+                 "id":29,
                  "name":"Walls2",
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"Anchor",
-                         "type":"int",
-                         "value":-1
-                        }, 
-                        {
                          "name":"ConnectToCeiling",
                          "type":"bool",
                          "value":true
@@ -192,7 +89,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[walls]"
+                         "value":"[metalPanel]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -201,32 +98,42 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                 "height":4,
-                 "id":31,
-                 "name":"WallsAboveVent",
-                 "offsetx":0,
-                 "offsety":1,
-                 "opacity":1,
-                 "properties":[
+                 "draworder":"topdown",
+                 "id":4,
+                 "name":"Transitions",
+                 "objects":[
                         {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[walls]"
-                        }, 
-                        {
-                         "name":"Y",
-                         "type":"string",
-                         "value":"2"
+                         "gid":8,
+                         "height":50,
+                         "id":76,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"HugoAfterVent"
+                                }],
+                         "rotation":90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":100
                         }],
-                 "type":"tilelayer",
+                 "opacity":1,
+                 "type":"objectgroup",
                  "visible":true,
-                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":27,
+                 "name":"Objects",
+                 "objects":[],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
                  "x":0,
                  "y":0
                 }],
@@ -236,20 +143,15 @@
                 {
                  "name":"Height",
                  "type":"float",
-                 "value":2.5
-                }, 
-                {
-                 "name":"Skybox",
-                 "type":"string",
-                 "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
+                 "value":1
                 }],
          "type":"group",
          "visible":true,
          "x":0,
          "y":0
         }],
- "nextlayerid":34,
- "nextobjectid":84,
+ "nextlayerid":31,
+ "nextobjectid":80,
  "orientation":"orthogonal",
  "properties":[
         {

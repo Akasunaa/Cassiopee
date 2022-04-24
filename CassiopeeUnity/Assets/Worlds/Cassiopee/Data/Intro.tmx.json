@@ -29,7 +29,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "data":[3, 3, 3, 0, 3, 3, 3, 0, 3, 3, 3, 0, 0, 0, 0, 0],
                  "height":4,
                  "id":28,
                  "name":"Ceiling",
@@ -80,27 +80,15 @@
                  "name":"Transitions",
                  "objects":[
                         {
-                         "gid":20,
-                         "height":50,
-                         "id":65,
-                         "name":"",
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":100
-                        }, 
-                        {
                          "gid":8,
                          "height":50,
-                         "id":66,
+                         "id":67,
                          "name":"",
                          "properties":[
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level3Room1"
+                                 "value":"Level1Room1"
                                 }],
                          "rotation":-90,
                          "type":"",
@@ -123,70 +111,10 @@
                         {
                          "gid":40,
                          "height":50,
-                         "id":67,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":200
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":68,
+                         "id":85,
                          "name":"",
                          "rotation":0,
                          "type":"Molette",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":200
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":69,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":200
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":70,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":50
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":71,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":200
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":72,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -195,46 +123,10 @@
                         {
                          "gid":40,
                          "height":50,
-                         "id":73,
+                         "id":86,
                          "name":"",
                          "rotation":0,
-                         "type":"Molette",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":50
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":74,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Molette",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":75,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Molette",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":76,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
+                         "type":"Marteau",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -243,7 +135,7 @@
                         {
                          "gid":40,
                          "height":50,
-                         "id":77,
+                         "id":87,
                          "name":"",
                          "rotation":0,
                          "type":"Engrenage",
@@ -251,66 +143,6 @@
                          "width":50,
                          "x":0,
                          "y":100
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":78,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":79,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":80,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":100
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":81,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":50
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":82,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -332,7 +164,7 @@
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":83,
+ "nextobjectid":88,
  "orientation":"orthogonal",
  "properties":[
         {

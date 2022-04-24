@@ -42,14 +42,14 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level2Room2"
+                                 "value":"HugoVent"
                                 }],
                          "rotation":180,
                          "type":"",
                          "visible":true,
                          "width":50,
                          "x":150,
-                         "y":48
+                         "y":30
                         }, 
                         {
                          "gid":8,
@@ -60,21 +60,27 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level2Room2"
+                                 "value":"HugoVent"
                                 }],
                          "rotation":180,
                          "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
-                         "y":48
+                         "y":30
                         }, 
                         {
-                         "gid":20,
+                         "gid":8,
                          "height":50,
-                         "id":81,
+                         "id":84,
                          "name":"",
-                         "rotation":0,
+                         "properties":[
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Hugo1"
+                                }],
+                         "rotation":180,
                          "type":"",
                          "visible":true,
                          "width":50,
@@ -117,12 +123,12 @@
                          "type":"Vent",
                          "visible":true,
                          "width":50,
-                         "x":50,
+                         "x":51.6667,
                          "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
-                 "visible":true,
+                 "visible":false,
                  "x":0,
                  "y":0
                 }, 
@@ -144,7 +150,7 @@
                          "value":"[ceiling]"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -164,7 +170,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[walls]"
+                         "value":"[mainWalls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -173,7 +179,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[1610612741, 0, 0, 2684354565, 1610612742, 3221225477, 3221225477, 6, 0, 0, 0, 0, 0, 0, 0, 0],
+                 "data":[1610612741, 0, 0, 2684354565, 1610612742, 0, 0, 6, 1610612741, 0, 0, 0, 0, 0, 0, 2684354566],
                  "height":4,
                  "id":30,
                  "name":"Walls2",
@@ -192,7 +198,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[walls]"
+                         "value":"[mainWalls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -201,7 +207,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 "data":[0, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":4,
                  "id":31,
                  "name":"WallsAboveVent",
@@ -217,7 +223,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[walls]"
+                         "value":"[mainWalls]"
                         }, 
                         {
                          "name":"Y",
@@ -225,7 +231,7 @@
                          "value":"2"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -248,8 +254,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":34,
- "nextobjectid":84,
+ "nextlayerid":33,
+ "nextobjectid":87,
  "orientation":"orthogonal",
  "properties":[
         {

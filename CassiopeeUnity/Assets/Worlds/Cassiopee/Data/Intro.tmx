@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="29" nextobjectid="83">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="29" nextobjectid="88">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -28,10 +28,10 @@
     <property name="Materials" value="[ceiling]"/>
    </properties>
    <data encoding="csv">
-3,3,3,3,
-3,3,3,3,
-3,3,3,3,
-3,3,3,3
+3,3,3,0,
+3,3,3,0,
+3,3,3,0,
+0,0,0,0
 </data>
   </layer>
   <layer id="3" name="Walls" width="4" height="4">
@@ -47,30 +47,16 @@
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
-   <object id="65" gid="20" x="150" y="100" width="50" height="50"/>
-   <object id="66" gid="8" x="150" y="50" width="50" height="50" rotation="-90">
+   <object id="67" gid="8" x="150" y="50" width="50" height="50" rotation="-90">
     <properties>
-     <property name="TargetZone" value="Level3Room1"/>
+     <property name="TargetZone" value="Level1Room1"/>
     </properties>
    </object>
   </objectgroup>
   <objectgroup id="27" name="Objects">
-   <object id="67" type="Engrenage" gid="40" x="0" y="200" width="50" height="50"/>
-   <object id="68" type="Molette" gid="40" x="50" y="200" width="50" height="50"/>
-   <object id="69" type="Marteau" gid="40" x="100" y="200" width="50" height="50"/>
-   <object id="70" type="Marteau" gid="40" x="0" y="50" width="50" height="50"/>
-   <object id="71" type="Marteau" gid="40" x="150" y="200" width="50" height="50"/>
-   <object id="72" type="Marteau" gid="40" x="50" y="100" width="50" height="50"/>
-   <object id="73" type="Molette" gid="40" x="150" y="50" width="50" height="50"/>
-   <object id="74" type="Molette" gid="40" x="100" y="150" width="50" height="50"/>
-   <object id="75" type="Molette" gid="40" x="150" y="150" width="50" height="50"/>
-   <object id="76" type="Engrenage" gid="40" x="100" y="100" width="50" height="50"/>
-   <object id="77" type="Engrenage" gid="40" x="0" y="100" width="50" height="50"/>
-   <object id="78" type="Engrenage" gid="40" x="50" y="150" width="50" height="50"/>
-   <object id="79" type="Engrenage" gid="40" x="0" y="150" width="50" height="50"/>
-   <object id="80" type="Engrenage" gid="40" x="150" y="100" width="50" height="50"/>
-   <object id="81" type="Marteau" gid="40" x="50" y="50" width="50" height="50"/>
-   <object id="82" type="Marteau" gid="40" x="100" y="50" width="50" height="50"/>
+   <object id="85" type="Molette" gid="40" x="50" y="100" width="50" height="50"/>
+   <object id="86" type="Marteau" gid="40" x="100" y="100" width="50" height="50"/>
+   <object id="87" type="Engrenage" gid="40" x="0" y="100" width="50" height="50"/>
   </objectgroup>
  </group>
 </map>

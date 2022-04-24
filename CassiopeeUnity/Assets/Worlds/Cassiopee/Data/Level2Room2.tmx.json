@@ -23,7 +23,7 @@
                          "value":true
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -111,7 +111,7 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"AkaZone"
+                                 "value":"Level4Room1"
                                 }],
                          "rotation":0,
                          "type":"",

@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.197",
-    "versionCode": 265,
+    "version": "0.0.282",
+    "versionCode": 350,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiop�e",
     "measures": [
@@ -9,9 +9,11 @@
         "Distance"
     ],
     "inventoryItems": [
-        "/Base/PlasmaGun"
+        "/Base/PlasmaGun",
+        "/Base/Flashlight"
     ],
     "initialItemMain": "/Base/PlasmaGun",
+    "initialItemSecondary": "/Base/Flashlight",
     "initialVariables": [
         {
             "key": "combo-laser",
@@ -40,10 +42,30 @@
             "type": "Material",
             "key": "[ground]",
             "materials": "/Base/DarkGrid"
+        },
+        {
+            "type": "Material",
+            "key": "[mainWalls]",
+            "materials": "MainPanel,OrangeNeon,MainPanel"
+        },
+        {
+            "type": "Material",
+            "key": "[ceiling]",
+            "materials": "MainPanel"
+        },
+        {
+            "type": "Material",
+            "key": "[ground]",
+            "materials": "MainPanel"
+        },
+        {
+            "type": "Material",
+            "key": "[metalPanel]",
+            "materials": "MetalPanel"
         }
     ],
     "dependencies": {
-        "totalObjects": 1628,
+        "totalObjects": 2121,
         "referencedWorlds": [
             "Base",
             "Cassiopee",
@@ -93,15 +115,20 @@
             "/Base/Pieces/Transition",
             "/Base/Pieces/Wall",
             "/Base/Pieces/Waypoint",
-            "/Cassiopee/Data/AkaZone",
             "/Cassiopee/Data/Intro",
             "/Cassiopee/Data/Level1Room1",
             "/Cassiopee/Data/Level2Room1",
             "/Cassiopee/Data/Level2Room2",
+            "/Cassiopee/Data/Level2Room3",
+            "/Cassiopee/Data/Level2Room4",
+            "/Cassiopee/Data/Level2Room5",
             "/Cassiopee/Data/Level3Room1",
             "/Cassiopee/Data/Level4Room1",
             "/Cassiopee/Data/Level4Room2",
             "/Cassiopee/Data/Level4Room3",
+            "/Cassiopee/Materials/MainPanel",
+            "/Cassiopee/Materials/MetalPanel",
+            "/Cassiopee/Materials/OrangeNeon",
             "/Cassiopee/Pieces/Engrenage",
             "/Cassiopee/Pieces/Four",
             "/Cassiopee/Pieces/Laser",

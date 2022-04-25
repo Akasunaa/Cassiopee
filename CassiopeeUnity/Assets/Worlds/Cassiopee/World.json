@@ -1,9 +1,9 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.282",
-    "versionCode": 350,
+    "version": "0.0.315",
+    "versionCode": 383,
     "name": "Cassiopee",
-    "shortDescription": "Jeu cree a l'occasion du projet Cassiop�e",
+    "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "measures": [
         "Time",
         "Distance"
@@ -25,6 +25,11 @@
                 "combo-laser-three",
                 "combo-laser-four"
             ]
+        },
+        {
+            "key": "lights",
+            "value": false,
+            "resetOnCheckpoint": false
         }
     ],
     "replacements": [
@@ -65,7 +70,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 2121,
+        "totalObjects": 2320,
         "referencedWorlds": [
             "Base",
             "Cassiopee",
@@ -132,6 +137,7 @@
             "/Cassiopee/Pieces/Engrenage",
             "/Cassiopee/Pieces/Four",
             "/Cassiopee/Pieces/Laser",
+            "/Cassiopee/Pieces/Levier",
             "/Cassiopee/Pieces/Marteau",
             "/Cassiopee/Pieces/Molette",
             "/Cassiopee/Pieces/One",

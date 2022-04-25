@@ -86,7 +86,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 3221225477, 1073741829, 3221225478, 2684354565, 0, 0, 1610612741, 3758096389, 0, 0, 1610612741, 6, 0, 5, 1610612742],
+                 "data":[2684354566, 2684354566, 1073741829, 3221225478, 2684354565, 0, 0, 1610612741, 3758096389, 0, 0, 1610612741, 6, 6, 5, 1610612742],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -100,7 +100,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[walls]"
+                         "value":"[mainWalls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -109,28 +109,10 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0],
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":4,
                  "id":34,
                  "name":"Lion",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 2684354565, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2684354565, 0, 0],
-                 "height":4,
-                 "id":31,
-                 "name":"Walls2",
                  "opacity":1,
                  "properties":[
                         {
@@ -219,6 +201,95 @@
                          "visible":true,
                          "width":50,
                          "x":100,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":110,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"Tablette",
+                         "visible":true,
+                         "width":50,
+                         "x":131.801,
+                         "y":106.196
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":114,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"-0.05,0.5,0"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"90,0,0"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }, 
+                                {
+                                 "name":"variable",
+                                 "type":"string",
+                                 "value":"combo-laser"
+                                }],
+                         "rotation":0,
+                         "type":"Laser",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":115,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"-0.05,0.5,0"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"90,0,0"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }, 
+                                {
+                                 "name":"variable",
+                                 "type":"string",
+                                 "value":"combo-laser"
+                                }],
+                         "rotation":0,
+                         "type":"Laser",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
                          "y":150
                         }],
                  "opacity":1,
@@ -380,7 +451,7 @@
          "y":0
         }],
  "nextlayerid":38,
- "nextobjectid":110,
+ "nextobjectid":116,
  "orientation":"orthogonal",
  "properties":[
         {

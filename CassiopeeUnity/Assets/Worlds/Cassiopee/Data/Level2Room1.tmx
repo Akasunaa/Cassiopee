@@ -47,7 +47,7 @@
     </properties>
    </object>
   </objectgroup>
-  <layer id="28" name="Ceiling" width="4" height="4">
+  <layer id="28" name="Ceiling" width="4" height="4" visible="0">
    <properties>
     <property name="AtCeiling" type="bool" value="true"/>
     <property name="Materials" value="[ceiling]"/>

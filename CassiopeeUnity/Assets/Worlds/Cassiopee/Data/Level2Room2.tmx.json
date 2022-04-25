@@ -23,7 +23,7 @@
                          "value":true
                         }],
                  "type":"tilelayer",
-                 "visible":false,
+                 "visible":true,
                  "width":4,
                  "x":0,
                  "y":0
@@ -46,7 +46,7 @@
                          "value":"[ceiling]"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0

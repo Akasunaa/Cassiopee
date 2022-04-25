@@ -10,7 +10,7 @@
   <properties>
    <property name="Height" type="float" value="1"/>
   </properties>
-  <layer id="1" name="Ground" width="4" height="4" visible="0">
+  <layer id="1" name="Ground" width="4" height="4">
    <properties>
     <property name="Materials" value="[ground]"/>
     <property name="Walkable" type="bool" value="true"/>
@@ -22,7 +22,7 @@
 4,4,4,4
 </data>
   </layer>
-  <layer id="28" name="Ceiling" width="4" height="4">
+  <layer id="28" name="Ceiling" width="4" height="4" visible="0">
    <properties>
     <property name="AtCeiling" type="bool" value="true"/>
     <property name="Materials" value="[ceiling]"/>

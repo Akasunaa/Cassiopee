@@ -49,7 +49,7 @@
   <objectgroup id="4" name="Transitions">
    <object id="66" gid="8" x="50" y="100" width="50" height="50">
     <properties>
-     <property name="TargetZone" value="Level2Room1"/>
+     <property name="TargetZone" value="[exit]"/>
     </properties>
    </object>
   </objectgroup>

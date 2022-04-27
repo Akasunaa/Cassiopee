@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.366",
-    "versionCode": 434,
+    "version": "0.0.370",
+    "versionCode": 438,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "measures": [
@@ -25,10 +25,6 @@
                 "combo-laser-three",
                 "combo-laser-four"
             ]
-        },
-        {
-            "key": "lights",
-            "value": false
         }
     ],
     "replacements": [
@@ -69,7 +65,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 2907,
+        "totalObjects": 2956,
         "referencedWorlds": [
             "Base",
             "Cassiopee",

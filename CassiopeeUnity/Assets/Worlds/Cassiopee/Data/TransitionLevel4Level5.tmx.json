@@ -85,6 +85,11 @@
                          "name":"ConnectToCeiling",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,

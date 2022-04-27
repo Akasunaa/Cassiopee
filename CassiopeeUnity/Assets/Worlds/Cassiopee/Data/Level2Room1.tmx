@@ -36,7 +36,6 @@
      <property name="TargetZone" value="Level2Room2"/>
     </properties>
    </object>
-   <object id="81" gid="20" x="50" y="150" width="50" height="50"/>
   </objectgroup>
   <objectgroup id="27" name="Objects">
    <object id="80" type="Vent" gid="40" x="50" y="100" width="50" height="50">

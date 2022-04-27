@@ -86,6 +86,11 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"OneWay",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
                                  "name":"TargetZone",
                                  "type":"string",
                                  "value":"Level1Room1"
@@ -325,6 +330,11 @@
                  "name":"Height",
                  "type":"float",
                  "value":2.5
+                }, 
+                {
+                 "name":"LightIntensity",
+                 "type":"float",
+                 "value":0
                 }],
          "type":"group",
          "visible":true,
@@ -335,6 +345,11 @@
  "nextobjectid":105,
  "orientation":"orthogonal",
  "properties":[
+        {
+         "name":"AmbientColor",
+         "type":"string",
+         "value":"#282210"
+        }, 
         {
          "name":"NoAgents",
          "type":"bool",

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="29" nextobjectid="105">
  <properties>
+  <property name="AmbientColor" value="#282210"/>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
  </properties>
@@ -9,6 +10,7 @@
  <group id="5" name="Floor 0">
   <properties>
    <property name="Height" type="float" value="2.5"/>
+   <property name="LightIntensity" type="float" value="0"/>
   </properties>
   <layer id="1" name="Ground" width="4" height="4" locked="1">
    <properties>
@@ -49,6 +51,7 @@
   <objectgroup id="4" name="Transitions">
    <object id="67" gid="8" x="150" y="50" width="50" height="50" rotation="-90">
     <properties>
+     <property name="OneWay" type="bool" value="true"/>
      <property name="TargetZone" value="Level1Room1"/>
     </properties>
    </object>

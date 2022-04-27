@@ -245,7 +245,7 @@
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":2
+                                 "value":1
                                 }, 
                                 {
                                  "name":"variable",
@@ -278,7 +278,7 @@
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":2
+                                 "value":1
                                 }, 
                                 {
                                  "name":"variable",
@@ -454,6 +454,11 @@
  "nextobjectid":116,
  "orientation":"orthogonal",
  "properties":[
+        {
+         "name":"AmbientColor",
+         "type":"string",
+         "value":"#FFFFFF"
+        }, 
         {
          "name":"NoAgents",
          "type":"bool",

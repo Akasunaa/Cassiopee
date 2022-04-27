@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.370",
-    "versionCode": 438,
+    "version": "0.0.381",
+    "versionCode": 449,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "measures": [
@@ -65,7 +65,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 2956,
+        "totalObjects": 3005,
         "referencedWorlds": [
             "Base",
             "Cassiopee",
@@ -132,6 +132,7 @@
             "/Cassiopee/Materials/MainPanel",
             "/Cassiopee/Materials/MetalPanel",
             "/Cassiopee/Materials/OrangeNeon",
+            "/Cassiopee/Pieces/BlueLaser",
             "/Cassiopee/Pieces/Engrenage",
             "/Cassiopee/Pieces/Four",
             "/Cassiopee/Pieces/LaboMachine",
@@ -142,8 +143,10 @@
             "/Cassiopee/Pieces/Marteau",
             "/Cassiopee/Pieces/Molette",
             "/Cassiopee/Pieces/One",
+            "/Cassiopee/Pieces/Ordi",
             "/Cassiopee/Pieces/Pipes",
             "/Cassiopee/Pieces/PipesLong",
+            "/Cassiopee/Pieces/Table2Reu",
             "/Cassiopee/Pieces/Tablette",
             "/Cassiopee/Pieces/Three",
             "/Cassiopee/Pieces/TrapDoor",

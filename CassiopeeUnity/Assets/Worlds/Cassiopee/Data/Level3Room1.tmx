@@ -40,25 +40,19 @@
     <property name="Materials" value="[mainWalls]"/>
    </properties>
    <data encoding="csv">
-2684354566,3221225477,3221225477,3221225478,
+2684354571,7,7,3221225478,
 2684354565,0,0,1610612741,
-2684354565,0,0,1610612741,
+6,7,7,3221225478,
 6,5,5,1610612742
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
-   <object id="66" gid="8" x="50" y="100" width="50" height="50">
+   <object id="66" gid="8" x="50" y="150" width="50" height="50" rotation="90">
     <properties>
      <property name="TargetZone" value="[exit]"/>
     </properties>
    </object>
   </objectgroup>
-  <objectgroup id="27" name="Objects">
-   <object id="65" type="Levier" gid="40" x="50" y="100" width="50" height="50">
-    <properties>
-     <property name="Scale" value="0.3"/>
-    </properties>
-   </object>
-  </objectgroup>
+  <objectgroup id="27" name="Objects"/>
  </group>
 </map>

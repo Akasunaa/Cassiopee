@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="38" nextobjectid="116">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="39" nextobjectid="119">
  <properties>
   <property name="AmbientColor" value="#FFFFFF"/>
   <property name="NoAgents" type="bool" value="false"/>
@@ -11,6 +11,14 @@
   <properties>
    <property name="Height" type="float" value="2.5"/>
   </properties>
+  <objectgroup id="38" name="Objets">
+   <object id="116" type="Table2Reu" gid="40" x="143.956" y="201.492" width="50" height="50">
+    <properties>
+     <property name="Scale" value="0.05,0.05,0.05"/>
+    </properties>
+   </object>
+   <object id="117" type="Ordi" gid="40" x="135.204" y="200.277" width="50" height="50"/>
+  </objectgroup>
   <layer id="1" name="Ground" width="4" height="4">
    <properties>
     <property name="Materials" value="[ground]"/>
@@ -93,7 +101,7 @@
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="114" type="Laser" gid="40" x="50" y="100" width="50" height="50">
+   <object id="114" type="BlueLaser" gid="40" x="50" y="100" width="50" height="50">
     <properties>
      <property name="Offset" value="-0.05,0.5,0"/>
      <property name="Rotate" value="90,0,0"/>
@@ -101,7 +109,7 @@
      <property name="variable" value="combo-laser"/>
     </properties>
    </object>
-   <object id="115" type="Laser" gid="40" x="50" y="150" width="50" height="50">
+   <object id="115" type="BlueLaser" gid="40" x="50" y="150" width="50" height="50">
     <properties>
      <property name="Offset" value="-0.05,0.5,0"/>
      <property name="Rotate" value="90,0,0"/>
@@ -124,6 +132,7 @@
    </object>
    <object id="97" type="/Base/Door" gid="13" x="50" y="50" width="50" height="50" rotation="90">
     <properties>
+     <property name="Materials" value="[mainWalls]"/>
      <property name="Variable" value="combo-laser"/>
     </properties>
    </object>

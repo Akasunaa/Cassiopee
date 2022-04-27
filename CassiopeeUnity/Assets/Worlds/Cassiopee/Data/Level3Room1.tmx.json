@@ -52,7 +52,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 3221225477, 3221225477, 3221225478, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
+                 "data":[2684354571, 7, 7, 3221225478, 2684354565, 0, 0, 1610612741, 6, 7, 7, 3221225478, 6, 5, 5, 1610612742],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -90,12 +90,12 @@
                                  "type":"string",
                                  "value":"[exit]"
                                 }],
-                         "rotation":0,
+                         "rotation":90,
                          "type":"",
                          "visible":true,
                          "width":50,
                          "x":50,
-                         "y":100
+                         "y":150
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -107,25 +107,7 @@
                  "draworder":"topdown",
                  "id":27,
                  "name":"Objects",
-                 "objects":[
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":65,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.3"
-                                }],
-                         "rotation":0,
-                         "type":"Levier",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
-                        }],
+                 "objects":[],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,

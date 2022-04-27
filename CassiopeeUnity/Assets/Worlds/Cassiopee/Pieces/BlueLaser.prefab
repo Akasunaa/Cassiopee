@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 628219505119383497}
   - component: {fileID: 5656781927651652796}
   - component: {fileID: 1392207909286638416}
+  - component: {fileID: -4004961791131460831}
+  - component: {fileID: 8414170794152985779}
   m_Layer: 0
-  m_Name: Laser
+  m_Name: BlueLaser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71,6 +73,63 @@ MonoBehaviour:
   localizedHaptics: 0
   hitAnimation: {fileID: 0}
   originTag: 
+--- !u!114 &-4004961791131460831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628219505119383496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2678d028126d614caf9fef530c55832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variable: 
+  variableChannel: 0
+  invert: 0
+  action: 6
+  targetObject: {fileID: 0}
+  component: {fileID: 0}
+  onTrue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8414170794152985779}
+        m_TargetAssemblyTypeName: traVRsal.SDK.Destroy, traVRsal.SDK.runtime
+        m_MethodName: Trigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onFalse:
+    m_PersistentCalls:
+      m_Calls: []
+  onChange:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8414170794152985779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628219505119383496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d741ef4eac2e0e489c0074651bf330a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 1
+  delay: 0
+  partial: 0
+  onDestruction:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1510422192733875995
 PrefabInstance:
   m_ObjectHideFlags: 0

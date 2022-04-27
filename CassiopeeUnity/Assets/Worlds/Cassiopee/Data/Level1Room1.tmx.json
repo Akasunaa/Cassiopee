@@ -6,6 +6,47 @@
          "id":5,
          "layers":[
                 {
+                 "draworder":"topdown",
+                 "id":38,
+                 "name":"Objets",
+                 "objects":[
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":116,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.05,0.05,0.05"
+                                }],
+                         "rotation":0,
+                         "type":"Table2Reu",
+                         "visible":true,
+                         "width":50,
+                         "x":143.956,
+                         "y":201.492
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":117,
+                         "name":"",
+                         "rotation":0,
+                         "type":"Ordi",
+                         "visible":true,
+                         "width":50,
+                         "x":135.204,
+                         "y":200.277
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
                  "data":[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
                  "height":4,
                  "id":1,
@@ -253,7 +294,7 @@
                                  "value":"combo-laser"
                                 }],
                          "rotation":0,
-                         "type":"Laser",
+                         "type":"BlueLaser",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -286,7 +327,7 @@
                                  "value":"combo-laser"
                                 }],
                          "rotation":0,
-                         "type":"Laser",
+                         "type":"BlueLaser",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -350,6 +391,11 @@
                          "id":97,
                          "name":"",
                          "properties":[
+                                {
+                                 "name":"Materials",
+                                 "type":"string",
+                                 "value":"[mainWalls]"
+                                }, 
                                 {
                                  "name":"Variable",
                                  "type":"string",
@@ -450,8 +496,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":38,
- "nextobjectid":116,
+ "nextlayerid":39,
+ "nextobjectid":119,
  "orientation":"orthogonal",
  "properties":[
         {

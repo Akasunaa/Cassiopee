@@ -37,7 +37,7 @@
   <layer id="3" name="Walls" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
-    <property name="Materials" value="[walls]"/>
+    <property name="Materials" value="[mainWalls]"/>
    </properties>
    <data encoding="csv">
 2684354566,3221225477,3221225477,3221225478,
@@ -80,7 +80,7 @@
    <object id="66" gid="8" x="50" y="50" width="50" height="50" rotation="-90">
     <properties>
      <property name="OneWay" type="bool" value="true"/>
-     <property name="TargetZone" value="[exit]"/>
+     <property name="TargetZone" value="TransitionLevel4Level5"/>
     </properties>
    </object>
   </objectgroup>

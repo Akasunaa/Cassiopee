@@ -30,7 +30,8 @@
       "fileName": "Level2Room4.tmx",
       "x": 0,
       "y": 0
-    },{
+    },
+    {
       "fileName": "Level2Room5.tmx",
       "x": 0,
       "y": 0
@@ -52,6 +53,21 @@
     },
     {
       "fileName": "Level3Room1.tmx",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "fileName": "Level5Room1.tmx",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "fileName": "Level6Room1.tmx",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "fileName": "Level6Room1.tmx",
       "x": 0,
       "y": 0
     }

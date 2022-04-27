@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="69">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="67">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -34,28 +34,6 @@
 0,0,0,0
 </data>
   </layer>
-  <objectgroup id="4" name="Transitions">
-   <object id="65" gid="20" x="50" y="150" width="50" height="50" rotation="180"/>
-  </objectgroup>
-  <objectgroup id="27" name="Objects">
-   <object id="66" gid="14" x="0" y="150" width="50" height="50">
-    <properties>
-     <property name="Variable" value="doorLevel4Room3"/>
-     <property name="Y" type="int" value="2"/>
-    </properties>
-   </object>
-   <object id="67" gid="13" x="100" y="0" width="50" height="50" rotation="90">
-    <properties>
-     <property name="Variable" value="doorLevel4Room3"/>
-    </properties>
-   </object>
-   <object id="68" gid="14" x="0" y="0" width="50" height="50" rotation="90">
-    <properties>
-     <property name="Variable" value="doorLevel4"/>
-     <property name="Y" type="int" value="2"/>
-    </properties>
-   </object>
-  </objectgroup>
   <layer id="3" name="Walls" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
@@ -68,16 +46,26 @@
 6,5,5,1610612742
 </data>
   </layer>
-  <layer id="29" name="WallsInner1" width="4" height="4">
+  <layer id="29" name="WallsInner" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
    </properties>
    <data encoding="csv">
-5,5,0,0,
-0,0,1610612741,5,
-1610612742,1610612741,1610612741,0,
-0,1610612741,0,0
+1610612742,0,0,0,
+3221225477,3221225477,3221225478,0,
+0,5,1610612742,0,
+1610612741,0,0,0
 </data>
   </layer>
+  <objectgroup id="4" name="Transitions">
+   <object id="65" gid="20" x="50" y="0" width="50" height="50" rotation="90"/>
+   <object id="66" gid="8" x="100" y="150" width="50" height="50" rotation="180">
+    <properties>
+     <property name="OneWay" type="bool" value="true"/>
+     <property name="TargetZone" value="Level5Room1"/>
+    </properties>
+   </object>
+  </objectgroup>
+  <objectgroup id="27" name="Objects"/>
  </group>
 </map>

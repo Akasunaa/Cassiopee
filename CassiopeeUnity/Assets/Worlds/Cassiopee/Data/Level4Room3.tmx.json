@@ -164,7 +164,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[walls]"
+                         "value":"[mainWalls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,

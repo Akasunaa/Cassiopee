@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.359",
-    "versionCode": 427,
+    "version": "0.0.365",
+    "versionCode": 433,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "measures": [
@@ -40,12 +40,12 @@
         {
             "type": "Material",
             "key": "[ceiling]",
-            "materials": "/Base/DarkGrid"
+            "materials": "MainPanel"
         },
         {
             "type": "Material",
             "key": "[ground]",
-            "materials": "/Base/DarkGrid"
+            "materials": "MainPanel"
         },
         {
             "type": "Material",
@@ -69,7 +69,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 2319,
+        "totalObjects": 2883,
         "referencedWorlds": [
             "Base",
             "Cassiopee",
@@ -130,11 +130,17 @@
             "/Cassiopee/Data/Level4Room1",
             "/Cassiopee/Data/Level4Room2",
             "/Cassiopee/Data/Level4Room3",
+            "/Cassiopee/Data/Level5Room1",
+            "/Cassiopee/Data/Level6Room1",
+            "/Cassiopee/Data/TransitionLevel4Level5",
             "/Cassiopee/Materials/MainPanel",
             "/Cassiopee/Materials/MetalPanel",
             "/Cassiopee/Materials/OrangeNeon",
             "/Cassiopee/Pieces/Engrenage",
             "/Cassiopee/Pieces/Four",
+            "/Cassiopee/Pieces/LaboMachine",
+            "/Cassiopee/Pieces/LaboOscillo",
+            "/Cassiopee/Pieces/LaboTable",
             "/Cassiopee/Pieces/Laser",
             "/Cassiopee/Pieces/Levier",
             "/Cassiopee/Pieces/Marteau",
@@ -144,6 +150,7 @@
             "/Cassiopee/Pieces/PipesLong",
             "/Cassiopee/Pieces/Tablette",
             "/Cassiopee/Pieces/Three",
+            "/Cassiopee/Pieces/TrapDoor",
             "/Cassiopee/Pieces/Two",
             "/Cassiopee/Pieces/Vent",
             "/Skybox/Materials/AllSky_Space_AnotherPlanet",

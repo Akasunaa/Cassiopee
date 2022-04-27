@@ -37,7 +37,7 @@
   <layer id="3" name="Walls" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
-    <property name="Materials" value="[walls]"/>
+    <property name="Materials" value="[mainWalls]"/>
    </properties>
    <data encoding="csv">
 2684354566,3221225477,3221225477,3221225478,
@@ -49,7 +49,7 @@
   <layer id="29" name="Walls2" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
-    <property name="Materials" value="[walls]"/>
+    <property name="Materials" value="[mainWalls]"/>
    </properties>
    <data encoding="csv">
 0,0,1610612741,0,

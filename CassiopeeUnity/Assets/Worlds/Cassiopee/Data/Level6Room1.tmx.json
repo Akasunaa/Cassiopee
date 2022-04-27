@@ -29,7 +29,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "data":[3, 3, 3, 0, 3, 3, 3, 0, 3, 3, 3, 0, 0, 0, 0, 0],
                  "height":4,
                  "id":28,
                  "name":"Ceiling",
@@ -66,7 +66,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[mainWalls]"
+                         "value":"[walls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -75,28 +75,10 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 2684354565, 5, 5, 0, 2684354565, 0, 0, 0, 0, 3221225478, 0, 0, 0, 1610612741, 0],
+                 "data":[0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2684354566],
                  "height":4,
                  "id":29,
                  "name":"WallsInner",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 2684354565, 0, 0, 0, 0, 0],
-                 "height":4,
-                 "id":30,
-                 "name":"WallsInner2",
                  "opacity":1,
                  "properties":[
                         {
@@ -118,65 +100,31 @@
                         {
                          "gid":20,
                          "height":50,
-                         "id":65,
+                         "id":67,
                          "name":"",
-                         "rotation":90,
+                         "rotation":-90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":145,
-                         "y":149.25
+                         "x":150,
+                         "y":200
                         }, 
                         {
                          "gid":8,
                          "height":50,
-                         "id":67,
+                         "id":68,
                          "name":"",
                          "properties":[
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level4Room2"
+                                 "value":"[exit]"
                                 }],
                          "rotation":-90,
                          "type":"",
                          "visible":true,
                          "width":50,
                          "x":150,
-                         "y":50
-                        }],
-                 "opacity":1,
-                 "type":"objectgroup",
-                 "visible":true,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "draworder":"topdown",
-                 "id":31,
-                 "name":"LevelExit",
-                 "objects":[
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":66,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"OneWay",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"TransitionLevel4Level5"
-                                }],
-                         "rotation":-90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
                          "y":50
                         }],
                  "opacity":1,
@@ -191,89 +139,48 @@
                  "name":"Objects",
                  "objects":[
                         {
-                         "gid":13,
-                         "height":50,
-                         "id":68,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"doorLevel4"
-                                }],
-                         "rotation":180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":50
-                        }, 
-                        {
-                         "gid":14,
-                         "height":50,
-                         "id":69,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"doorLevel4Room1"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":2
-                                }],
-                         "rotation":180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":100
-                        }, 
-                        {
-                         "gid":13,
-                         "height":50,
-                         "id":70,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"doorLevel4Room1"
-                                }],
-                         "rotation":-90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":50
-                        }, 
-                        {
                          "gid":40,
                          "height":50,
-                         "id":71,
-                         "name":"",
+                         "id":65,
+                         "name":"LaboTable",
                          "properties":[
-                                {
-                                 "name":"Center",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
                                 {
                                  "name":"Offset",
                                  "type":"string",
-                                 "value":"0,0.5,0"
+                                 "value":"0,0.5,0.5"
                                 }, 
                                 {
                                  "name":"Rotate",
                                  "type":"string",
-                                 "value":"90,0,0"
+                                 "value":"0,90,0"
                                 }, 
                                 {
-                                 "name":"Snap",
-                                 "type":"bool",
-                                 "value":true
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":1
+                                }],
+                         "rotation":0,
+                         "type":"LaboTable",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":150
+                        }, 
+                        {
+                         "gid":41,
+                         "height":50,
+                         "id":70,
+                         "name":"Oscillo",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.3,0.15,0"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"0,-90,0"
                                 }, 
                                 {
                                  "name":"Y",
@@ -281,11 +188,39 @@
                                  "value":2
                                 }],
                          "rotation":0,
-                         "type":"Laser",
+                         "type":"LaboOscillo",
                          "visible":true,
                          "width":50,
-                         "x":100,
+                         "x":0,
                          "y":150
+                        }, 
+                        {
+                         "gid":41,
+                         "height":50,
+                         "id":71,
+                         "name":"Machine",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.6,0.2,0.1"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"0,-60,0"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"LaboMachine",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -306,7 +241,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":32,
+ "nextlayerid":30,
  "nextobjectid":72,
  "orientation":"orthogonal",
  "properties":[

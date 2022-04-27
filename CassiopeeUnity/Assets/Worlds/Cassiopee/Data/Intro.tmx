@@ -9,6 +9,7 @@
  <tileset firstgid="34" source="../../_Tiled/Deco.tsx"/>
  <group id="5" name="Floor 0">
   <properties>
+   <property name="AmbientColor" value=""/>
    <property name="Height" type="float" value="2.5"/>
    <property name="LightIntensity" type="float" value="0"/>
   </properties>

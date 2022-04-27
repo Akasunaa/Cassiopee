@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.365",
-    "versionCode": 433,
+    "version": "0.0.366",
+    "versionCode": 434,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "measures": [
@@ -69,7 +69,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 2883,
+        "totalObjects": 2907,
         "referencedWorlds": [
             "Base",
             "Cassiopee",

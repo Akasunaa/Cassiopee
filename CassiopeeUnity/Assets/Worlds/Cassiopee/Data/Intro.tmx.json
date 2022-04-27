@@ -327,19 +327,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"AmbientColor",
-                 "type":"string",
-                 "value":""
-                }, 
-                {
                  "name":"Height",
                  "type":"float",
                  "value":2.5
-                }, 
-                {
-                 "name":"LightIntensity",
-                 "type":"float",
-                 "value":0
                 }],
          "type":"group",
          "visible":true,

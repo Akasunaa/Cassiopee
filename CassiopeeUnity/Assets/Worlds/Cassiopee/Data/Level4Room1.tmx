@@ -49,6 +49,7 @@
   <layer id="29" name="WallsInner" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
+    <property name="Materials" value="[mainWalls]"/>
    </properties>
    <data encoding="csv">
 0,2684354565,5,5,
@@ -60,6 +61,7 @@
   <layer id="30" name="WallsInner2" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
+    <property name="Materials" value="[mainWalls]"/>
    </properties>
    <data encoding="csv">
 0,0,0,0,

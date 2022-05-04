@@ -52,7 +52,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354571, 7, 7, 3221225478, 2684354565, 0, 0, 1610612741, 6, 7, 7, 3221225478, 6, 5, 5, 1610612742],
+                 "data":[2684354566, 7, 7, 3221225478, 2684354565, 7, 7, 3221225478, 2684354566, 7, 7, 1610612741, 6, 7, 7, 1610612747],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -80,22 +80,34 @@
                  "name":"Transitions",
                  "objects":[
                         {
+                         "gid":20,
+                         "height":50,
+                         "id":67,
+                         "name":"",
+                         "rotation":90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":150
+                        }, 
+                        {
                          "gid":8,
                          "height":50,
-                         "id":66,
+                         "id":69,
                          "name":"",
                          "properties":[
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"[exit]"
+                                 "value":"Level3Room2"
                                 }],
-                         "rotation":90,
+                         "rotation":-90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":50,
-                         "y":150
+                         "x":150,
+                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -107,7 +119,19 @@
                  "draworder":"topdown",
                  "id":27,
                  "name":"Objects",
-                 "objects":[],
+                 "objects":[
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":70,
+                         "name":"",
+                         "rotation":0,
+                         "type":"\/TrainingGround\/SpiderBot",
+                         "visible":true,
+                         "width":50,
+                         "x":79.6667,
+                         "y":151
+                        }],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -121,6 +145,11 @@
                  "name":"Height",
                  "type":"float",
                  "value":2.5
+                }, 
+                {
+                 "name":"Skybox",
+                 "type":"string",
+                 "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
                 }],
          "type":"group",
          "visible":true,
@@ -128,7 +157,7 @@
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":67,
+ "nextobjectid":71,
  "orientation":"orthogonal",
  "properties":[
         {

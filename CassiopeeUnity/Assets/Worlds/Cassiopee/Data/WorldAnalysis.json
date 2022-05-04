@@ -1,10 +1,11 @@
 {
-    "totalObjects": 3016,
-    "totalAgents": 0,
+    "totalObjects": 3561,
+    "totalAgents": 1,
     "referencedWorlds": [
         "Base",
         "Cassiopee",
-        "Skybox"
+        "Skybox",
+        "TrainingGround"
     ],
     "referencedObjects": [
         "/Base/Data/HorizontalMaze",
@@ -38,6 +39,7 @@
         "/Base/Pieces/Maze/MazeDeadlockCornerRight",
         "/Base/Pieces/Maze/MazeDeadlockCornerRightRound",
         "/Base/Pieces/Maze/MazeDoubleCorner",
+        "/Base/Pieces/Maze/MazeTriple",
         "/Base/Pieces/Maze/MazeTripple",
         "/Base/Pieces/Pistol",
         "/Base/Pieces/PlasmaGun",
@@ -58,16 +60,19 @@
         "/Cassiopee/Data/Level2Room4",
         "/Cassiopee/Data/Level2Room5",
         "/Cassiopee/Data/Level3Room1",
+        "/Cassiopee/Data/Level3Room2",
         "/Cassiopee/Data/Level4Room1",
         "/Cassiopee/Data/Level4Room2",
         "/Cassiopee/Data/Level4Room3",
         "/Cassiopee/Data/Level5Room1",
         "/Cassiopee/Data/Level6Room1",
+        "/Cassiopee/Data/TransitionIntroLevel5",
         "/Cassiopee/Data/TransitionLevel4Level5",
         "/Cassiopee/Materials/MainPanel",
         "/Cassiopee/Materials/MetalPanel",
         "/Cassiopee/Materials/OrangeNeon",
         "/Cassiopee/Pieces/BlueLaser",
+        "/Cassiopee/Pieces/chaise",
         "/Cassiopee/Pieces/Engrenage",
         "/Cassiopee/Pieces/Four",
         "/Cassiopee/Pieces/LaboMachine",
@@ -80,13 +85,14 @@
         "/Cassiopee/Pieces/Ordi",
         "/Cassiopee/Pieces/Pipes",
         "/Cassiopee/Pieces/PipesLong",
-        "/Cassiopee/Pieces/Table2Reu",
+        "/Cassiopee/Pieces/TableDeReu",
         "/Cassiopee/Pieces/Tablette",
         "/Cassiopee/Pieces/Three",
         "/Cassiopee/Pieces/TrapDoor",
         "/Cassiopee/Pieces/Two",
         "/Cassiopee/Pieces/Vent",
         "/Skybox/Materials/AllSky_Space_AnotherPlanet",
+        "/TrainingGround/Pieces/SpiderBot",
         "[exit]"
     ],
     "referencedSpeech": [

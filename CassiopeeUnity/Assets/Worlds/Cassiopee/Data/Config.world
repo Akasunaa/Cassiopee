@@ -1,76 +1,85 @@
 {
     "type": "world",
-  "maps": [
-    {
-      "fileName": "Intro.tmx",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "fileName": "Level1Room1.tmx",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "fileName": "Level2Room1.tmx",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "fileName": "Level2Room2.tmx",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "fileName": "Level2Room3.tmx",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "fileName": "Level2Room4.tmx",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "fileName": "Level2Room5.tmx",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "fileName": "Level4Room1.tmx",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "fileName": "Level4Room2.tmx",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "fileName": "Level4Room3.tmx",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "fileName": "Level3Room1.tmx",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "fileName": "Level5Room1.tmx",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "fileName": "Level6Room1.tmx",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "fileName": "Level6Room1.tmx",
-      "x": 0,
-      "y": 0
-    }
-
-  ]
+    "maps": [
+        {
+            "fileName": "Intro.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level1Room1.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level2Room1.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level2Room2.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level2Room3.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level2Room4.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level2Room5.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level4Room1.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level4Room2.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level4Room3.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level3Room1.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level5Room1.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level6Room1.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level6Room1.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "TransitionIntroLevel5.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level3Room2.tmx",
+            "x": 0,
+            "y": 0
+        }
+    ]
 }

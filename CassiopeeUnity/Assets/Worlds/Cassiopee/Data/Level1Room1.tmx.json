@@ -22,7 +22,7 @@
                                  "value":"0.05,0.05,0.05"
                                 }],
                          "rotation":0,
-                         "type":"Table2Reu",
+                         "type":"TableDeReu",
                          "visible":true,
                          "width":50,
                          "x":143.956,
@@ -111,7 +111,7 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level2Room1"
+                                 "value":"[exit]"
                                 }],
                          "rotation":180,
                          "type":"",
@@ -490,6 +490,11 @@
                  "name":"Height",
                  "type":"float",
                  "value":2.5
+                }, 
+                {
+                 "name":"Skybox",
+                 "type":"string",
+                 "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
                 }],
          "type":"group",
          "visible":true,

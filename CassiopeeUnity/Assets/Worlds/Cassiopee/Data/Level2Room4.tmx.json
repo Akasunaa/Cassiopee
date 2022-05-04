@@ -6,6 +6,121 @@
          "id":5,
          "layers":[
                 {
+                 "data":[0, 4, 4, 4, 0, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0],
+                 "height":4,
+                 "id":30,
+                 "name":"GroundUp",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ground]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"0;0;2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 0, 0, 4, 4],
+                 "height":4,
+                 "id":34,
+                 "name":"GroundDownRight",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ground]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"2;0;-2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 4, 4, 0, 0, 4, 4, 0, 0, 4, 4, 0, 0, 4, 4],
+                 "height":4,
+                 "id":31,
+                 "name":"GroundRight",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ground]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"2;0;0"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 4, 4, 0, 0, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0],
+                 "height":4,
+                 "id":33,
+                 "name":"GroundUpRight",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ground]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"2;0;2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 0, 4, 4, 4],
+                 "height":4,
+                 "id":32,
+                 "name":"GroundDown",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ground]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"0;0;-2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
                  "data":[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
                  "height":4,
                  "id":1,
@@ -24,6 +139,304 @@
                         }],
                  "type":"tilelayer",
                  "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 3221225477, 3221225477, 3221225477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 "height":4,
+                 "id":40,
+                 "name":"WallsUp1",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"0;0;-2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 2684354565, 0, 0, 0, 2684354565, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 "height":4,
+                 "id":41,
+                 "name":"WallsUp2",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"-2;0;0"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 1610612741, 0, 0, 0, 1610612741, 0, 0, 0, 1610612741, 0, 0, 0, 1610612741],
+                 "height":4,
+                 "id":42,
+                 "name":"WallsRight",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"0;0;-2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5],
+                 "height":4,
+                 "id":43,
+                 "name":"WallsDown1",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"0;0;-2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5],
+                 "height":4,
+                 "id":48,
+                 "name":"WallsDown3",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"2;0;-2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 2684354565, 0, 0, 0, 2684354565, 0, 0],
+                 "height":4,
+                 "id":44,
+                 "name":"WallsDown2",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"2;0;0"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 3221225477, 3221225477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 "height":4,
+                 "id":45,
+                 "name":"WallsUp3",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"-2;0;-2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 1610612741, 0, 0, 0, 1610612741, 0, 0, 0, 0, 0, 0, 0, 0],
+                 "height":4,
+                 "id":46,
+                 "name":"WallsRight2",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"2;0;-2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1610612741, 0, 0, 0, 1610612741],
+                 "height":4,
+                 "id":47,
+                 "name":"WallsRight3",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"-2;0;-2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[2684354566, 0, 0, 0, 2684354565, 0, 0, 0, 2684354565, 0, 0, 0, 6, 0, 0, 0],
+                 "height":4,
+                 "id":3,
+                 "name":"Walls",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }],
+                 "type":"tilelayer",
+                 "visible":false,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0],
+                 "height":4,
+                 "id":29,
+                 "name":"Walls2",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }],
+                 "type":"tilelayer",
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -52,47 +465,116 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 3221225477, 3221225477, 3221225478, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3, 3],
                  "height":4,
-                 "id":3,
-                 "name":"Walls",
+                 "id":53,
+                 "name":"CeilingDownRight",
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[mainWalls]"
+                         "value":"[ceiling]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"2;0;-2"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0],
+                 "data":[0, 0, 3, 3, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":4,
-                 "id":29,
-                 "name":"Walls2",
+                 "id":52,
+                 "name":"CeilingUpRight",
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ceiling]"
                         }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"2;0;2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":false,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 3, 3, 0, 0, 3, 3, 0, 0, 3, 3, 0, 0, 3, 3],
+                 "height":4,
+                 "id":51,
+                 "name":"CeillingRight",
+                 "opacity":1,
+                 "properties":[
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[mainWalls]"
+                         "value":"[ceiling]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"2;0;0"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 3, 3, 3],
+                 "height":4,
+                 "id":50,
+                 "name":"CeilingDown",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ceiling]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"0;0;-2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":false,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 3, 3, 3, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0],
+                 "height":4,
+                 "id":49,
+                 "name":"CeilingUp",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[ceiling]"
+                        }, 
+                        {
+                         "name":"Move",
+                         "type":"string",
+                         "value":"0;0;2"
+                        }],
+                 "type":"tilelayer",
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -101,25 +583,7 @@
                  "draworder":"topdown",
                  "id":4,
                  "name":"Transitions",
-                 "objects":[
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":65,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"Level2Room2"
-                                }],
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":150
-                        }],
+                 "objects":[],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -130,7 +594,147 @@
                  "draworder":"topdown",
                  "id":27,
                  "name":"Objects",
-                 "objects":[],
+                 "objects":[
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":66,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.75;0;0"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"-90;0;90"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.11;0.11;0.1"
+                                }],
+                         "rotation":0,
+                         "type":"TableDeReu",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":125
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":67,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"1.5;0;0"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"0;-30;0"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.1;0.09;0.1"
+                                }],
+                         "rotation":0,
+                         "type":"chaise",
+                         "visible":true,
+                         "width":50,
+                         "x":149,
+                         "y":98
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":69,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"1.5;0;0"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"0;30;0"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.1;0.09;0.1"
+                                }],
+                         "rotation":0,
+                         "type":"chaise",
+                         "visible":true,
+                         "width":50,
+                         "x":144,
+                         "y":158
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":70,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.5;0;0"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"0;210;0"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.1;0.09;0.1"
+                                }],
+                         "rotation":0,
+                         "type":"chaise",
+                         "visible":true,
+                         "width":50,
+                         "x":58.1667,
+                         "y":97.6667
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":71,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.5;0;-0.25"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"0;150;0"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.1;0.09;0.1"
+                                }],
+                         "rotation":0,
+                         "type":"chaise",
+                         "visible":true,
+                         "width":50,
+                         "x":53.1667,
+                         "y":158.667
+                        }],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -144,14 +748,19 @@
                  "name":"Height",
                  "type":"float",
                  "value":2.5
+                }, 
+                {
+                 "name":"Skybox",
+                 "type":"string",
+                 "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
                 }],
          "type":"group",
          "visible":true,
          "x":0,
          "y":0
         }],
- "nextlayerid":30,
- "nextobjectid":66,
+ "nextlayerid":57,
+ "nextobjectid":74,
  "orientation":"orthogonal",
  "properties":[
         {

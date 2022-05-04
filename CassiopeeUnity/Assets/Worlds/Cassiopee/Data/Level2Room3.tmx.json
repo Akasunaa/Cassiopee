@@ -75,7 +75,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 1610612741, 0, 0, 2684354571, 1610612747, 0, 0, 1610612741, 5, 0, 3221225478, 0, 0, 0],
+                 "data":[0, 0, 1610612741, 0, 0, 2684354571, 1610612747, 0, 0, 0, 11, 0, 3221225478, 0, 0, 0],
                  "height":4,
                  "id":29,
                  "name":"Walls2",
@@ -117,7 +117,7 @@
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":100,
+                         "x":150,
                          "y":100
                         }],
                  "opacity":1,
@@ -144,6 +144,11 @@
                  "name":"Height",
                  "type":"float",
                  "value":1
+                }, 
+                {
+                 "name":"Skybox",
+                 "type":"string",
+                 "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
                 }],
          "type":"group",
          "visible":true,

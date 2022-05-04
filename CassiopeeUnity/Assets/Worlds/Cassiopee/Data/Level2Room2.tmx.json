@@ -29,6 +29,110 @@
                  "y":0
                 }, 
                 {
+                 "draworder":"topdown",
+                 "id":4,
+                 "name":"Transitions",
+                 "objects":[
+                        {
+                         "gid":8,
+                         "height":50,
+                         "id":66,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Level2Room3"
+                                }],
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":30
+                        }, 
+                        {
+                         "gid":8,
+                         "height":50,
+                         "id":73,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Level2Room3"
+                                }],
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":30
+                        }, 
+                        {
+                         "gid":8,
+                         "height":50,
+                         "id":84,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Level2Room4"
+                                }],
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":150
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":27,
+                 "name":"Objects",
+                 "objects":[
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":80,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.6;0.35;0.5"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"-90;-90;0"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.2;0.3;0.2"
+                                }],
+                         "rotation":0,
+                         "type":"Vent",
+                         "visible":true,
+                         "width":50,
+                         "x":51.6667,
+                         "y":100
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":false,
+                 "x":0,
+                 "y":0
+                }, 
+                {
                  "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
                  "height":4,
                  "id":28,
@@ -75,12 +179,17 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 1610612741, 0, 0, 2684354566, 3221225477, 0, 0, 3221225478, 1610612742, 0, 3221225478, 0, 0, 0],
+                 "data":[1610612741, 0, 0, 2684354565, 1610612742, 0, 0, 6, 1610612741, 0, 0, 0, 0, 0, 0, 2684354566],
                  "height":4,
-                 "id":29,
+                 "id":30,
                  "name":"Walls2",
                  "opacity":1,
                  "properties":[
+                        {
+                         "name":"Anchor",
+                         "type":"int",
+                         "value":-1
+                        }, 
                         {
                          "name":"ConnectToCeiling",
                          "type":"bool",
@@ -98,42 +207,32 @@
                  "y":0
                 }, 
                 {
-                 "draworder":"topdown",
-                 "id":4,
-                 "name":"Transitions",
-                 "objects":[
+                 "data":[0, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 "height":4,
+                 "id":31,
+                 "name":"WallsAboveVent",
+                 "offsetx":0,
+                 "offsety":1,
+                 "opacity":1,
+                 "properties":[
                         {
-                         "gid":8,
-                         "height":50,
-                         "id":76,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"Level4Room1"
-                                }],
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":150
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }, 
+                        {
+                         "name":"Y",
+                         "type":"string",
+                         "value":"2"
                         }],
-                 "opacity":1,
-                 "type":"objectgroup",
-                 "visible":true,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "draworder":"topdown",
-                 "id":27,
-                 "name":"Objects",
-                 "objects":[],
-                 "opacity":1,
-                 "type":"objectgroup",
-                 "visible":true,
+                 "type":"tilelayer",
+                 "visible":false,
+                 "width":4,
                  "x":0,
                  "y":0
                 }],
@@ -143,15 +242,20 @@
                 {
                  "name":"Height",
                  "type":"float",
-                 "value":1
+                 "value":2.5
+                }, 
+                {
+                 "name":"Skybox",
+                 "type":"string",
+                 "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
                 }],
          "type":"group",
          "visible":true,
          "x":0,
          "y":0
         }],
- "nextlayerid":31,
- "nextobjectid":77,
+ "nextlayerid":33,
+ "nextobjectid":88,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -163,6 +267,16 @@
          "name":"NoSpawning",
          "type":"bool",
          "value":false
+        }, 
+        {
+         "name":"Skybox",
+         "type":"string",
+         "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
+        }, 
+        {
+         "name":"SkyboxRotation",
+         "type":"string",
+         "value":"180;0;0"
         }],
  "renderorder":"left-up",
  "tiledversion":"1.7.2",

@@ -80,24 +80,6 @@
                  "name":"Transitions",
                  "objects":[
                         {
-                         "gid":8,
-                         "height":50,
-                         "id":65,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"Level4Room1"
-                                }],
-                         "rotation":-90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":200
-                        }, 
-                        {
                          "gid":20,
                          "height":50,
                          "id":66,

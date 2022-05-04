@@ -128,7 +128,7 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level5Room1"
+                                 "value":"[exit]"
                                 }],
                          "rotation":180,
                          "type":"",
@@ -168,7 +168,7 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":67,
+ "nextobjectid":68,
  "orientation":"orthogonal",
  "properties":[
         {

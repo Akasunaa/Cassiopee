@@ -29,7 +29,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "data":[3, 3, 3, 0, 3, 3, 3, 0, 3, 3, 3, 0, 0, 0, 0, 0],
                  "height":4,
                  "id":28,
                  "name":"Ceiling",
@@ -46,39 +46,16 @@
                          "value":"[ceiling]"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 3221225477, 3221225477, 3221225478, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
+                 "data":[2684354571, 7, 7, 3221225478, 2684354565, 0, 0, 2684354567, 2684354565, 0, 0, 2684354567, 2684354571, 5, 5, 1610612742],
                  "height":4,
                  "id":3,
                  "name":"Walls",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 0, 0, 2684354566, 3221225478, 0, 0, 6, 1610612742, 0, 0, 0, 0, 2684354566],
-                 "height":4,
-                 "id":30,
-                 "name":"Walls2",
                  "opacity":1,
                  "properties":[
                         {
@@ -105,31 +82,19 @@
                         {
                          "gid":8,
                          "height":50,
-                         "id":65,
+                         "id":67,
                          "name":"",
                          "properties":[
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Hugo0"
+                                 "value":"Level2Room2"
                                 }],
                          "rotation":90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":195,
-                         "y":100
-                        }, 
-                        {
-                         "gid":20,
-                         "height":50,
-                         "id":67,
-                         "name":"",
-                         "rotation":90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
+                         "x":150,
                          "y":150
                         }],
                  "opacity":1,
@@ -156,13 +121,18 @@
                  "name":"Height",
                  "type":"float",
                  "value":2.5
+                }, 
+                {
+                 "name":"Skybox",
+                 "type":"string",
+                 "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
                 }],
          "type":"group",
          "visible":true,
          "x":0,
          "y":0
         }],
- "nextlayerid":31,
+ "nextlayerid":29,
  "nextobjectid":68,
  "orientation":"orthogonal",
  "properties":[
@@ -175,16 +145,6 @@
          "name":"NoSpawning",
          "type":"bool",
          "value":false
-        }, 
-        {
-         "name":"Skybox",
-         "type":"string",
-         "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
-        }, 
-        {
-         "name":"SkyboxRotation",
-         "type":"string",
-         "value":"180;0;0"
         }],
  "renderorder":"left-up",
  "tiledversion":"1.7.2",

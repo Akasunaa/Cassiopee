@@ -128,7 +128,7 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level6Room1"
+                                 "value":"Level3Room1"
                                 }],
                          "rotation":90,
                          "type":"",
@@ -171,6 +171,12 @@
                          "height":50,
                          "id":67,
                          "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"Depressur"
+                                }],
                          "rotation":0,
                          "type":"\/Base\/Door",
                          "visible":true,
@@ -256,6 +262,29 @@
                          "width":50,
                          "x":100,
                          "y":50
+                        }, 
+                        {
+                         "gid":14,
+                         "height":50,
+                         "id":75,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"Depressur"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -277,7 +306,7 @@
          "y":0
         }],
  "nextlayerid":31,
- "nextobjectid":75,
+ "nextobjectid":76,
  "orientation":"orthogonal",
  "properties":[
         {

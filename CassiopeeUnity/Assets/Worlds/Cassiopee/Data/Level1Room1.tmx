@@ -10,9 +10,10 @@
  <group id="5" name="Floor 0">
   <properties>
    <property name="Height" type="float" value="2.5"/>
+   <property name="Skybox" value="/Skybox/AllSky_Space_AnotherPlanet"/>
   </properties>
   <objectgroup id="38" name="Objets">
-   <object id="116" type="Table2Reu" gid="40" x="143.956" y="201.492" width="50" height="50">
+   <object id="116" type="TableDeReu" gid="40" x="143.956" y="201.492" width="50" height="50">
     <properties>
      <property name="Scale" value="0.05,0.05,0.05"/>
     </properties>
@@ -47,7 +48,7 @@
    <object id="70" gid="8" x="50" y="50" width="50" height="50" rotation="180">
     <properties>
      <property name="MazeTransitions" type="int" value="0"/>
-     <property name="TargetZone" value="Level2Room1"/>
+     <property name="TargetZone" value="[exit]"/>
     </properties>
    </object>
   </objectgroup>

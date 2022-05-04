@@ -93,7 +93,7 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level1Room1"
+                                 "value":"TransitionIntroLevel5"
                                 }],
                          "rotation":-90,
                          "type":"",
@@ -330,6 +330,11 @@
                  "name":"Height",
                  "type":"float",
                  "value":2.5
+                }, 
+                {
+                 "name":"Skybox",
+                 "type":"string",
+                 "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
                 }],
          "type":"group",
          "visible":true,

@@ -111,7 +111,7 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"[exit]"
+                                 "value":"Level6Room1"
                                 }],
                          "rotation":180,
                          "type":"",

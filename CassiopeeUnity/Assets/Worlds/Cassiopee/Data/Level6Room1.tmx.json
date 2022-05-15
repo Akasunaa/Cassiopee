@@ -66,7 +66,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[mainWalls]"
+                         "value":"[walls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -85,11 +85,6 @@
                          "name":"ConnectToCeiling",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -226,6 +221,29 @@
                          "width":50,
                          "x":0,
                          "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":72,
+                         "name":"Mug",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0,0,-0.5"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"Mug",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -247,7 +265,7 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":72,
+ "nextobjectid":73,
  "orientation":"orthogonal",
  "properties":[
         {

@@ -129,8 +129,56 @@
                          "type":"\/TrainingGround\/SpiderBot",
                          "visible":true,
                          "width":50,
-                         "x":79.6667,
-                         "y":151
+                         "x":150,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":71,
+                         "name":"",
+                         "rotation":0,
+                         "type":"\/TrainingGround\/SpiderBot",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":72,
+                         "name":"",
+                         "rotation":0,
+                         "type":"\/TrainingGround\/SpiderBot",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":73,
+                         "name":"",
+                         "rotation":0,
+                         "type":"\/TrainingGround\/SpiderBot",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":74,
+                         "name":"",
+                         "rotation":0,
+                         "type":"\/TrainingGround\/SpiderBot",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":200
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -157,7 +205,7 @@
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":71,
+ "nextobjectid":75,
  "orientation":"orthogonal",
  "properties":[
         {

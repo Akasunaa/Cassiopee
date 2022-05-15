@@ -6,7 +6,7 @@
          "id":5,
          "layers":[
                 {
-                 "data":[4, 4, 0, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+                 "data":[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
                  "height":4,
                  "id":1,
                  "name":"Ground",
@@ -157,7 +157,7 @@
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"Level5Door1"
+                                 "value":"Level5Trap1"
                                 }],
                          "rotation":180,
                          "type":"",
@@ -165,24 +165,6 @@
                          "width":50,
                          "x":50,
                          "y":50
-                        }, 
-                        {
-                         "gid":13,
-                         "height":50,
-                         "id":67,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"Depressur"
-                                }],
-                         "rotation":0,
-                         "type":"\/Base\/Door",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":150
                         }, 
                         {
                          "gid":14,
@@ -200,12 +182,12 @@
                                  "type":"int",
                                  "value":2
                                 }],
-                         "rotation":0,
+                         "rotation":180,
                          "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
-                         "y":200
+                         "y":50
                         }, 
                         {
                          "gid":14,
@@ -223,68 +205,60 @@
                                  "type":"int",
                                  "value":2
                                 }],
-                         "rotation":-90,
+                         "rotation":0,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":200,
-                         "y":50
+                         "x":100,
+                         "y":200
+                        }, 
+                        {
+                         "gid":41,
+                         "height":50,
+                         "id":75,
+                         "name":"Helmet",
+                         "properties":[
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":1
+                                }],
+                         "rotation":0,
+                         "type":"Helmet",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":100
                         }, 
                         {
                          "gid":40,
                          "height":50,
-                         "id":71,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Level5Trap1",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0.5;0;0.3"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.3;0.2;0.2"
-                                }, 
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"Level5Trap1"
-                                }],
+                         "id":76,
+                         "name":"Gun",
                          "rotation":0,
-                         "type":"TrapDoor",
+                         "type":"LaserPistol",
                          "visible":true,
                          "width":50,
-                         "x":100,
-                         "y":50
+                         "x":50,
+                         "y":100
                         }, 
                         {
-                         "gid":14,
+                         "gid":13,
                          "height":50,
-                         "id":75,
+                         "id":77,
                          "name":"",
                          "properties":[
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"Depressur"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":2
+                                 "value":"Level5Door1"
                                 }],
-                         "rotation":180,
+                         "rotation":0,
                          "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
-                         "y":50
+                         "y":150
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -306,7 +280,7 @@
          "y":0
         }],
  "nextlayerid":31,
- "nextobjectid":76,
+ "nextobjectid":78,
  "orientation":"orthogonal",
  "properties":[
         {

@@ -252,6 +252,29 @@
                          "width":50,
                          "x":50,
                          "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":71,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.2,0,0"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"0,90,0"
+                                }],
+                         "rotation":0,
+                         "type":"Arrow",
+                         "visible":true,
+                         "width":50,
+                         "x":0,
+                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -284,7 +307,7 @@
          "y":0
         }],
  "nextlayerid":32,
- "nextobjectid":71,
+ "nextobjectid":72,
  "orientation":"orthogonal",
  "properties":[
         {

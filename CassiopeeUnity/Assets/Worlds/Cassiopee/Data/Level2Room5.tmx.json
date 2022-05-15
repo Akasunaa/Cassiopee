@@ -29,7 +29,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 0, 0, 1610612741, 3221225477, 0, 0, 0, 0, 0, 0, 1610612741, 0],
+                 "data":[0, 0, 0, 0, 0, 0, 1610612741, 3221225477, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":4,
                  "id":29,
                  "name":"Walls2",
@@ -180,7 +180,7 @@
                                 {
                                  "name":"Offset",
                                  "type":"string",
-                                 "value":"0.1;1;-0.4"
+                                 "value":"0.1;0;-0.4"
                                 }, 
                                 {
                                  "name":"Rotate",
@@ -226,6 +226,24 @@
                          "width":50,
                          "x":150,
                          "y":50
+                        }, 
+                        {
+                         "gid":8,
+                         "height":50,
+                         "id":69,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Level4Room1"
+                                }],
+                         "rotation":-90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":200
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -247,7 +265,7 @@
          "y":0
         }],
  "nextlayerid":31,
- "nextobjectid":69,
+ "nextobjectid":70,
  "orientation":"orthogonal",
  "properties":[
         {

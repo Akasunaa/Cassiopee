@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="31" nextobjectid="76">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="31" nextobjectid="78">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -16,7 +16,7 @@
     <property name="Walkable" type="bool" value="true"/>
    </properties>
    <data encoding="csv">
-4,4,0,4,
+4,4,4,4,
 4,4,4,4,
 4,4,4,4,
 4,4,4,4
@@ -70,38 +70,30 @@
   <objectgroup id="27" name="Objects">
    <object id="66" gid="13" x="50" y="50" width="50" height="50" rotation="180">
     <properties>
-     <property name="Variable" value="Level5Door1"/>
+     <property name="Variable" value="Level5Trap1"/>
     </properties>
    </object>
-   <object id="67" type="/Base/Door" gid="13" x="100" y="150" width="50" height="50">
-    <properties>
-     <property name="Variable" value="Depressur"/>
-    </properties>
-   </object>
-   <object id="68" gid="14" x="100" y="200" width="50" height="50">
+   <object id="68" gid="14" x="100" y="50" width="50" height="50" rotation="180">
     <properties>
      <property name="Variable" value="Level5Door1"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="69" gid="14" x="200" y="50" width="50" height="50" rotation="-90">
+   <object id="69" gid="14" x="100" y="200" width="50" height="50">
     <properties>
      <property name="Variable" value="Level5Trap1"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="71" type="TrapDoor" gid="40" x="100" y="50" width="50" height="50">
+   <object id="75" name="Helmet" type="Helmet" gid="41" x="100" y="100" width="50" height="50">
     <properties>
-     <property name="Level5Trap1" type="bool" value="false"/>
-     <property name="Offset" value="0.5;0;0.3"/>
-     <property name="Scale" value="0.3;0.2;0.2"/>
-     <property name="Variable" value="Level5Trap1"/>
+     <property name="Y" type="int" value="1"/>
     </properties>
    </object>
-   <object id="75" gid="14" x="100" y="50" width="50" height="50" rotation="180">
+   <object id="76" name="Gun" type="LaserPistol" gid="40" x="50" y="100" width="50" height="50"/>
+   <object id="77" gid="13" x="100" y="150" width="50" height="50">
     <properties>
-     <property name="Variable" value="Depressur"/>
-     <property name="Y" type="int" value="2"/>
+     <property name="Variable" value="Level5Door1"/>
     </properties>
    </object>
   </objectgroup>

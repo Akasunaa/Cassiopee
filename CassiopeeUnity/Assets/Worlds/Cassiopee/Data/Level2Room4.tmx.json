@@ -604,7 +604,7 @@
                                 {
                                  "name":"Offset",
                                  "type":"string",
-                                 "value":"0.75;0;0"
+                                 "value":"1;0;0"
                                 }, 
                                 {
                                  "name":"Rotate",
@@ -620,8 +620,8 @@
                          "type":"TableDeReu",
                          "visible":true,
                          "width":50,
-                         "x":100,
-                         "y":125
+                         "x":98.5414,
+                         "y":126.702
                         }, 
                         {
                          "gid":40,
@@ -734,6 +734,52 @@
                          "width":50,
                          "x":53.1667,
                          "y":158.667
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":74,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"1;0;0"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.05;0.05;0.05"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":1
+                                }],
+                         "rotation":0,
+                         "type":"Walkman",
+                         "visible":true,
+                         "width":50,
+                         "x":90.2303,
+                         "y":124.915
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":75,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"Ordi",
+                         "visible":true,
+                         "width":50,
+                         "x":104.33,
+                         "y":115.434
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -760,7 +806,7 @@
          "y":0
         }],
  "nextlayerid":57,
- "nextobjectid":74,
+ "nextobjectid":76,
  "orientation":"orthogonal",
  "properties":[
         {

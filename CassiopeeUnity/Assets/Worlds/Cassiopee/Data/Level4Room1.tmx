@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="32" nextobjectid="72">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="32" nextobjectid="74">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -28,16 +28,16 @@
     <property name="Materials" value="[ceiling]"/>
    </properties>
    <data encoding="csv">
-3,3,3,3,
-3,3,3,3,
-3,3,3,3,
-3,3,3,3
+3,3,3,0,
+3,3,3,0,
+3,3,3,0,
+0,0,0,0
 </data>
   </layer>
   <layer id="3" name="Walls" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
-    <property name="Materials" value="[mainWalls]"/>
+    <property name="Materials" value="[walls]"/>
    </properties>
    <data encoding="csv">
 2684354566,3221225477,3221225477,3221225478,
@@ -49,7 +49,6 @@
   <layer id="29" name="WallsInner" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
-    <property name="Materials" value="[mainWalls]"/>
    </properties>
    <data encoding="csv">
 0,2684354565,5,5,
@@ -61,7 +60,6 @@
   <layer id="30" name="WallsInner2" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
-    <property name="Materials" value="[mainWalls]"/>
    </properties>
    <data encoding="csv">
 0,0,0,0,
@@ -81,8 +79,9 @@
   <objectgroup id="31" name="LevelExit">
    <object id="66" gid="8" x="50" y="50" width="50" height="50" rotation="-90">
     <properties>
+     <property name="MazeTransitions" type="int" value="0"/>
      <property name="OneWay" type="bool" value="true"/>
-     <property name="TargetZone" value="TransitionLevel4Level5"/>
+     <property name="TargetZone" value="Level1Room1"/>
     </properties>
    </object>
   </objectgroup>
@@ -110,6 +109,11 @@
      <property name="Rotate" value="90,0,0"/>
      <property name="Snap" type="bool" value="true"/>
      <property name="Y" type="int" value="2"/>
+    </properties>
+   </object>
+   <object id="73" name="Arrow" type="Arrow" gid="40" x="50" y="50" width="50" height="50">
+    <properties>
+     <property name="Offset" value="0.2,0,0.2"/>
     </properties>
    </object>
   </objectgroup>

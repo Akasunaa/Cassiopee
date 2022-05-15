@@ -29,7 +29,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "data":[3, 3, 3, 0, 3, 3, 3, 0, 3, 3, 3, 0, 0, 0, 0, 0],
                  "height":4,
                  "id":28,
                  "name":"Ceiling",
@@ -66,7 +66,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[mainWalls]"
+                         "value":"[walls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -85,11 +85,6 @@
                          "name":"ConnectToCeiling",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -108,11 +103,6 @@
                          "name":"ConnectToCeiling",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -173,6 +163,11 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"MazeTransitions",
+                                 "type":"int",
+                                 "value":0
+                                }, 
+                                {
                                  "name":"OneWay",
                                  "type":"bool",
                                  "value":true
@@ -180,7 +175,7 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"TransitionLevel4Level5"
+                                 "value":"Level1Room1"
                                 }],
                          "rotation":-90,
                          "type":"",
@@ -296,6 +291,24 @@
                          "width":50,
                          "x":100,
                          "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":73,
+                         "name":"Arrow",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.2,0,0.2"
+                                }],
+                         "rotation":0,
+                         "type":"Arrow",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -317,7 +330,7 @@
          "y":0
         }],
  "nextlayerid":32,
- "nextobjectid":72,
+ "nextobjectid":74,
  "orientation":"orthogonal",
  "properties":[
         {

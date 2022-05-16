@@ -29,6 +29,7 @@
         "/Base/Pieces/Flashlight",
         "/Base/Pieces/Ground",
         "/Base/Pieces/HeadLight",
+        "/Base/Pieces/Lever",
         "/Base/Pieces/maze",
         "/Base/Pieces/Maze/MazeCorner",
         "/Base/Pieces/Maze/MazeCorridor",

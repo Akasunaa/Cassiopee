@@ -379,7 +379,7 @@
                                  "value":1
                                 }],
                          "rotation":0,
-                         "type":"",
+                         "type":"\/Base\/Lever",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -425,7 +425,7 @@
                                  "value":1
                                 }],
                          "rotation":0,
-                         "type":"",
+                         "type":"\/Base\/Lever",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -448,7 +448,7 @@
                                  "value":1
                                 }],
                          "rotation":-180,
-                         "type":"",
+                         "type":"\/Base\/Lever",
                          "visible":true,
                          "width":50,
                          "x":150,
@@ -471,7 +471,7 @@
                                  "value":1
                                 }],
                          "rotation":-180,
-                         "type":"",
+                         "type":"\/Base\/Lever",
                          "visible":true,
                          "width":50,
                          "x":100,

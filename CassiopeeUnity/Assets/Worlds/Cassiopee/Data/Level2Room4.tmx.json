@@ -614,7 +614,7 @@
                                 {
                                  "name":"Scale",
                                  "type":"string",
-                                 "value":"0.11;0.11;0.13"
+                                 "value":"0.11;0.11;0.12"
                                 }],
                          "rotation":0,
                          "type":"TableDeReu",
@@ -844,7 +844,7 @@
          "y":0
         }],
  "nextlayerid":57,
- "nextobjectid":77,
+ "nextobjectid":79,
  "orientation":"orthogonal",
  "properties":[
         {

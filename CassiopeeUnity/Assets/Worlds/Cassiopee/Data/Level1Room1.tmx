@@ -125,7 +125,7 @@
      <property name="Variable" value="combo-laser"/>
     </properties>
    </object>
-   <object id="96" type="/Base/Lever" gid="14" x="50" y="200" width="50" height="50">
+   <object id="96" type="/Base/Button" gid="14" x="50" y="200" width="50" height="50">
     <properties>
      <property name="Variable" value="combo-laser-four"/>
      <property name="Y" type="float" value="1"/>
@@ -133,23 +133,23 @@
    </object>
    <object id="97" type="/Base/Door" gid="13" x="50" y="50" width="50" height="50" rotation="90">
     <properties>
-     <property name="Materials" value="[mainWalls]"/>
+     <property name="Materials" value=""/>
      <property name="Variable" value="combo-laser"/>
     </properties>
    </object>
-   <object id="98" type="/Base/Lever" gid="14" x="100" y="200" width="50" height="50">
+   <object id="98" type="/Base/Button" gid="14" x="100" y="200" width="50" height="50">
     <properties>
      <property name="Variable" value="combo-laser-three"/>
      <property name="Y" type="float" value="1"/>
     </properties>
    </object>
-   <object id="99" type="/Base/Lever" gid="14" x="150" y="0" width="50" height="50" rotation="-180">
+   <object id="99" type="/Base/Button" gid="14" x="150" y="0" width="50" height="50" rotation="-180">
     <properties>
      <property name="Variable" value="combo-laser-one"/>
      <property name="Y" type="float" value="1"/>
     </properties>
    </object>
-   <object id="100" type="/Base/Lever" gid="14" x="100" y="0" width="50" height="50" rotation="-180">
+   <object id="100" type="/Base/Button" gid="14" x="100" y="0" width="50" height="50" rotation="-180">
     <properties>
      <property name="Variable" value="combo-laser-two"/>
      <property name="Y" type="float" value="1"/>

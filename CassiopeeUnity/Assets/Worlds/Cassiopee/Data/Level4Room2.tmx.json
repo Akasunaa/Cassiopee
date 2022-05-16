@@ -275,6 +275,18 @@
                          "width":50,
                          "x":0,
                          "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":72,
+                         "name":"",
+                         "rotation":0,
+                         "type":"ButtonSoundPlayer",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":150
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -307,7 +319,7 @@
          "y":0
         }],
  "nextlayerid":32,
- "nextobjectid":72,
+ "nextobjectid":73,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -321,7 +333,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.8.1",
  "tileheight":50,
  "tilesets":[
         {
@@ -1218,6 +1230,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.6",
+ "version":"1.8",
  "width":4
 }

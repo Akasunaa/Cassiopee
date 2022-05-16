@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="57" nextobjectid="76">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="57" nextobjectid="77">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -300,11 +300,11 @@
   </layer>
   <objectgroup id="4" name="Transitions"/>
   <objectgroup id="27" name="Objects">
-   <object id="66" type="TableDeReu" gid="40" x="98.5414" y="126.702" width="50" height="50">
+   <object id="66" type="TableDeReu" gid="40" x="97.569" y="134.52" width="50" height="50">
     <properties>
      <property name="Offset" value="1.2;0;0"/>
      <property name="Rotate" value="-90;0;90"/>
-     <property name="Scale" value="0.15;0.15;0.1"/>
+     <property name="Scale" value="0.11;0.11;0.13"/>
     </properties>
    </object>
    <object id="67" type="chaise" gid="40" x="149" y="98" width="50" height="50">
@@ -335,16 +335,25 @@
      <property name="Scale" value="0.1;0.09;0.1"/>
     </properties>
    </object>
-   <object id="74" type="Walkman" gid="40" x="90.2303" y="124.915" width="50" height="50">
+   <object id="74" type="Walkman" gid="40" x="101.899" y="94.041" width="50" height="50">
     <properties>
-     <property name="Offset" value="1;0;0"/>
-     <property name="Scale" value="0.05;0.05;0.05"/>
-     <property name="Y" type="int" value="1"/>
+     <property name="Offset" value="0;0;0"/>
+     <property name="Scale" value="0.2;0.2;0.2"/>
+     <property name="Y" type="float" value="0.9"/>
     </properties>
    </object>
-   <object id="75" type="Ordi" gid="40" x="104.33" y="115.434" width="50" height="50">
+   <object id="75" type="Ordi" gid="40" x="115.756" y="133.424" width="50" height="50">
     <properties>
-     <property name="Y" type="int" value="2"/>
+     <property name="Offset" value="1;-1;0"/>
+     <property name="Rotate" value="0;0;0"/>
+     <property name="Y" type="float" value="0.8"/>
+    </properties>
+   </object>
+   <object id="76" type="Mug" gid="40" x="107.977" y="93.7979" width="50" height="50">
+    <properties>
+     <property name="Offset" value="1;0;0"/>
+     <property name="Scale" value="0.5;0.5;0.5"/>
+     <property name="Y" type="float" value="2"/>
     </properties>
    </object>
   </objectgroup>

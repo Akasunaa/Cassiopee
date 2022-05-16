@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.433",
-    "versionCode": 501,
+    "version": "0.0.436",
+    "versionCode": 504,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",
@@ -67,7 +67,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 3126,
+        "totalObjects": 3134,
         "totalAgents": 5,
         "referencedWorlds": [
             "Base",
@@ -97,6 +97,7 @@
             "/Base/Pieces/Flashlight",
             "/Base/Pieces/Ground",
             "/Base/Pieces/HeadLight",
+            "/Base/Pieces/Lever",
             "/Base/Pieces/maze",
             "/Base/Pieces/Maze/MazeCorner",
             "/Base/Pieces/Maze/MazeCorridor",
@@ -139,6 +140,7 @@
             "/Cassiopee/Materials/OrangeNeon",
             "/Cassiopee/Pieces/Arrow",
             "/Cassiopee/Pieces/BlueLaser",
+            "/Cassiopee/Pieces/ButtonSoundPlayer",
             "/Cassiopee/Pieces/chaise",
             "/Cassiopee/Pieces/Engrenage",
             "/Cassiopee/Pieces/Four",

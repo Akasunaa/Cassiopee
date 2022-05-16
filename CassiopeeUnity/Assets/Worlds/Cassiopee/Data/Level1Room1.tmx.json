@@ -379,7 +379,7 @@
                                  "value":1
                                 }],
                          "rotation":0,
-                         "type":"\/Base\/Lever",
+                         "type":"\/Base\/Button",
                          "visible":true,
                          "width":50,
                          "x":50,
@@ -394,7 +394,7 @@
                                 {
                                  "name":"Materials",
                                  "type":"string",
-                                 "value":"[mainWalls]"
+                                 "value":""
                                 }, 
                                 {
                                  "name":"Variable",
@@ -425,7 +425,7 @@
                                  "value":1
                                 }],
                          "rotation":0,
-                         "type":"\/Base\/Lever",
+                         "type":"\/Base\/Button",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -448,7 +448,7 @@
                                  "value":1
                                 }],
                          "rotation":-180,
-                         "type":"\/Base\/Lever",
+                         "type":"\/Base\/Button",
                          "visible":true,
                          "width":50,
                          "x":150,
@@ -471,7 +471,7 @@
                                  "value":1
                                 }],
                          "rotation":-180,
-                         "type":"\/Base\/Lever",
+                         "type":"\/Base\/Button",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -521,7 +521,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1418,6 +1418,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

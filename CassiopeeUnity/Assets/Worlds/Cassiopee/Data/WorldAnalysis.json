@@ -1,5 +1,5 @@
 {
-    "totalObjects": 3126,
+    "totalObjects": 3133,
     "totalAgents": 5,
     "referencedWorlds": [
         "Base",
@@ -29,7 +29,6 @@
         "/Base/Pieces/Flashlight",
         "/Base/Pieces/Ground",
         "/Base/Pieces/HeadLight",
-        "/Base/Pieces/Lever",
         "/Base/Pieces/maze",
         "/Base/Pieces/Maze/MazeCorner",
         "/Base/Pieces/Maze/MazeCorridor",
@@ -72,6 +71,7 @@
         "/Cassiopee/Materials/OrangeNeon",
         "/Cassiopee/Pieces/Arrow",
         "/Cassiopee/Pieces/BlueLaser",
+        "/Cassiopee/Pieces/ButtonSoundPlayer",
         "/Cassiopee/Pieces/chaise",
         "/Cassiopee/Pieces/Engrenage",
         "/Cassiopee/Pieces/Four",

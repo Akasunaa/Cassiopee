@@ -22,16 +22,16 @@
 4,4,4,4
 </data>
   </layer>
-  <layer id="28" name="Ceiling" width="4" height="4" visible="0">
+  <layer id="28" name="Ceiling" width="4" height="4">
    <properties>
     <property name="AtCeiling" type="bool" value="true"/>
     <property name="Materials" value="[ceiling]"/>
    </properties>
    <data encoding="csv">
-3,3,3,0,
-3,3,3,0,
-3,3,3,0,
-0,0,0,0
+3,3,3,3,
+3,3,3,3,
+3,3,3,3,
+3,3,3,3
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">

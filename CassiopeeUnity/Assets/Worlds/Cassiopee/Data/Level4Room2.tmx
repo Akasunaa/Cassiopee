@@ -22,16 +22,16 @@
 4,4,4,4
 </data>
   </layer>
-  <layer id="28" name="Ceiling" width="4" height="4" visible="0">
+  <layer id="28" name="Ceiling" width="4" height="4">
    <properties>
     <property name="AtCeiling" type="bool" value="true"/>
     <property name="Materials" value="[ceiling]"/>
    </properties>
    <data encoding="csv">
-3,3,3,0,
-3,3,3,0,
-3,3,3,0,
-0,0,0,0
+3,3,3,3,
+3,3,3,3,
+3,3,3,3,
+3,3,3,3
 </data>
   </layer>
   <layer id="3" name="Walls" width="4" height="4">
@@ -69,7 +69,7 @@
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
-   <object id="65" gid="20" x="150" y="50" width="50" height="50" rotation="-90"/>
+   <object id="65" gid="20" x="100" y="0" width="50" height="50" rotation="90"/>
    <object id="66" gid="8" x="0" y="150" width="50" height="50">
     <properties>
      <property name="TargetZone" value="Level4Room3"/>

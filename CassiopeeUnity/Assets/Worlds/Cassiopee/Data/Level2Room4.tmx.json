@@ -604,7 +604,7 @@
                                 {
                                  "name":"Offset",
                                  "type":"string",
-                                 "value":"1;0;0"
+                                 "value":"1.2;0;0"
                                 }, 
                                 {
                                  "name":"Rotate",
@@ -614,7 +614,7 @@
                                 {
                                  "name":"Scale",
                                  "type":"string",
-                                 "value":"0.11;0.11;0.1"
+                                 "value":"0.15;0.15;0.1"
                                 }],
                          "rotation":0,
                          "type":"TableDeReu",

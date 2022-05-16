@@ -302,9 +302,9 @@
   <objectgroup id="27" name="Objects">
    <object id="66" type="TableDeReu" gid="40" x="98.5414" y="126.702" width="50" height="50">
     <properties>
-     <property name="Offset" value="1;0;0"/>
+     <property name="Offset" value="1.2;0;0"/>
      <property name="Rotate" value="-90;0;90"/>
-     <property name="Scale" value="0.11;0.11;0.1"/>
+     <property name="Scale" value="0.15;0.15;0.1"/>
     </properties>
    </object>
    <object id="67" type="chaise" gid="40" x="149" y="98" width="50" height="50">

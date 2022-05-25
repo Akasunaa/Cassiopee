@@ -75,6 +75,11 @@
             "fileName": "Level3Room2.tmx",
             "x": 0,
             "y": 0
+        },
+        {
+            "fileName": "Level7.tmx",
+            "x": 0,
+            "y": 0
         }
     ]
 }

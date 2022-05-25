@@ -321,29 +321,6 @@
                          "width":50,
                          "x":50,
                          "y":150
-                        }, 
-                        {
-                         "gid":41,
-                         "height":50,
-                         "id":75,
-                         "name":"NumberOne",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0,0,0.2"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"0,90,0"
-                                }],
-                         "rotation":0,
-                         "type":"NumberOne",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -365,7 +342,7 @@
          "y":0
         }],
  "nextlayerid":32,
- "nextobjectid":76,
+ "nextobjectid":75,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -379,7 +356,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1276,6 +1253,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

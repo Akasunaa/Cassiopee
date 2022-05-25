@@ -287,24 +287,6 @@
                          "width":50,
                          "x":50,
                          "y":150
-                        }, 
-                        {
-                         "gid":41,
-                         "height":50,
-                         "id":73,
-                         "name":"NumberTwo",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0,0,0.3"
-                                }],
-                         "rotation":0,
-                         "type":"NumberTwo",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -337,7 +319,7 @@
          "y":0
         }],
  "nextlayerid":32,
- "nextobjectid":74,
+ "nextobjectid":73,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -351,7 +333,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1248,6 +1230,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

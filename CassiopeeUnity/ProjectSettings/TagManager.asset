@@ -10,12 +10,6 @@ TagManager:
   - Player Head
   - Collectible
   - Player Helper
-  - Player Hand
-  - Reserved for Future 1
-  - Reserved for Future 2
-  - Reserved for Future 3
-  - Reserved for Future 4
-  - Reserved for Future 5
   - Object 1
   - Object 2
   - Object 3
@@ -123,7 +117,7 @@ TagManager:
   - Always In Front
   - Water
   - UI
-  - Logic
+  - 
   - 
   - 
   - 

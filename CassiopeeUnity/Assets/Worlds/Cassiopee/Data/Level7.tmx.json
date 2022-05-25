@@ -207,12 +207,23 @@
                          "height":50,
                          "id":71,
                          "name":"EndingDestroyableObject",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0,0,0.4"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
                          "rotation":0,
-                         "type":"EndingBObj",
+                         "type":"EndingDestroyableObject",
                          "visible":true,
                          "width":50,
                          "x":100,
-                         "y":100
+                         "y":150
                         }],
                  "opacity":1,
                  "type":"objectgroup",

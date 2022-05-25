@@ -83,7 +83,12 @@
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="71" name="EndingDestroyableObject" type="EndingBObj" gid="40" x="100" y="100" width="50" height="50"/>
+   <object id="71" name="EndingDestroyableObject" type="EndingDestroyableObject" gid="40" x="100" y="150" width="50" height="50">
+    <properties>
+     <property name="Offset" value="0,0,0.4"/>
+     <property name="Y" type="int" value="2"/>
+    </properties>
+   </object>
   </objectgroup>
  </group>
 </map>

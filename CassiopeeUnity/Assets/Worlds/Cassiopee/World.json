@@ -1,7 +1,13 @@
 {
     "key": "Cassiopee",
+<<<<<<< HEAD
     "version": "0.0.454",
     "versionCode": 522,
+=======
+
+    "version": "0.0.445",
+    "versionCode": 513,
+>>>>>>> 36f6cc9133d4db837c0de2c7f24974801b84e3bf
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",
@@ -67,7 +73,11 @@
         }
     ],
     "dependencies": {
+<<<<<<< HEAD
         "totalObjects": 3310,
+=======
+        "totalObjects": 3133,
+>>>>>>> 36f6cc9133d4db837c0de2c7f24974801b84e3bf
         "totalAgents": 5,
         "referencedWorlds": [
             "Base",

@@ -74,11 +74,7 @@
         "Enemy"
     ],
     "dependencies": {
-<<<<<<< HEAD
         "totalObjects": 3500,
-=======
-        "totalObjects": 3783,
->>>>>>> 87a6b044dfafca5dbbf2801ac7ce1deb2618c79f
         "totalAgents": 5,
         "referencedWorlds": [
             "Base",

@@ -1,5 +1,5 @@
 {
-    "totalObjects": 3488,
+    "totalObjects": 3781,
     "totalAgents": 5,
     "referencedWorlds": [
         "Base",
@@ -68,6 +68,8 @@
         "/Cassiopee/Data/Level5Room1",
         "/Cassiopee/Data/Level6Room1",
         "/Cassiopee/Data/Level7",
+        "/Cassiopee/Data/Level8EndingA",
+        "/Cassiopee/Data/Level8EndingB",
         "/Cassiopee/Data/TransitionIntroLevel5",
         "/Cassiopee/Materials/MainPanel",
         "/Cassiopee/Materials/MetalPanel",
@@ -100,8 +102,7 @@
         "/Cassiopee/Pieces/Vent",
         "/Cassiopee/Pieces/Walkman",
         "/Skybox/Materials/AllSky_Space_AnotherPlanet",
-        "/TrainingGround/Pieces/SpiderBot",
-        "[exit]"
+        "/TrainingGround/Pieces/SpiderBot"
     ],
     "referencedSpeech": [
         "Step onto the marker to open the portal, and then walk through!"

@@ -75,10 +75,40 @@
                  "y":0
                 }, 
                 {
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3221225477, 3221225477],
+                 "height":4,
+                 "id":29,
+                 "name":"InnerWalls",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
                  "draworder":"topdown",
                  "id":4,
                  "name":"Transitions",
-                 "objects":[],
+                 "objects":[
+                        {
+                         "gid":20,
+                         "height":50,
+                         "id":65,
+                         "name":"",
+                         "rotation":90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":150
+                        }],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -109,8 +139,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":29,
- "nextobjectid":65,
+ "nextlayerid":30,
+ "nextobjectid":66,
  "orientation":"orthogonal",
  "properties":[
         {

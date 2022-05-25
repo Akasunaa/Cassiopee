@@ -75,7 +75,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[5, 5, 1610612742, 0, 0, 0, 0, 0, 5, 5, 5, 5, 0, 0, 2684354565, 0],
+                 "data":[5, 5, 1610612742, 0, 0, 0, 0, 0, 5, 5, 5, 5, 0, 1610612741, 0, 0],
                  "height":4,
                  "id":29,
                  "name":"InnerWalls",
@@ -111,9 +111,9 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"[exit]"
+                                 "value":"Level8EndingB"
                                 }],
-                         "rotation":90,
+                         "rotation":180,
                          "type":"",
                          "visible":true,
                          "width":50,
@@ -137,6 +137,17 @@
                          "height":50,
                          "id":72,
                          "name":"",
+                         "properties":[
+                                {
+                                 "name":"OneWay",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Level8EndingA"
+                                }],
                          "rotation":90,
                          "type":"",
                          "visible":true,
@@ -271,7 +282,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.8.1",
  "tileheight":50,
  "tilesets":[
         {
@@ -1168,6 +1179,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.6",
+ "version":"1.8",
  "width":4
 }

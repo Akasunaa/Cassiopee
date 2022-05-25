@@ -29,7 +29,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "data":[3, 3, 3, 0, 3, 3, 3, 0, 3, 3, 3, 0, 0, 0, 0, 0],
                  "height":4,
                  "id":28,
                  "name":"Ceiling",
@@ -66,7 +66,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[walls]"
+                         "value":"[mainWalls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -75,10 +75,10 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2684354566],
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2684354566, 3221225477, 3221225477],
                  "height":4,
                  "id":29,
-                 "name":"WallsInner",
+                 "name":"InnerWalls",
                  "opacity":1,
                  "properties":[
                         {
@@ -100,37 +100,14 @@
                         {
                          "gid":20,
                          "height":50,
-                         "id":67,
+                         "id":65,
                          "name":"",
-                         "rotation":-90,
+                         "rotation":180,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":150,
-                         "y":200
-                        }, 
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":68,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"OneWay",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"Level7"
-                                }],
-                         "rotation":-90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":50
+                         "x":50,
+                         "y":150
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -142,114 +119,7 @@
                  "draworder":"topdown",
                  "id":27,
                  "name":"Objects",
-                 "objects":[
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":65,
-                         "name":"LaboTable",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0,0.5,0.5"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"0,90,0"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":1
-                                }],
-                         "rotation":0,
-                         "type":"LaboTable",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":150
-                        }, 
-                        {
-                         "gid":41,
-                         "height":50,
-                         "id":70,
-                         "name":"Oscillo",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0.3,0.15,0"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"0,-90,0"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":2
-                                }],
-                         "rotation":0,
-                         "type":"LaboOscillo",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":150
-                        }, 
-                        {
-                         "gid":41,
-                         "height":50,
-                         "id":71,
-                         "name":"Machine",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0.6,0.2,0.1"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"0,-60,0"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":2
-                                }],
-                         "rotation":0,
-                         "type":"LaboMachine",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":100
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":72,
-                         "name":"Mug",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0,0,-0.5"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":2
-                                }],
-                         "rotation":0,
-                         "type":"Mug",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
-                        }],
+                 "objects":[],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -270,7 +140,7 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":73,
+ "nextobjectid":66,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -284,7 +154,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1181,6 +1051,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

@@ -1,7 +1,12 @@
 {
     "key": "Cassiopee",
+<<<<<<< HEAD
     "version": "0.0.464",
     "versionCode": 532,
+=======
+    "version": "0.0.467",
+    "versionCode": 535,
+>>>>>>> 87a6b044dfafca5dbbf2801ac7ce1deb2618c79f
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",
@@ -74,7 +79,11 @@
         "Enemy"
     ],
     "dependencies": {
+<<<<<<< HEAD
         "totalObjects": 3500,
+=======
+        "totalObjects": 3783,
+>>>>>>> 87a6b044dfafca5dbbf2801ac7ce1deb2618c79f
         "totalAgents": 5,
         "referencedWorlds": [
             "Base",
@@ -143,6 +152,8 @@
             "/Cassiopee/Data/Level5Room1",
             "/Cassiopee/Data/Level6Room1",
             "/Cassiopee/Data/Level7",
+            "/Cassiopee/Data/Level8EndingA",
+            "/Cassiopee/Data/Level8EndingB",
             "/Cassiopee/Data/TransitionIntroLevel5",
             "/Cassiopee/Materials/MainPanel",
             "/Cassiopee/Materials/MetalPanel",
@@ -175,8 +186,7 @@
             "/Cassiopee/Pieces/Vent",
             "/Cassiopee/Pieces/Walkman",
             "/Skybox/Materials/AllSky_Space_AnotherPlanet",
-            "/TrainingGround/Pieces/SpiderBot",
-            "[exit]"
+            "/TrainingGround/Pieces/SpiderBot"
         ],
         "referencedSpeech": [
             "Step onto the marker to open the portal, and then walk through!"

@@ -75,7 +75,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[5, 5, 1610612742, 0, 0, 0, 0, 0, 5, 5, 5, 5, 0, 0, 0, 0],
+                 "data":[5, 5, 1610612742, 0, 0, 0, 0, 0, 5, 5, 5, 5, 0, 1610612741, 0, 0],
                  "height":4,
                  "id":29,
                  "name":"InnerWalls",
@@ -111,9 +111,9 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"[exit]"
+                                 "value":"Level8EndingB"
                                 }],
-                         "rotation":90,
+                         "rotation":180,
                          "type":"",
                          "visible":true,
                          "width":50,
@@ -131,6 +131,29 @@
                          "width":50,
                          "x":150,
                          "y":0
+                        }, 
+                        {
+                         "gid":8,
+                         "height":50,
+                         "id":72,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"OneWay",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Level8EndingA"
+                                }],
+                         "rotation":90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":150
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -245,7 +268,7 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":72,
+ "nextobjectid":73,
  "orientation":"orthogonal",
  "properties":[
         {

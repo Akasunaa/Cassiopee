@@ -1,8 +1,7 @@
 {
     "key": "Cassiopee",
-
-    "version": "0.0.445",
-    "versionCode": 513,
+    "version": "0.0.456",
+    "versionCode": 524,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",
@@ -68,7 +67,7 @@
         }
     ],
     "dependencies": {
-        "totalObjects": 3133,
+        "totalObjects": 3306,
         "totalAgents": 5,
         "referencedWorlds": [
             "Base",
@@ -121,6 +120,8 @@
             "/Base/Pieces/Transition",
             "/Base/Pieces/Wall",
             "/Base/Pieces/Waypoint",
+            "/Cassiopee/Audio/Music/alt.mp3",
+            "/Cassiopee/Audio/Music/blue.mp3",
             "/Cassiopee/Data/Intro",
             "/Cassiopee/Data/Level1Room1",
             "/Cassiopee/Data/Level2Room2",

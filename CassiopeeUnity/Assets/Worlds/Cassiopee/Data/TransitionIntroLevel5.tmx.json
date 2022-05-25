@@ -154,6 +154,11 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"Music",
+         "type":"string",
+         "value":"alt.mp3"
+        }, 
+        {
          "name":"NoAgents",
          "type":"bool",
          "value":false

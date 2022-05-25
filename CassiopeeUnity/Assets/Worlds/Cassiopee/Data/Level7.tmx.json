@@ -52,7 +52,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 7, 7, 1610612747, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
+                 "data":[2684354566, 3221225477, 3221225477, 3221225478, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -75,6 +75,24 @@
                  "y":0
                 }, 
                 {
+                 "data":[5, 5, 1610612742, 0, 0, 0, 0, 0, 5, 5, 5, 5, 0, 0, 0, 0],
+                 "height":4,
+                 "id":29,
+                 "name":"InnerWalls",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
                  "draworder":"topdown",
                  "id":4,
                  "name":"Transitions",
@@ -82,7 +100,7 @@
                         {
                          "gid":8,
                          "height":50,
-                         "id":67,
+                         "id":65,
                          "name":"",
                          "properties":[
                                 {
@@ -93,26 +111,26 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"TransitionIntroLevel5"
+                                 "value":"[exit]"
                                 }],
-                         "rotation":-90,
+                         "rotation":90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":150,
-                         "y":50
+                         "x":50,
+                         "y":150
                         }, 
                         {
-                         "gid":1073741844,
+                         "gid":20,
                          "height":50,
-                         "id":108,
+                         "id":67,
                          "name":"",
-                         "rotation":-90,
+                         "rotation":90,
                          "type":"",
                          "visible":true,
                          "width":50,
                          "x":150,
-                         "y":150
+                         "y":0
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -126,208 +144,64 @@
                  "name":"Objects",
                  "objects":[
                         {
-                         "gid":40,
+                         "gid":13,
                          "height":50,
-                         "id":85,
-                         "name":"",
+                         "id":68,
+                         "name":"Ending B Door",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"DoorEndingBLevel7"
+                                }],
                          "rotation":0,
-                         "type":"Molette",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":50
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":86,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":100
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":87,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":100
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":88,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":50
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":89,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":50,
                          "y":150
                         }, 
                         {
-                         "gid":40,
+                         "gid":13,
                          "height":50,
-                         "id":90,
-                         "name":"",
+                         "id":69,
+                         "name":"Ending A Door",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"DoorEndingALevel7"
+                                }],
                          "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":200
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":91,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Molette",
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":150,
                          "y":150
                         }, 
                         {
-                         "gid":40,
+                         "gid":14,
                          "height":50,
-                         "id":92,
+                         "id":70,
                          "name":"",
-                         "rotation":0,
-                         "type":"Molette",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":93,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"DoorEndingALevel7"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":180,
+                         "type":"",
                          "visible":true,
                          "width":50,
                          "x":100,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":94,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":200
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":95,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":200
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":96,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Engrenage",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":200
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":97,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
                          "y":50
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":98,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":100
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":99,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Molette",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":50
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":100,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Marteau",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
                         }],
-                 "opacity":1,
-                 "type":"objectgroup",
-                 "visible":true,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "draworder":"topdown",
-                 "id":29,
-                 "name":"Enemy",
-                 "objects":[],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -341,11 +215,6 @@
                  "name":"Height",
                  "type":"float",
                  "value":2.5
-                }, 
-                {
-                 "name":"Skybox",
-                 "type":"string",
-                 "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
                 }],
          "type":"group",
          "visible":true,
@@ -353,14 +222,9 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":109,
+ "nextobjectid":71,
  "orientation":"orthogonal",
  "properties":[
-        {
-         "name":"AmbientColor",
-         "type":"string",
-         "value":"#282210"
-        }, 
         {
          "name":"NoAgents",
          "type":"bool",

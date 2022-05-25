@@ -1,5 +1,5 @@
 {
-    "totalObjects": 3304,
+    "totalObjects": 3486,
     "totalAgents": 5,
     "referencedWorlds": [
         "Base",
@@ -65,6 +65,7 @@
         "/Cassiopee/Data/Level4Room3",
         "/Cassiopee/Data/Level5Room1",
         "/Cassiopee/Data/Level6Room1",
+        "/Cassiopee/Data/Level7",
         "/Cassiopee/Data/TransitionIntroLevel5",
         "/Cassiopee/Materials/MainPanel",
         "/Cassiopee/Materials/MetalPanel",

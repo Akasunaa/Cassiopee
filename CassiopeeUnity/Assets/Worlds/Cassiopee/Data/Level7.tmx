@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="73">
+<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="71">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -37,7 +37,7 @@
   <layer id="3" name="Walls" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
-    <property name="Materials" value="[walls]"/>
+    <property name="Materials" value="[mainWalls]"/>
    </properties>
    <data encoding="csv">
 2684354566,3221225477,3221225477,3221225478,
@@ -46,51 +46,40 @@
 6,5,5,1610612742
 </data>
   </layer>
-  <layer id="29" name="WallsInner" width="4" height="4">
+  <layer id="29" name="InnerWalls" width="4" height="4">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
    </properties>
    <data encoding="csv">
-0,0,0,6,
+5,5,1610612742,0,
 0,0,0,0,
-0,0,0,0,
-0,0,0,2684354566
+5,5,5,5,
+0,0,0,0
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
-   <object id="67" gid="20" x="150" y="200" width="50" height="50" rotation="-90"/>
-   <object id="68" gid="8" x="150" y="50" width="50" height="50" rotation="-90">
+   <object id="65" gid="8" x="50" y="150" width="50" height="50" rotation="90">
     <properties>
      <property name="OneWay" type="bool" value="true"/>
-     <property name="TargetZone" value="Level7"/>
+     <property name="TargetZone" value="[exit]"/>
     </properties>
    </object>
+   <object id="67" gid="20" x="150" y="0" width="50" height="50" rotation="90"/>
   </objectgroup>
   <objectgroup id="27" name="Objects">
-   <object id="65" name="LaboTable" type="LaboTable" gid="40" x="50" y="150" width="50" height="50">
+   <object id="68" name="Ending B Door" gid="13" x="50" y="150" width="50" height="50">
     <properties>
-     <property name="Offset" value="0,0.5,0.5"/>
-     <property name="Rotate" value="0,90,0"/>
-     <property name="Y" type="int" value="1"/>
+     <property name="Variable" value="DoorEndingBLevel7"/>
     </properties>
    </object>
-   <object id="70" name="Oscillo" type="LaboOscillo" gid="41" x="0" y="150" width="50" height="50">
+   <object id="69" name="Ending A Door" gid="13" x="150" y="150" width="50" height="50">
     <properties>
-     <property name="Offset" value="0.3,0.15,0"/>
-     <property name="Rotate" value="0,-90,0"/>
-     <property name="Y" type="int" value="2"/>
+     <property name="Variable" value="DoorEndingALevel7"/>
     </properties>
    </object>
-   <object id="71" name="Machine" type="LaboMachine" gid="41" x="0" y="100" width="50" height="50">
+   <object id="70" gid="14" x="100" y="50" width="50" height="50" rotation="180">
     <properties>
-     <property name="Offset" value="0.6,0.2,0.1"/>
-     <property name="Rotate" value="0,-60,0"/>
-     <property name="Y" type="int" value="2"/>
-    </properties>
-   </object>
-   <object id="72" name="Mug" type="Mug" gid="40" x="50" y="100" width="50" height="50">
-    <properties>
-     <property name="Offset" value="0,0,-0.5"/>
+     <property name="Variable" value="DoorEndingALevel7"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>

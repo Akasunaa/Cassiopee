@@ -1,12 +1,7 @@
 {
     "key": "Cassiopee",
-<<<<<<< HEAD
     "version": "0.0.464",
     "versionCode": 532,
-=======
-    "version": "0.0.467",
-    "versionCode": 535,
->>>>>>> 87a6b044dfafca5dbbf2801ac7ce1deb2618c79f
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",

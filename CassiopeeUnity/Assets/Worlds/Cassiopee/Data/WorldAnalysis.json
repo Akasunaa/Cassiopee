@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
     "totalObjects": 3502,
-=======
-    "totalObjects": 3781,
->>>>>>> 87a6b044dfafca5dbbf2801ac7ce1deb2618c79f
     "totalAgents": 5,
     "referencedWorlds": [
         "Base",

@@ -90,14 +90,14 @@
    </object>
    <object id="69" type="Laser" gid="40" x="150" y="100" width="50" height="50">
     <properties>
-     <property name="Offset" value="0.7,0.5,0.4"/>
+     <property name="Offset" value="0.3,0.5,0.2"/>
      <property name="Rotate" value="90,0,90"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
    <object id="70" type="Laser" gid="40" x="50" y="200" width="50" height="50">
     <properties>
-     <property name="Offset" value="0.4,0.5,-0.1"/>
+     <property name="Offset" value="1,0.5,0.32"/>
      <property name="Rotate" value="90,0,0"/>
      <property name="Y" type="int" value="2"/>
     </properties>

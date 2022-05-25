@@ -102,11 +102,12 @@
      <property name="Variable" value="doorLevel4Room1"/>
     </properties>
    </object>
-   <object id="71" type="Laser" gid="40" x="100" y="150" width="50" height="50">
+   <object id="71" name="Laser1" type="Laser" gid="40" x="100" y="150" width="50" height="50">
     <properties>
      <property name="Center" type="bool" value="true"/>
-     <property name="Offset" value="0,0.5,0"/>
+     <property name="Offset" value="0.4,0.3,0.5"/>
      <property name="Rotate" value="90,0,0"/>
+     <property name="Scale" value=""/>
      <property name="Snap" type="bool" value="true"/>
      <property name="Y" type="int" value="2"/>
     </properties>

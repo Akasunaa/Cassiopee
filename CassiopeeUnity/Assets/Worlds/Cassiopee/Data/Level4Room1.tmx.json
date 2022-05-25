@@ -258,7 +258,7 @@
                          "gid":40,
                          "height":50,
                          "id":71,
-                         "name":"",
+                         "name":"Laser1",
                          "properties":[
                                 {
                                  "name":"Center",
@@ -268,12 +268,17 @@
                                 {
                                  "name":"Offset",
                                  "type":"string",
-                                 "value":"0,0.5,0"
+                                 "value":"0.4,0.3,0.5"
                                 }, 
                                 {
                                  "name":"Rotate",
                                  "type":"string",
                                  "value":"90,0,0"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":""
                                 }, 
                                 {
                                  "name":"Snap",

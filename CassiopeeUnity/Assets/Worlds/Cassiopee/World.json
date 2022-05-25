@@ -74,8 +74,8 @@
         "Enemy"
     ],
     "dependencies": {
-        "totalObjects": 3781,
-        "totalAgents": 5,
+    "totalObjects": 3781,
+     "totalAgents": 5,
         "referencedWorlds": [
             "Base",
             "Cassiopee",

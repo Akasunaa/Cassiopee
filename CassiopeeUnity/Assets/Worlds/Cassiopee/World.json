@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.455",
-    "versionCode": 523,
+    "version": "0.0.460",
+    "versionCode": 528,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",
@@ -69,6 +69,9 @@
             "key": "[metalPanel]",
             "materials": "MetalPanel"
         }
+    ],
+    "usedTags": [
+        "Enemy"
     ],
     "dependencies": {
         "totalObjects": 3488,

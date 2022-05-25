@@ -80,6 +80,16 @@
             "fileName": "Level7.tmx",
             "x": 0,
             "y": 0
+        },
+        {
+            "fileName": "Level8EndingA.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level8EndingB.tmx",
+            "x": 0,
+            "y": 0
         }
     ]
 }

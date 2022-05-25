@@ -29,7 +29,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "data":[3, 3, 3, 0, 3, 3, 3, 0, 3, 3, 3, 0, 0, 0, 0, 0],
                  "height":4,
                  "id":28,
                  "name":"Ceiling",
@@ -75,75 +75,10 @@
                  "y":0
                 }, 
                 {
-                 "data":[5, 5, 1610612742, 0, 0, 0, 0, 0, 5, 5, 5, 5, 0, 0, 2684354565, 0],
-                 "height":4,
-                 "id":29,
-                 "name":"InnerWalls",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
                  "draworder":"topdown",
                  "id":4,
                  "name":"Transitions",
-                 "objects":[
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":65,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"OneWay",
-                                 "type":"bool",
-                                 "value":true
-                                }, 
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"[exit]"
-                                }],
-                         "rotation":90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":150
-                        }, 
-                        {
-                         "gid":20,
-                         "height":50,
-                         "id":67,
-                         "name":"",
-                         "rotation":90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":0
-                        }, 
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":72,
-                         "name":"",
-                         "rotation":90,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":150
-                        }],
+                 "objects":[],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -154,89 +89,7 @@
                  "draworder":"topdown",
                  "id":27,
                  "name":"Objects",
-                 "objects":[
-                        {
-                         "gid":13,
-                         "height":50,
-                         "id":68,
-                         "name":"Ending B Door",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"DoorEndingBLevel7"
-                                }],
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":150
-                        }, 
-                        {
-                         "gid":13,
-                         "height":50,
-                         "id":69,
-                         "name":"Ending A Door",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"DoorEndingALevel7"
-                                }],
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":150
-                        }, 
-                        {
-                         "gid":14,
-                         "height":50,
-                         "id":70,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"DoorEndingALevel7"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":2
-                                }],
-                         "rotation":180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":50
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":71,
-                         "name":"EndingDestroyableObject",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0,0,0.4"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":2
-                                }],
-                         "rotation":0,
-                         "type":"EndingDestroyableObject",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":150
-                        }],
+                 "objects":[],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -256,8 +109,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":30,
- "nextobjectid":73,
+ "nextlayerid":29,
+ "nextobjectid":65,
  "orientation":"orthogonal",
  "properties":[
         {

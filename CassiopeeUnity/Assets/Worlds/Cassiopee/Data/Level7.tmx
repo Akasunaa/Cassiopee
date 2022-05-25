@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="72">
+<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="73">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -54,7 +54,7 @@
 5,5,1610612742,0,
 0,0,0,0,
 5,5,5,5,
-0,0,0,0
+0,0,2684354565,0
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
@@ -65,6 +65,7 @@
     </properties>
    </object>
    <object id="67" gid="20" x="150" y="0" width="50" height="50" rotation="90"/>
+   <object id="72" gid="8" x="100" y="150" width="50" height="50" rotation="90"/>
   </objectgroup>
   <objectgroup id="27" name="Objects">
    <object id="68" name="Ending B Door" gid="13" x="50" y="150" width="50" height="50">

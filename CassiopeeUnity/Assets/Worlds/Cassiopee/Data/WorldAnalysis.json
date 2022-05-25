@@ -1,5 +1,5 @@
 {
-    "totalObjects": 3486,
+    "totalObjects": 3488,
     "totalAgents": 5,
     "referencedWorlds": [
         "Base",
@@ -74,6 +74,7 @@
         "/Cassiopee/Pieces/BlueLaser",
         "/Cassiopee/Pieces/ButtonSoundPlayer",
         "/Cassiopee/Pieces/chaise",
+        "/Cassiopee/Pieces/EndingBObj",
         "/Cassiopee/Pieces/Engrenage",
         "/Cassiopee/Pieces/Four",
         "/Cassiopee/Pieces/Helmet",

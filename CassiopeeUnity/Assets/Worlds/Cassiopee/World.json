@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.464",
-    "versionCode": 532,
+    "version": "0.0.467",
+    "versionCode": 535,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",
@@ -74,7 +74,7 @@
         "Enemy"
     ],
     "dependencies": {
-        "totalObjects": 3500,
+        "totalObjects": 3502,
         "totalAgents": 5,
         "referencedWorlds": [
             "Base",

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="33" nextobjectid="88">
+<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="33" nextobjectid="88">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -26,12 +26,12 @@
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
-   <object id="66" gid="8" x="150" y="30" width="50" height="50" rotation="180">
+   <object id="66" gid="8" x="150" y="50" width="50" height="50" rotation="180">
     <properties>
      <property name="TargetZone" value="Level2Room3"/>
     </properties>
    </object>
-   <object id="73" gid="8" x="100" y="30" width="50" height="50" rotation="180">
+   <object id="73" gid="8" x="100" y="50" width="50" height="50" rotation="180">
     <properties>
      <property name="TargetZone" value="Level2Room3"/>
     </properties>
@@ -42,7 +42,7 @@
     </properties>
    </object>
   </objectgroup>
-  <objectgroup id="27" name="Objects" visible="0">
+  <objectgroup id="27" name="Objects">
    <object id="80" type="Vent" gid="40" x="51.6667" y="100" width="50" height="50">
     <properties>
      <property name="Offset" value="0.6;0.35;0.5"/>
@@ -83,9 +83,9 @@
    </properties>
    <data encoding="csv">
 1610612741,0,0,2684354565,
-1610612742,0,0,6,
-1610612741,0,0,0,
-0,0,0,2684354566
+1610612741,0,0,2684354565,
+1610612742,0,0,2684354565,
+0,0,0,2684354565
 </data>
   </layer>
   <layer id="31" name="WallsAboveVent" width="4" height="4" visible="0" offsetx="0" offsety="1">

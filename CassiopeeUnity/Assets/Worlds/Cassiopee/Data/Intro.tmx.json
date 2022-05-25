@@ -353,13 +353,13 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":109,
+ "nextobjectid":110,
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"AmbientColor",
+         "name":"Music",
          "type":"string",
-         "value":"#282210"
+         "value":"blue.mp3"
         }, 
         {
          "name":"NoAgents",

@@ -52,6 +52,8 @@
         "/Base/Pieces/Transition",
         "/Base/Pieces/Wall",
         "/Base/Pieces/Waypoint",
+        "/Cassiopee/Audio/Music/alt.mp3",
+        "/Cassiopee/Audio/Music/blue.mp3",
         "/Cassiopee/Data/Intro",
         "/Cassiopee/Data/Level1Room1",
         "/Cassiopee/Data/Level2Room2",

@@ -6,121 +6,6 @@
          "id":5,
          "layers":[
                 {
-                 "data":[0, 4, 4, 4, 0, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0],
-                 "height":4,
-                 "id":30,
-                 "name":"GroundUp",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[ground]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"0;0;2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 0, 0, 4, 4],
-                 "height":4,
-                 "id":34,
-                 "name":"GroundDownRight",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[ground]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"2;0;-2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 4, 4, 0, 0, 4, 4, 0, 0, 4, 4, 0, 0, 4, 4],
-                 "height":4,
-                 "id":31,
-                 "name":"GroundRight",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[ground]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"2;0;0"
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 4, 4, 0, 0, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0],
-                 "height":4,
-                 "id":33,
-                 "name":"GroundUpRight",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[ground]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"2;0;2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 0, 4, 4, 4],
-                 "height":4,
-                 "id":32,
-                 "name":"GroundDown",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[ground]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"0;0;-2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
                  "data":[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
                  "height":4,
                  "id":1,
@@ -136,304 +21,6 @@
                          "name":"Walkable",
                          "type":"bool",
                          "value":true
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 3221225477, 3221225477, 3221225477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                 "height":4,
-                 "id":40,
-                 "name":"WallsUp1",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"0;0;-2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 2684354565, 0, 0, 0, 2684354565, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                 "height":4,
-                 "id":41,
-                 "name":"WallsUp2",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"-2;0;0"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 1610612741, 0, 0, 0, 1610612741, 0, 0, 0, 1610612741, 0, 0, 0, 1610612741],
-                 "height":4,
-                 "id":42,
-                 "name":"WallsRight",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"0;0;-2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5],
-                 "height":4,
-                 "id":43,
-                 "name":"WallsDown1",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"0;0;-2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5],
-                 "height":4,
-                 "id":48,
-                 "name":"WallsDown3",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"2;0;-2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 2684354565, 0, 0, 0, 2684354565, 0, 0],
-                 "height":4,
-                 "id":44,
-                 "name":"WallsDown2",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"2;0;0"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 3221225477, 3221225477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                 "height":4,
-                 "id":45,
-                 "name":"WallsUp3",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"-2;0;-2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 1610612741, 0, 0, 0, 1610612741, 0, 0, 0, 0, 0, 0, 0, 0],
-                 "height":4,
-                 "id":46,
-                 "name":"WallsRight2",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"2;0;-2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1610612741, 0, 0, 0, 1610612741],
-                 "height":4,
-                 "id":47,
-                 "name":"WallsRight3",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"-2;0;-2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[2684354566, 0, 0, 0, 2684354565, 0, 0, 0, 2684354565, 0, 0, 0, 6, 0, 0, 0],
-                 "height":4,
-                 "id":3,
-                 "name":"Walls",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 11, 0, 0, 1610612741, 2684354565, 0, 0],
-                 "height":4,
-                 "id":29,
-                 "name":"Walls2",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -465,116 +52,24 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3, 3],
+                 "data":[2684354566, 3221225477, 3221225477, 3221225483, 2684354565, 0, 0, 2684354567, 2684354565, 0, 0, 2684354567, 6, 5, 5, 1610612742],
                  "height":4,
-                 "id":53,
-                 "name":"CeilingDownRight",
+                 "id":3,
+                 "name":"Walls",
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[ceiling]"
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":true
                         }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"2;0;-2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 3, 3, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0],
-                 "height":4,
-                 "id":52,
-                 "name":"CeilingUpRight",
-                 "opacity":1,
-                 "properties":[
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[ceiling]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"2;0;2"
+                         "value":"[walls]"
                         }],
                  "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 3, 3, 0, 0, 3, 3, 0, 0, 3, 3, 0, 0, 3, 3],
-                 "height":4,
-                 "id":51,
-                 "name":"CeillingRight",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[ceiling]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"2;0;0"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 3, 3, 3],
-                 "height":4,
-                 "id":50,
-                 "name":"CeilingDown",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[ceiling]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"0;0;-2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "data":[0, 3, 3, 3, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0],
-                 "height":4,
-                 "id":49,
-                 "name":"CeilingUp",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[ceiling]"
-                        }, 
-                        {
-                         "name":"Move",
-                         "type":"string",
-                         "value":"0;0;2"
-                        }],
-                 "type":"tilelayer",
-                 "visible":false,
+                 "visible":true,
                  "width":4,
                  "x":0,
                  "y":0
@@ -587,7 +82,7 @@
                         {
                          "gid":8,
                          "height":50,
-                         "id":83,
+                         "id":65,
                          "name":"",
                          "properties":[
                                 {
@@ -598,14 +93,14 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level2Room2"
+                                 "value":"Level4Room1"
                                 }],
-                         "rotation":90,
+                         "rotation":-90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":50,
-                         "y":100
+                         "x":150,
+                         "y":200
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -623,270 +118,12 @@
                          "height":50,
                          "id":66,
                          "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"1.5;0;1"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"-90;0;90"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.11;0.11;0.12"
-                                }],
                          "rotation":0,
-                         "type":"TableDeReu",
+                         "type":"Lit",
                          "visible":true,
                          "width":50,
-                         "x":97.569,
-                         "y":134.52
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":67,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"1.8;0;1"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"0;-30;0"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.1;0.09;0.1"
-                                }],
-                         "rotation":0,
-                         "type":"chaise",
-                         "visible":true,
-                         "width":50,
-                         "x":149,
-                         "y":98
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":69,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"1.8;0;1"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"0;30;0"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.1;0.09;0.1"
-                                }],
-                         "rotation":0,
-                         "type":"chaise",
-                         "visible":true,
-                         "width":50,
-                         "x":144,
-                         "y":158
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":70,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0.8;0;1"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"0;210;0"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.1;0.09;0.1"
-                                }],
-                         "rotation":0,
-                         "type":"chaise",
-                         "visible":true,
-                         "width":50,
-                         "x":58.1667,
-                         "y":97.6667
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":71,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0.8;0;1"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"0;150;0"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.1;0.09;0.1"
-                                }],
-                         "rotation":0,
-                         "type":"chaise",
-                         "visible":true,
-                         "width":50,
-                         "x":53.1667,
-                         "y":158.667
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":74,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0;0;1"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.2;0.2;0.2"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"float",
-                                 "value":0.9
-                                }],
-                         "rotation":0,
-                         "type":"Walkman",
-                         "visible":true,
-                         "width":50,
-                         "x":108.463,
-                         "y":93.0686
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":75,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"1.3;-1;1"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"0;0;0"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"float",
-                                 "value":0.8
-                                }],
-                         "rotation":0,
-                         "type":"Ordi",
-                         "visible":true,
-                         "width":50,
-                         "x":115.756,
-                         "y":133.424
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":76,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"1;0.5;1"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.5;0.5;0.5"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"float",
-                                 "value":2
-                                }],
-                         "rotation":0,
-                         "type":"Mug",
-                         "visible":true,
-                         "width":50,
-                         "x":107.977,
-                         "y":93.7979
-                        }, 
-                        {
-                         "gid":13,
-                         "height":50,
-                         "id":85,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"wsh"
-                                }],
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
-                        }, 
-                        {
-                         "gid":14,
-                         "height":50,
-                         "id":87,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Orientation",
-                                 "type":"string",
-                                 "value":"down"
-                                }, 
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"wsh"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"float",
-                                 "value":0
-                                }],
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":102.142,
-                         "y":53.1999
+                         "x":36.6667,
+                         "y":136
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -901,19 +138,14 @@
                  "name":"Height",
                  "type":"float",
                  "value":2.5
-                }, 
-                {
-                 "name":"Skybox",
-                 "type":"string",
-                 "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
                 }],
          "type":"group",
          "visible":true,
          "x":0,
          "y":0
         }],
- "nextlayerid":60,
- "nextobjectid":91,
+ "nextlayerid":29,
+ "nextobjectid":67,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -925,16 +157,6 @@
          "name":"NoSpawning",
          "type":"bool",
          "value":false
-        }, 
-        {
-         "name":"Skybox",
-         "type":"string",
-         "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
-        }, 
-        {
-         "name":"SkyboxRotation",
-         "type":"string",
-         "value":"180;0;0"
         }],
  "renderorder":"left-up",
  "tiledversion":"1.8.1",

@@ -112,16 +112,21 @@
                                  "value":0
                                 }, 
                                 {
+                                 "name":"OneWay",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level4Room1"
+                                 "value":"TransitionLevel1Level4"
                                 }],
                          "rotation":180,
                          "type":"",
                          "visible":true,
                          "width":50,
                          "x":50,
-                         "y":100
+                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -130,7 +135,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 2684354566, 1073741829, 3221225478, 2684354565, 2684354565, 0, 1610612741, 3758096389, 0, 0, 1610612741, 6, 6, 5, 1610612742],
+                 "data":[2684354566, 2684354566, 1073741829, 3221225478, 2684354565, 0, 0, 1610612741, 3758096389, 0, 0, 1610612741, 6, 6, 5, 1610612742],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -432,6 +437,24 @@
                          "width":50,
                          "x":100,
                          "y":0
+                        }, 
+                        {
+                         "gid":13,
+                         "height":50,
+                         "id":121,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"combo-laser"
+                                }],
+                         "rotation":90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -458,7 +481,7 @@
          "y":0
         }],
  "nextlayerid":39,
- "nextobjectid":121,
+ "nextobjectid":122,
  "orientation":"orthogonal",
  "properties":[
         {

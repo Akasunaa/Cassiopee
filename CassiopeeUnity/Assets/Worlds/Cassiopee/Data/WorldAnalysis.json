@@ -1,5 +1,5 @@
 {
-    "totalObjects": 3786,
+    "totalObjects": 3915,
     "totalAgents": 9,
     "referencedWorlds": [
         "Base",
@@ -71,6 +71,7 @@
         "/Cassiopee/Data/Level8EndingA",
         "/Cassiopee/Data/Level8EndingB",
         "/Cassiopee/Data/TransitionIntroLevel5",
+        "/Cassiopee/Data/TransitionLevel1Level4",
         "/Cassiopee/Materials/MainPanel",
         "/Cassiopee/Materials/MetalPanel",
         "/Cassiopee/Materials/OrangeNeon",
@@ -89,6 +90,7 @@
         "/Cassiopee/Pieces/LaboTable",
         "/Cassiopee/Pieces/Laser",
         "/Cassiopee/Pieces/LaserPistol",
+        "/Cassiopee/Pieces/Lit",
         "/Cassiopee/Pieces/Manual",
         "/Cassiopee/Pieces/Marteau",
         "/Cassiopee/Pieces/Molette",

@@ -52,7 +52,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 3221225477, 1073741829, 3221225478, 2684354565, 0, 0, 1610612741, 3758096389, 0, 0, 1610612741, 6, 5, 5, 1610612742],
+                 "data":[2684354566, 3221225477, 3221225477, 3221225478, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -75,10 +75,10 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 1610612741, 5, 0, 1610612741, 0, 1610612741, 0, 1610612741, 0, 0, 0, 0, 0, 0, 0],
+                 "data":[0, 2684354565, 5, 0, 0, 2684354565, 0, 3221225477, 0, 0, 3221225478, 0, 0, 0, 1610612741, 0],
                  "height":4,
                  "id":29,
-                 "name":"WallsInner1",
+                 "name":"WallsInner",
                  "opacity":1,
                  "properties":[
                         {
@@ -93,7 +93,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 0, 3221225477, 0, 0, 0],
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 2684354565, 0, 0, 0, 0, 0],
                  "height":4,
                  "id":30,
                  "name":"WallsInner2",
@@ -124,9 +124,38 @@
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":100,
-                         "y":0
+                         "x":145,
+                         "y":149.25
                         }, 
+                        {
+                         "gid":8,
+                         "height":50,
+                         "id":67,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Level4Room2"
+                                }],
+                         "rotation":-90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":50
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":31,
+                 "name":"LevelExit",
+                 "objects":[
                         {
                          "gid":8,
                          "height":50,
@@ -134,16 +163,26 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"MazeTransitions",
+                                 "type":"int",
+                                 "value":0
+                                }, 
+                                {
+                                 "name":"OneWay",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level4Room3"
+                                 "value":"Level6Room1"
                                 }],
-                         "rotation":0,
+                         "rotation":-90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":0,
-                         "y":150
+                         "x":50,
+                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -159,31 +198,31 @@
                         {
                          "gid":13,
                          "height":50,
-                         "id":67,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"doorLevel4Room2"
-                                }],
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":100
-                        }, 
-                        {
-                         "gid":14,
-                         "height":50,
                          "id":68,
                          "name":"",
                          "properties":[
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"doorLevel4Room2"
+                                 "value":"doorLevel4"
+                                }],
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":50
+                        }, 
+                        {
+                         "gid":14,
+                         "height":50,
+                         "id":69,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"doorLevel4Room1"
                                 }, 
                                 {
                                  "name":"Y",
@@ -194,47 +233,42 @@
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":50,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":69,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0.3,0.5,0.2"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"90,0,90"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":2
-                                }],
-                         "rotation":0,
-                         "type":"Laser",
-                         "visible":true,
-                         "width":50,
                          "x":150,
                          "y":100
                         }, 
                         {
-                         "gid":40,
+                         "gid":13,
                          "height":50,
                          "id":70,
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"doorLevel4Room1"
+                                }],
+                         "rotation":-90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":71,
+                         "name":"Laser1",
+                         "properties":[
+                                {
+                                 "name":"Center",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
                                  "name":"Offset",
                                  "type":"string",
-                                 "value":"1,0.5,0.32"
+                                 "value":"0.4,0.3,0.5"
                                 }, 
                                 {
                                  "name":"Rotate",
@@ -242,6 +276,16 @@
                                  "value":"90,0,0"
                                 }, 
                                 {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
+                                 "name":"Snap",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
                                  "name":"Y",
                                  "type":"int",
                                  "value":2
@@ -250,36 +294,31 @@
                          "type":"Laser",
                          "visible":true,
                          "width":50,
-                         "x":50,
-                         "y":200
+                         "x":100,
+                         "y":150
                         }, 
                         {
                          "gid":40,
                          "height":50,
-                         "id":71,
-                         "name":"",
+                         "id":73,
+                         "name":"Arrow",
                          "properties":[
                                 {
                                  "name":"Offset",
                                  "type":"string",
-                                 "value":"0.2,0,0"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"0,90,0"
+                                 "value":"0.2,0,0.2"
                                 }],
                          "rotation":0,
                          "type":"Arrow",
                          "visible":true,
                          "width":50,
-                         "x":0,
+                         "x":50,
                          "y":50
                         }, 
                         {
                          "gid":40,
                          "height":50,
-                         "id":72,
+                         "id":74,
                          "name":"",
                          "rotation":0,
                          "type":"ButtonSoundPlayer",
@@ -288,17 +327,6 @@
                          "x":50,
                          "y":150
                         }],
-                 "opacity":1,
-                 "type":"objectgroup",
-                 "visible":true,
-                 "x":0,
-                 "y":0
-                }, 
-                {
-                 "draworder":"topdown",
-                 "id":31,
-                 "name":"Lasers",
-                 "objects":[],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -319,7 +347,7 @@
          "y":0
         }],
  "nextlayerid":32,
- "nextobjectid":73,
+ "nextobjectid":75,
  "orientation":"orthogonal",
  "properties":[
         {

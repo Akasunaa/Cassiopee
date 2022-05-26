@@ -69,7 +69,7 @@
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
-   <object id="65" gid="20" x="100" y="0" width="50" height="50" rotation="90"/>
+   <object id="65" gid="20" x="150" y="50" width="50" height="50" rotation="-90"/>
    <object id="66" gid="8" x="0" y="150" width="50" height="50">
     <properties>
      <property name="TargetZone" value="Level4Room3"/>
@@ -88,21 +88,21 @@
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="69" type="Laser" gid="40" x="150" y="100" width="50" height="50">
+   <object id="69" name="Laser" type="Laser" gid="40" x="150" y="100" width="50" height="50">
     <properties>
      <property name="Offset" value="0.3,0.5,0.2"/>
      <property name="Rotate" value="90,0,90"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="70" type="Laser" gid="40" x="50" y="200" width="50" height="50">
+   <object id="70" name="Laser" type="Laser" gid="40" x="50" y="200" width="50" height="50">
     <properties>
      <property name="Offset" value="1,0.5,0.32"/>
      <property name="Rotate" value="90,0,0"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="71" type="Arrow" gid="40" x="0" y="50" width="50" height="50">
+   <object id="71" name="Arrow" type="Arrow" gid="40" x="0" y="50" width="50" height="50">
     <properties>
      <property name="Offset" value="0.2,0,0"/>
      <property name="Rotate" value="0,90,0"/>

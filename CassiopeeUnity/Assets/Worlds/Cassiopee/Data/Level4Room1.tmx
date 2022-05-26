@@ -52,7 +52,7 @@
    </properties>
    <data encoding="csv">
 0,2684354565,5,0,
-0,2684354565,0,3221225477,
+0,2684354565,0,0,
 0,0,3221225478,0,
 0,0,1610612741,0
 </data>
@@ -62,7 +62,7 @@
     <property name="ConnectToCeiling" type="bool" value="true"/>
    </properties>
    <data encoding="csv">
-0,0,0,0,
+0,0,0,5,
 0,0,0,0,
 0,5,2684354565,0,
 0,0,0,0

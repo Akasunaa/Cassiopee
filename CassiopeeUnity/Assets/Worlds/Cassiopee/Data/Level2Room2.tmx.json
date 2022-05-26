@@ -68,24 +68,6 @@
                          "width":50,
                          "x":100,
                          "y":30
-                        }, 
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":88,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"Level2Room4"
-                                }],
-                         "rotation":180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -179,7 +161,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[1610612741, 0, 0, 2684354565, 2684354567, 0, 0, 6, 1610612741, 0, 0, 0, 0, 0, 0, 2684354566],
+                 "data":[1610612741, 0, 0, 2684354565, 1610612742, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 2684354566],
                  "height":4,
                  "id":30,
                  "name":"Walls2",
@@ -279,7 +261,7 @@
          "value":"180;0;0"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1176,6 +1158,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="29" nextobjectid="75">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="29" nextobjectid="76">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -61,6 +61,7 @@
    <object id="72" type="/TrainingGround/SpiderBot" gid="40" x="0" y="100" width="50" height="50"/>
    <object id="73" type="/TrainingGround/SpiderBot" gid="40" x="50" y="150" width="50" height="50"/>
    <object id="74" type="/TrainingGround/SpiderBot" gid="40" x="100" y="200" width="50" height="50"/>
+   <object id="75" type="/TrainingGround/SpiderBot" gid="40" x="50" y="50" width="50" height="50"/>
   </objectgroup>
  </group>
 </map>

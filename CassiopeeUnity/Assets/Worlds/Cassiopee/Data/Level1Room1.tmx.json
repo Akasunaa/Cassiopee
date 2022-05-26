@@ -17,28 +17,31 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"1;0;0.5"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"-90;180;180"
+                                }, 
+                                {
                                  "name":"Scale",
                                  "type":"string",
-                                 "value":"0.05,0.05,0.05"
+                                 "value":"0.05,0.05,0.1"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":0
                                 }],
                          "rotation":0,
                          "type":"TableDeReu",
                          "visible":true,
                          "width":50,
-                         "x":143.956,
-                         "y":201.492
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":117,
-                         "name":"",
-                         "rotation":0,
-                         "type":"Ordi",
-                         "visible":true,
-                         "width":50,
-                         "x":135.204,
-                         "y":200.277
+                         "x":24.3498,
+                         "y":124.429
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -150,24 +153,6 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                 "height":4,
-                 "id":34,
-                 "name":"Lion",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
                  "draworder":"topdown",
                  "id":37,
                  "name":"Enigmes",
@@ -179,16 +164,31 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.4;0;0.05"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"180;180;180"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.3"
+                                }, 
+                                {
                                  "name":"Y",
                                  "type":"int",
                                  "value":2
                                 }],
                          "rotation":0,
-                         "type":"Three",
+                         "type":"3deng",
                          "visible":true,
                          "width":50,
-                         "x":150,
-                         "y":150
+                         "x":50,
+                         "y":200
                         }, 
                         {
                          "gid":40,
@@ -197,16 +197,31 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.2;0;0.4"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"180;180;0"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.3"
+                                }, 
+                                {
                                  "name":"Y",
                                  "type":"int",
                                  "value":2
                                 }],
                          "rotation":0,
-                         "type":"Two",
+                         "type":"2civil",
                          "visible":true,
                          "width":50,
-                         "x":124.667,
-                         "y":37
+                         "x":150,
+                         "y":50
                         }, 
                         {
                          "gid":40,
@@ -215,16 +230,31 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.4;0;0.4"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"180;180;0"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.3"
+                                }, 
+                                {
                                  "name":"Y",
                                  "type":"int",
                                  "value":2
                                 }],
                          "rotation":0,
-                         "type":"One",
+                         "type":"1ext",
                          "visible":true,
                          "width":50,
-                         "x":150,
-                         "y":39.6667
+                         "x":50,
+                         "y":50
                         }, 
                         {
                          "gid":40,
@@ -233,16 +263,31 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.2;0;0.05"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"180;180;180"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.3"
+                                }, 
+                                {
                                  "name":"Y",
                                  "type":"int",
                                  "value":2
                                 }],
                          "rotation":0,
-                         "type":"Four",
+                         "type":"4inond",
                          "visible":true,
                          "width":50,
-                         "x":100,
-                         "y":150
+                         "x":150,
+                         "y":200
                         }, 
                         {
                          "gid":40,
@@ -264,74 +309,8 @@
                          "type":"Tablette",
                          "visible":true,
                          "width":50,
-                         "x":131.801,
-                         "y":106.196
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":114,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"-0.05,0.5,0"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"90,0,0"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":1
-                                }, 
-                                {
-                                 "name":"variable",
-                                 "type":"string",
-                                 "value":"combo-laser"
-                                }],
-                         "rotation":0,
-                         "type":"BlueLaser",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":115,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"-0.05,0.5,0"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"90,0,0"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":1
-                                }, 
-                                {
-                                 "name":"variable",
-                                 "type":"string",
-                                 "value":"combo-laser"
-                                }],
-                         "rotation":0,
-                         "type":"BlueLaser",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":150
+                         "x":136.177,
+                         "y":95.9857
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -405,7 +384,7 @@
                          "type":"\/Base\/Button",
                          "visible":true,
                          "width":50,
-                         "x":100,
+                         "x":150,
                          "y":200
                         }, 
                         {
@@ -428,7 +407,7 @@
                          "type":"\/Base\/Button",
                          "visible":true,
                          "width":50,
-                         "x":150,
+                         "x":200,
                          "y":0
                         }, 
                         {
@@ -498,7 +477,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1395,6 +1374,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

@@ -13,12 +13,14 @@
    <property name="Skybox" value="/Skybox/AllSky_Space_AnotherPlanet"/>
   </properties>
   <objectgroup id="38" name="Objets">
-   <object id="116" type="TableDeReu" gid="40" x="143.956" y="201.492" width="50" height="50">
+   <object id="116" type="TableDeReu" gid="40" x="24.3498" y="124.429" width="50" height="50">
     <properties>
-     <property name="Scale" value="0.05,0.05,0.05"/>
+     <property name="Offset" value="1;0;0.5"/>
+     <property name="Rotate" value="-90;180;180"/>
+     <property name="Scale" value="0.05,0.05,0.1"/>
+     <property name="Y" type="int" value="0"/>
     </properties>
    </object>
-   <object id="117" type="Ordi" gid="40" x="135.204" y="200.277" width="50" height="50"/>
   </objectgroup>
   <layer id="1" name="Ground" width="4" height="4">
    <properties>
@@ -64,58 +66,43 @@
 6,6,5,1610612742
 </data>
   </layer>
-  <layer id="34" name="Lion" width="4" height="4">
-   <properties>
-    <property name="ConnectToCeiling" type="bool" value="true"/>
-   </properties>
-   <data encoding="csv">
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0
-</data>
-  </layer>
   <objectgroup id="37" name="Enigmes">
-   <object id="105" type="Three" gid="40" x="150" y="150" width="50" height="50">
+   <object id="105" type="3deng" gid="40" x="50" y="200" width="50" height="50">
     <properties>
+     <property name="Offset" value="0.4;0;0.05"/>
+     <property name="Rotate" value="180;180;180"/>
+     <property name="Scale" value="0.3"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="106" type="Two" gid="40" x="124.667" y="37" width="50" height="50">
+   <object id="106" type="2civil" gid="40" x="150" y="50" width="50" height="50">
     <properties>
+     <property name="Offset" value="0.2;0;0.4"/>
+     <property name="Rotate" value="180;180;0"/>
+     <property name="Scale" value="0.3"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="107" type="One" gid="40" x="150" y="39.6667" width="50" height="50">
+   <object id="107" type="1ext" gid="40" x="50" y="50" width="50" height="50">
     <properties>
+     <property name="Offset" value="0.4;0;0.4"/>
+     <property name="Rotate" value="180;180;0"/>
+     <property name="Scale" value="0.3"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="108" type="Four" gid="40" x="100" y="150" width="50" height="50">
+   <object id="108" type="4inond" gid="40" x="150" y="200" width="50" height="50">
     <properties>
+     <property name="Offset" value="0.2;0;0.05"/>
+     <property name="Rotate" value="180;180;180"/>
+     <property name="Scale" value="0.3"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="110" type="Tablette" gid="40" x="131.801" y="106.196" width="50" height="50">
+   <object id="110" type="Tablette" gid="40" x="136.177" y="95.9857" width="50" height="50">
     <properties>
      <property name="Scale" value=""/>
      <property name="Y" type="int" value="2"/>
-    </properties>
-   </object>
-   <object id="114" type="BlueLaser" gid="40" x="50" y="100" width="50" height="50">
-    <properties>
-     <property name="Offset" value="-0.05,0.5,0"/>
-     <property name="Rotate" value="90,0,0"/>
-     <property name="Y" type="int" value="1"/>
-     <property name="variable" value="combo-laser"/>
-    </properties>
-   </object>
-   <object id="115" type="BlueLaser" gid="40" x="50" y="150" width="50" height="50">
-    <properties>
-     <property name="Offset" value="-0.05,0.5,0"/>
-     <property name="Rotate" value="90,0,0"/>
-     <property name="Y" type="int" value="1"/>
-     <property name="variable" value="combo-laser"/>
     </properties>
    </object>
   </objectgroup>
@@ -131,13 +118,13 @@
      <property name="Y" type="float" value="1"/>
     </properties>
    </object>
-   <object id="98" type="/Base/Button" gid="14" x="100" y="200" width="50" height="50">
+   <object id="98" type="/Base/Button" gid="14" x="150" y="200" width="50" height="50">
     <properties>
      <property name="Variable" value="combo-laser-three"/>
      <property name="Y" type="float" value="1"/>
     </properties>
    </object>
-   <object id="99" type="/Base/Button" gid="14" x="150" y="0" width="50" height="50" rotation="-180">
+   <object id="99" type="/Base/Button" gid="14" x="200" y="0" width="50" height="50" rotation="-180">
     <properties>
      <property name="Variable" value="combo-laser-one"/>
      <property name="Y" type="float" value="1"/>

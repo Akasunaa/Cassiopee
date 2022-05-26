@@ -34,9 +34,9 @@ MonoBehaviour:
   m_MonoScriptBundleNaming: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 926d06755cd1170419f9ad16bed2b320
+    m_Id: 68f4898668609984ababe3d85f89cce5
   m_RemoteCatalogLoadPath:
-    m_Id: a78a0f6275627f64c8b8114d8cf57b64
+    m_Id: 0084dd95b7a05214f898e8cf704968e3
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: 
@@ -87,9 +87,9 @@ MonoBehaviour:
       - m_Id: 494f6a2521e826e42895a22d1912ede1
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 68f4898668609984ababe3d85f89cce5
-        m_Value: C:/Users/shado/Documents/Unity/Cassiopee/CassiopeeUnity/Assets/../traVRsal/Cassiopee/[BuildTarget]
+        m_Value: C:/Users/prome/OneDrive/Bureau/Cassiopee/CassiopeeUnity/Assets/../traVRsal/Cassiopee/[BuildTarget]
       - m_Id: 0084dd95b7a05214f898e8cf704968e3
-        m_Value: C:/Users/shado/Documents/Unity/Cassiopee/CassiopeeUnity/Assets/../traVRsal/Cassiopee/[BuildTarget]
+        m_Value: C:/Users/prome/OneDrive/Bureau/Cassiopee/CassiopeeUnity/Assets/../traVRsal/Cassiopee/[BuildTarget]
       - m_Id: 926d06755cd1170419f9ad16bed2b320
         m_Value: ServerData/Worlds/Cassiopee/[BuildTarget]
       - m_Id: a78a0f6275627f64c8b8114d8cf57b64

@@ -98,6 +98,7 @@
    </object>
    <object id="69" gid="8" x="150" y="50" width="50" height="50" rotation="-90">
     <properties>
+     <property name="OneWay" type="bool" value="true"/>
      <property name="TargetZone" value="Level1Room1"/>
     </properties>
    </object>

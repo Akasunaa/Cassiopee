@@ -53,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3762950676531945094, guid: 7f1e14908df9b714eb4593049ca8f04d, type: 3}
       propertyPath: m_Name
-      value: DialogLocationEntitySalle002
+      value: DialogLocationEntityLevel5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f1e14908df9b714eb4593049ca8f04d, type: 3}

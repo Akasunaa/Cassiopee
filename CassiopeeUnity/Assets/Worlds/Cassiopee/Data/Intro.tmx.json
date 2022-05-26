@@ -316,6 +316,18 @@
                          "width":50,
                          "x":50,
                          "y":100
+                        }, 
+                        {
+                         "gid":42,
+                         "height":50,
+                         "id":110,
+                         "name":"DialogPiece",
+                         "rotation":0,
+                         "type":"DialogLocationEntitySalle001",
+                         "visible":true,
+                         "width":50,
+                         "x":70.1505,
+                         "y":106.82
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -353,7 +365,7 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":110,
+ "nextobjectid":111,
  "orientation":"orthogonal",
  "properties":[
         {

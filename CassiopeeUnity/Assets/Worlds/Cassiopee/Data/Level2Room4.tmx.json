@@ -166,7 +166,7 @@
                          "value":"0;0;-2"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -194,7 +194,7 @@
                          "value":"-2;0;0"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -222,7 +222,7 @@
                          "value":"0;0;-2"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -250,7 +250,7 @@
                          "value":"0;0;-2"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -278,7 +278,7 @@
                          "value":"2;0;-2"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -306,7 +306,7 @@
                          "value":"2;0;0"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -334,7 +334,7 @@
                          "value":"-2;0;-2"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -362,7 +362,7 @@
                          "value":"2;0;-2"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -396,7 +396,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 0, 0, 0, 2684354565, 0, 0, 0, 2684354565, 1610612742, 0, 0, 6, 0, 0, 0],
+                 "data":[2684354566, 0, 0, 0, 2684354565, 0, 0, 0, 2684354565, 0, 0, 0, 6, 0, 0, 0],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -413,13 +413,13 @@
                          "value":"[mainWalls]"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 1610612742, 0, 0, 1610612741, 2684354565, 0, 0],
+                 "data":[0, 0, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 11, 0, 0, 1610612741, 2684354565, 0, 0],
                  "height":4,
                  "id":29,
                  "name":"Walls2",
@@ -593,14 +593,14 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level7"
+                                 "value":"Level2Room2"
                                 }],
                          "rotation":90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":52.1879,
-                         "y":94.1656
+                         "x":50,
+                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -897,8 +897,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":58,
- "nextobjectid":88,
+ "nextlayerid":60,
+ "nextobjectid":91,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -922,7 +922,7 @@
          "value":"180;0;0"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1819,6 +1819,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

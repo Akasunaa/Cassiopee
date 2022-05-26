@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="58" nextobjectid="88">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="60" nextobjectid="91">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -85,7 +85,7 @@
 4,4,4,4
 </data>
   </layer>
-  <layer id="40" name="WallsUp1" width="4" height="4">
+  <layer id="40" name="WallsUp1" width="4" height="4" visible="0">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
     <property name="Materials" value="[mainWalls]"/>
@@ -98,7 +98,7 @@
 0,0,0,0
 </data>
   </layer>
-  <layer id="41" name="WallsUp2" width="4" height="4">
+  <layer id="41" name="WallsUp2" width="4" height="4" visible="0">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
     <property name="Materials" value="[mainWalls]"/>
@@ -111,7 +111,7 @@
 0,0,0,0
 </data>
   </layer>
-  <layer id="42" name="WallsRight" width="4" height="4">
+  <layer id="42" name="WallsRight" width="4" height="4" visible="0">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
     <property name="Materials" value="[mainWalls]"/>
@@ -124,7 +124,7 @@
 0,0,0,1610612741
 </data>
   </layer>
-  <layer id="43" name="WallsDown1" width="4" height="4">
+  <layer id="43" name="WallsDown1" width="4" height="4" visible="0">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
     <property name="Materials" value="[mainWalls]"/>
@@ -137,7 +137,7 @@
 0,5,5,5
 </data>
   </layer>
-  <layer id="48" name="WallsDown3" width="4" height="4">
+  <layer id="48" name="WallsDown3" width="4" height="4" visible="0">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
     <property name="Materials" value="[mainWalls]"/>
@@ -150,7 +150,7 @@
 0,0,5,5
 </data>
   </layer>
-  <layer id="44" name="WallsDown2" width="4" height="4">
+  <layer id="44" name="WallsDown2" width="4" height="4" visible="0">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
     <property name="Materials" value="[mainWalls]"/>
@@ -163,7 +163,7 @@
 0,2684354565,0,0
 </data>
   </layer>
-  <layer id="45" name="WallsUp3" width="4" height="4">
+  <layer id="45" name="WallsUp3" width="4" height="4" visible="0">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
     <property name="Materials" value="[mainWalls]"/>
@@ -176,7 +176,7 @@
 0,0,0,0
 </data>
   </layer>
-  <layer id="46" name="WallsRight2" width="4" height="4">
+  <layer id="46" name="WallsRight2" width="4" height="4" visible="0">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
     <property name="Materials" value="[mainWalls]"/>
@@ -202,7 +202,7 @@
 0,0,0,1610612741
 </data>
   </layer>
-  <layer id="3" name="Walls" width="4" height="4">
+  <layer id="3" name="Walls" width="4" height="4" visible="0">
    <properties>
     <property name="ConnectToCeiling" type="bool" value="true"/>
     <property name="Materials" value="[mainWalls]"/>
@@ -210,7 +210,7 @@
    <data encoding="csv">
 2684354566,0,0,0,
 2684354565,0,0,0,
-2684354565,1610612742,0,0,
+2684354565,0,0,0,
 6,0,0,0
 </data>
   </layer>
@@ -222,7 +222,7 @@
    <data encoding="csv">
 0,0,0,0,
 1610612741,2684354565,0,0,
-1610612741,1610612742,0,0,
+1610612741,11,0,0,
 1610612741,2684354565,0,0
 </data>
   </layer>
@@ -299,9 +299,9 @@
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
-   <object id="83" gid="8" x="52.1879" y="94.1656" width="50" height="50" rotation="90">
+   <object id="83" gid="8" x="50" y="100" width="50" height="50" rotation="90">
     <properties>
-     <property name="TargetZone" value="Level7"/>
+     <property name="TargetZone" value="Level2Room2"/>
     </properties>
    </object>
   </objectgroup>

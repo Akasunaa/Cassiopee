@@ -36,11 +36,6 @@
      <property name="TargetZone" value="Level2Room3"/>
     </properties>
    </object>
-   <object id="88" gid="8" x="50" y="100" width="50" height="50" rotation="180">
-    <properties>
-     <property name="TargetZone" value="Level2Room4"/>
-    </properties>
-   </object>
   </objectgroup>
   <objectgroup id="27" name="Objects" visible="0">
    <object id="80" type="Vent" gid="40" x="51.6667" y="100" width="50" height="50">
@@ -83,8 +78,8 @@
    </properties>
    <data encoding="csv">
 1610612741,0,0,2684354565,
-2684354567,0,0,6,
-1610612741,0,0,0,
+1610612742,0,0,6,
+0,0,0,0,
 0,0,0,2684354566
 </data>
   </layer>

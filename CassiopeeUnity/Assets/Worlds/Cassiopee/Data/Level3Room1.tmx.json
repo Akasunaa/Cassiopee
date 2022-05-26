@@ -179,6 +179,18 @@
                          "width":50,
                          "x":100,
                          "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":75,
+                         "name":"",
+                         "rotation":0,
+                         "type":"\/TrainingGround\/SpiderBot",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -205,7 +217,7 @@
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":75,
+ "nextobjectid":76,
  "orientation":"orthogonal",
  "properties":[
         {

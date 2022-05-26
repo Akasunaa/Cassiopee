@@ -74,7 +74,7 @@
    <object id="98" type="Marteau" gid="40" x="150" y="100" width="50" height="50"/>
    <object id="99" type="Molette" gid="40" x="50" y="50" width="50" height="50"/>
    <object id="100" type="Marteau" gid="40" x="50" y="100" width="50" height="50"/>
-   <object id="110" name="DialogPiece" type="DialogLocationEntitySalle001" gid="42" x="70.1505" y="106.82" width="50" height="50"/>
+   <object id="110" name="DialogPieceIntro" type="DialogLocationEntityIntro" gid="42" x="70.1505" y="106.82" width="50" height="50"/>
   </objectgroup>
   <objectgroup id="29" name="Enemy"/>
  </group>

@@ -349,6 +349,18 @@
                          "width":50,
                          "x":100,
                          "y":100
+                        }, 
+                        {
+                         "gid":42,
+                         "height":50,
+                         "id":76,
+                         "name":"DialogPieceLevel4",
+                         "rotation":0,
+                         "type":"DialogLocationEntityLevel4",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -370,7 +382,7 @@
          "y":0
         }],
  "nextlayerid":32,
- "nextobjectid":76,
+ "nextobjectid":77,
  "orientation":"orthogonal",
  "properties":[
         {

@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.510",
-    "versionCode": 578,
+    "version": "0.0.515",
+    "versionCode": 583,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",
@@ -74,7 +74,7 @@
         "Enemy"
     ],
     "dependencies": {
-        "totalObjects": 3923,
+        "totalObjects": 3931,
         "totalAgents": 9,
         "referencedWorlds": [
             "Base",
@@ -158,6 +158,10 @@
             "/Cassiopee/Pieces/ButtonSoundPlayer",
             "/Cassiopee/Pieces/chaise",
             "/Cassiopee/Pieces/DialogLocationEntity",
+            "/Cassiopee/Pieces/DialogLocationEntityIntro",
+            "/Cassiopee/Pieces/DialogLocationEntityLevel4",
+            "/Cassiopee/Pieces/DialogLocationEntityLevel5",
+            "/Cassiopee/Pieces/DialogLocationEntityLevel7",
             "/Cassiopee/Pieces/EndingDestroyableObject",
             "/Cassiopee/Pieces/Engrenage",
             "/Cassiopee/Pieces/Helmet",

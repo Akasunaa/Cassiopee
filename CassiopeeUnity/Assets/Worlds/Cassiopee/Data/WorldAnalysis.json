@@ -1,5 +1,5 @@
 {
-    "totalObjects": 3925,
+    "totalObjects": 3931,
     "totalAgents": 9,
     "referencedWorlds": [
         "Base",
@@ -83,7 +83,10 @@
         "/Cassiopee/Pieces/ButtonSoundPlayer",
         "/Cassiopee/Pieces/chaise",
         "/Cassiopee/Pieces/DialogLocationEntity",
-        "/Cassiopee/Pieces/DialogLocationEntitySalle001",
+        "/Cassiopee/Pieces/DialogLocationEntityIntro",
+        "/Cassiopee/Pieces/DialogLocationEntityLevel4",
+        "/Cassiopee/Pieces/DialogLocationEntityLevel5",
+        "/Cassiopee/Pieces/DialogLocationEntityLevel7",
         "/Cassiopee/Pieces/EndingDestroyableObject",
         "/Cassiopee/Pieces/Engrenage",
         "/Cassiopee/Pieces/Helmet",

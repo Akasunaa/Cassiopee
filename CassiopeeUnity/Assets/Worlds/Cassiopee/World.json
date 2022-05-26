@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.504",
-    "versionCode": 572,
+    "version": "0.0.505",
+    "versionCode": 573,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",
@@ -74,7 +74,7 @@
         "Enemy"
     ],
     "dependencies": {
-        "totalObjects": 3915,
+        "totalObjects": 3923,
         "totalAgents": 9,
         "referencedWorlds": [
             "Base",
@@ -157,6 +157,7 @@
             "/Cassiopee/Pieces/Arrow",
             "/Cassiopee/Pieces/ButtonSoundPlayer",
             "/Cassiopee/Pieces/chaise",
+            "/Cassiopee/Pieces/DialogLocationEntity",
             "/Cassiopee/Pieces/EndingDestroyableObject",
             "/Cassiopee/Pieces/Engrenage",
             "/Cassiopee/Pieces/Helmet",
@@ -165,12 +166,14 @@
             "/Cassiopee/Pieces/LaboTable",
             "/Cassiopee/Pieces/Laser",
             "/Cassiopee/Pieces/LaserPistol",
-            "/Cassiopee/Pieces/lit",
+            "/Cassiopee/Pieces/Lit",
             "/Cassiopee/Pieces/Manual",
             "/Cassiopee/Pieces/Marteau",
             "/Cassiopee/Pieces/Molette",
             "/Cassiopee/Pieces/Mug",
             "/Cassiopee/Pieces/NumberOne",
+            "/Cassiopee/Pieces/NumberThree",
+            "/Cassiopee/Pieces/NumberTwo",
             "/Cassiopee/Pieces/Ordi",
             "/Cassiopee/Pieces/Pipes",
             "/Cassiopee/Pieces/PipesLong",

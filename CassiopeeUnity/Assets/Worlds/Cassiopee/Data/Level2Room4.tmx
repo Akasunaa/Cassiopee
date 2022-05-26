@@ -301,6 +301,7 @@
   <objectgroup id="4" name="Transitions">
    <object id="83" gid="8" x="50" y="100" width="50" height="50" rotation="90">
     <properties>
+     <property name="OneWay" type="bool" value="true"/>
      <property name="TargetZone" value="Level2Room2"/>
     </properties>
    </object>
@@ -367,9 +368,11 @@
      <property name="Variable" value="wsh"/>
     </properties>
    </object>
-   <object id="87" gid="14" x="71.5115" y="43.4758" width="50" height="50">
+   <object id="87" gid="14" x="102.142" y="53.1999" width="50" height="50">
     <properties>
+     <property name="Orientation" value="down"/>
      <property name="Variable" value="wsh"/>
+     <property name="Y" type="float" value="0"/>
     </properties>
    </object>
   </objectgroup>

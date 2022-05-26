@@ -90,6 +90,11 @@
             "fileName": "Level8EndingB.tmx",
             "x": 0,
             "y": 0
+        },
+        {
+            "fileName": "TransitionLevel1Level4.tmx",
+            "x": 0,
+            "y": 0
         }
     ]
 }

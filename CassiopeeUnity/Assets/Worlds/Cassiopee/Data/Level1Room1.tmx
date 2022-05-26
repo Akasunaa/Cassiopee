@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="39" nextobjectid="121">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="39" nextobjectid="122">
  <properties>
   <property name="AmbientColor" value="#FFFFFF"/>
   <property name="NoAgents" type="bool" value="false"/>
@@ -47,10 +47,11 @@
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
-   <object id="70" gid="8" x="50" y="100" width="50" height="50" rotation="180">
+   <object id="70" gid="8" x="50" y="50" width="50" height="50" rotation="180">
     <properties>
      <property name="MazeTransitions" type="int" value="0"/>
-     <property name="TargetZone" value="Level4Room1"/>
+     <property name="OneWay" type="bool" value="true"/>
+     <property name="TargetZone" value="TransitionLevel1Level4"/>
     </properties>
    </object>
   </objectgroup>
@@ -61,7 +62,7 @@
    </properties>
    <data encoding="csv">
 2684354566,2684354566,1073741829,3221225478,
-2684354565,2684354565,0,1610612741,
+2684354565,0,0,1610612741,
 3758096389,0,0,1610612741,
 6,6,5,1610612742
 </data>
@@ -134,6 +135,11 @@
     <properties>
      <property name="Variable" value="combo-laser-two"/>
      <property name="Y" type="float" value="1"/>
+    </properties>
+   </object>
+   <object id="121" gid="13" x="50" y="50" width="50" height="50" rotation="90">
+    <properties>
+     <property name="Variable" value="combo-laser"/>
     </properties>
    </object>
   </objectgroup>

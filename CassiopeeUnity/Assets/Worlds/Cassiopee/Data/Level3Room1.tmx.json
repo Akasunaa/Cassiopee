@@ -98,6 +98,11 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"OneWay",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
                                  "name":"TargetZone",
                                  "type":"string",
                                  "value":"Level3Room2"

@@ -64,6 +64,7 @@
   <objectgroup id="4" name="Transitions">
    <object id="76" gid="8" x="150" y="100" width="50" height="50" rotation="90">
     <properties>
+     <property name="OneWay" type="bool" value="true"/>
      <property name="TargetZone" value="Level2Room5"/>
     </properties>
    </object>

@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3011639668721220788}
+  - component: {fileID: 7162096916139772247}
+  - component: {fileID: 7314508438373855047}
   m_Layer: 0
   m_Name: Ordi
   m_TagString: Untagged
@@ -31,6 +33,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7162096916139772247
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3390405900209573138}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.36570972, y: 0.35550392, z: 0.4186677}
+  m_Center: {x: 0.07676175, y: 0.08907381, z: 0.12680827}
+--- !u!114 &7314508438373855047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3390405900209573138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ee193aa89f08f4aa77c2e3ba0cf6aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoReturn: 0
+  hideHand: 1
+  onGrab:
+    m_PersistentCalls:
+      m_Calls: []
+  activateGravity: 1
+  deactivateKinematic: 1
+  onDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &7941879541271151285
 PrefabInstance:
   m_ObjectHideFlags: 0

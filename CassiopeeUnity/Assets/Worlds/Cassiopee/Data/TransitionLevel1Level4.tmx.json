@@ -46,13 +46,13 @@
                          "value":"[ceiling]"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
                 }, 
                 {
-                 "data":[2684354571, 7, 7, 3221225478, 2684354565, 0, 0, 2684354567, 2684354567, 0, 0, 2684354567, 6, 7, 7, 1610612742],
+                 "data":[2684354566, 3221225477, 3221225477, 3221225483, 2684354565, 0, 0, 2684354567, 2684354565, 0, 0, 2684354567, 6, 5, 5, 1610612742],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -66,7 +66,7 @@
                         {
                          "name":"Materials",
                          "type":"string",
-                         "value":"[mainWalls]"
+                         "value":"[walls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -82,7 +82,7 @@
                         {
                          "gid":8,
                          "height":50,
-                         "id":67,
+                         "id":65,
                          "name":"",
                          "properties":[
                                 {
@@ -93,14 +93,14 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level2Room4"
+                                 "value":"Level4Room1"
                                 }],
-                         "rotation":180,
+                         "rotation":-90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":50,
-                         "y":100
+                         "x":150,
+                         "y":200
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -116,38 +116,14 @@
                         {
                          "gid":40,
                          "height":50,
-                         "id":68,
+                         "id":66,
                          "name":"",
                          "rotation":0,
-                         "type":"\/TrainingGround\/SpiderBot",
+                         "type":"Lit",
                          "visible":true,
                          "width":50,
-                         "x":150,
-                         "y":50
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":69,
-                         "name":"",
-                         "rotation":0,
-                         "type":"\/TrainingGround\/SpiderBot",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":70,
-                         "name":"",
-                         "rotation":0,
-                         "type":"\/TrainingGround\/SpiderBot",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":200
+                         "x":36.6667,
+                         "y":136
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -162,11 +138,6 @@
                  "name":"Height",
                  "type":"float",
                  "value":2.5
-                }, 
-                {
-                 "name":"Skybox",
-                 "type":"string",
-                 "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
                 }],
          "type":"group",
          "visible":true,
@@ -174,7 +145,7 @@
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":71,
+ "nextobjectid":67,
  "orientation":"orthogonal",
  "properties":[
         {

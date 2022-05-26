@@ -591,6 +591,11 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"OneWay",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
                                  "name":"TargetZone",
                                  "type":"string",
                                  "value":"Level2Room2"
@@ -862,16 +867,26 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"Orientation",
+                                 "type":"string",
+                                 "value":"down"
+                                }, 
+                                {
                                  "name":"Variable",
                                  "type":"string",
                                  "value":"wsh"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"float",
+                                 "value":0
                                 }],
                          "rotation":0,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":71.5115,
-                         "y":43.4758
+                         "x":102.142,
+                         "y":53.1999
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -922,7 +937,7 @@
          "value":"180;0;0"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1819,6 +1834,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

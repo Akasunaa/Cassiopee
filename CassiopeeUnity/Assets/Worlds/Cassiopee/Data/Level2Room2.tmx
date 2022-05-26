@@ -28,11 +28,13 @@
   <objectgroup id="4" name="Transitions">
    <object id="66" gid="8" x="150" y="30" width="50" height="50" rotation="180">
     <properties>
+     <property name="OneWay" type="bool" value="true"/>
      <property name="TargetZone" value="Level2Room3"/>
     </properties>
    </object>
    <object id="73" gid="8" x="100" y="30" width="50" height="50" rotation="180">
     <properties>
+     <property name="OneWay" type="bool" value="true"/>
      <property name="TargetZone" value="Level2Room3"/>
     </properties>
    </object>

@@ -21,6 +21,7 @@ MonoBehaviour:
     m_Address: Worlds/Cassiopee
     m_ReadOnly: 0
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: f3b398ce86e7d6348b75da9994787b84, type: 2}
   m_SchemaSet:

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.wetzold.travrsal.sdk": "https://github.com/WetzoldStudios/traVRsal-sdk.git#de0c093bcd405c4fbe69839892655ecb2dd25275", 
     "com.unity.collab-proxy": "1.13.5",
     "com.unity.ide.rider": "3.0.7",
     "com.unity.ide.visualstudio": "2.0.11",
@@ -11,7 +12,6 @@
     "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.1",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.6.1",
-    "com.wetzold.travrsal.sdk": "https://github.com/WetzoldStudios/traVRsal-sdk.git#2ecb49ac7a758b4c717cdbd918c2b6fd323e540b",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",

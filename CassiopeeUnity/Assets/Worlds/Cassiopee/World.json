@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.519",
-    "versionCode": 587,
+    "version": "0.0.521",
+    "versionCode": 589,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",

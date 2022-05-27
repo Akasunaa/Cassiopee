@@ -55,5 +55,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogLocationEntityIntro
       objectReference: {fileID: 0}
+    - target: {fileID: 4549017033677373696, guid: 9f5fca92a992d9141ab76a3305820c18, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3058898f7dfa7874ab7301db2634f405, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5fca92a992d9141ab76a3305820c18, type: 3}

@@ -235,12 +235,23 @@
                          "height":50,
                          "id":76,
                          "name":"Gun",
+                         "properties":[
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"90,0,0"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
                          "rotation":0,
                          "type":"LaserPistol",
                          "visible":true,
                          "width":50,
-                         "x":45.1735,
-                         "y":123.443
+                         "x":50,
+                         "y":100
                         }, 
                         {
                          "gid":13,

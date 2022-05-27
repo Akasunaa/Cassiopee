@@ -117,10 +117,38 @@
                          "width":50,
                          "x":51.6667,
                          "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":89,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.65;1.5;-0.5"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"90;0;0"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.6;0.5;0.7"
+                                }],
+                         "rotation":0,
+                         "type":"Fenetre",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":200
                         }],
                  "opacity":1,
                  "type":"objectgroup",
-                 "visible":false,
+                 "visible":true,
                  "x":0,
                  "y":0
                 }, 
@@ -148,7 +176,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 3221225477, 3221225477, 3221225478, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
+                 "data":[2684354566, 3221225477, 3221225477, 3221225478, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 0, 0, 1610612742],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -163,6 +191,34 @@
                          "name":"Materials",
                          "type":"string",
                          "value":"[mainWalls]"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 0],
+                 "height":4,
+                 "id":33,
+                 "name":"Fenetre",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }, 
+                        {
+                         "name":"Y",
+                         "type":"string",
+                         "value":"0,3,4"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -246,8 +302,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":33,
- "nextobjectid":89,
+ "nextlayerid":34,
+ "nextobjectid":90,
  "orientation":"orthogonal",
  "properties":[
         {

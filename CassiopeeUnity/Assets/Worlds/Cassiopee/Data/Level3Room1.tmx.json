@@ -52,7 +52,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 7, 7, 3221225478, 2684354565, 7, 7, 3221225478, 2684354566, 7, 7, 1610612741, 6, 7, 7, 1610612747],
+                 "data":[2684354566, 7, 7, 3221225478, 2684354565, 7, 7, 3221225478, 2684354566, 7, 7, 1610612741, 6, 0, 0, 1610612747],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -67,6 +67,34 @@
                          "name":"Materials",
                          "type":"string",
                          "value":"[mainWalls]"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 0],
+                 "height":4,
+                 "id":29,
+                 "name":"Fenetre",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeilling",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }, 
+                        {
+                         "name":"Y",
+                         "type":"string",
+                         "value":"0,3,4"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -196,6 +224,34 @@
                          "width":50,
                          "x":50,
                          "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":77,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.65;1.5;-0.5"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"90;0;0"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.6;0.5;0.7"
+                                }],
+                         "rotation":0,
+                         "type":"Fenetre",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":200
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -221,8 +277,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":29,
- "nextobjectid":76,
+ "nextlayerid":30,
+ "nextobjectid":78,
  "orientation":"orthogonal",
  "properties":[
         {

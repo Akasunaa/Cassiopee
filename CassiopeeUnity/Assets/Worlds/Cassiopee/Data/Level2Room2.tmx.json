@@ -78,24 +78,6 @@
                          "width":50,
                          "x":100,
                          "y":50
-                        }, 
-                        {
-                         "gid":8,
-                         "height":50,
-                         "id":84,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"TargetZone",
-                                 "type":"string",
-                                 "value":"Level2Room4"
-                                }],
-                         "rotation":180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":150
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -166,7 +148,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[2684354566, 3221225477, 3221225477, 3221225478, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 5, 5, 1610612742],
+                 "data":[2684354566, 3221225477, 3221225477, 3221225478, 2684354565, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 6, 0, 0, 1610612742],
                  "height":4,
                  "id":3,
                  "name":"Walls",
@@ -189,7 +171,35 @@
                  "y":0
                 }, 
                 {
-                 "data":[1610612741, 0, 0, 2684354565, 1610612741, 0, 0, 2684354565, 1610612742, 0, 0, 2684354565, 0, 0, 0, 2684354565],
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 0],
+                 "height":4,
+                 "id":33,
+                 "name":"Window",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"ConnectToCeiling",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Materials",
+                         "type":"string",
+                         "value":"[mainWalls]"
+                        }, 
+                        {
+                         "name":"Y",
+                         "type":"string",
+                         "value":"0;3;4"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":4,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "data":[1610612741, 0, 0, 2684354565, 1610612742, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 2684354566],
                  "height":4,
                  "id":30,
                  "name":"Walls2",
@@ -264,7 +274,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":33,
+ "nextlayerid":34,
  "nextobjectid":89,
  "orientation":"orthogonal",
  "properties":[

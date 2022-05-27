@@ -54,7 +54,7 @@
                          "visible":true,
                          "width":50,
                          "x":150,
-                         "y":50
+                         "y":30
                         }, 
                         {
                          "gid":8,
@@ -120,7 +120,7 @@
                         }],
                  "opacity":1,
                  "type":"objectgroup",
-                 "visible":true,
+                 "visible":false,
                  "x":0,
                  "y":0
                 }, 
@@ -171,6 +171,7 @@
                  "y":0
                 }, 
                 {
+<<<<<<< HEAD
                  "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 0],
                  "height":4,
                  "id":33,
@@ -199,6 +200,8 @@
                  "y":0
                 }, 
                 {
+=======
+>>>>>>> parent of df4713b (Oskur le merge il va tout casser)
                  "data":[1610612741, 0, 0, 2684354565, 1610612742, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 2684354566],
                  "height":4,
                  "id":30,

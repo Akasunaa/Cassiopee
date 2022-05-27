@@ -135,35 +135,7 @@
                  "draworder":"topdown",
                  "id":27,
                  "name":"Objects",
-                 "objects":[
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":81,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0;0.35;0.3"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"-90;180;180"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.2;0.175;0.2"
-                                }],
-                         "rotation":0,
-                         "type":"Vent",
-                         "visible":true,
-                         "width":50,
-                         "x":150,
-                         "y":150
-                        }],
+                 "objects":[],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -189,7 +161,7 @@
          "y":0
         }],
  "nextlayerid":31,
- "nextobjectid":82,
+ "nextobjectid":80,
  "orientation":"orthogonal",
  "properties":[
         {

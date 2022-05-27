@@ -158,8 +158,8 @@
                          "type":"Engrenage",
                          "visible":true,
                          "width":50,
-                         "x":0,
-                         "y":100
+                         "x":10.3425,
+                         "y":120.685
                         }, 
                         {
                          "gid":40,
@@ -328,24 +328,6 @@
                          "width":50,
                          "x":70.1505,
                          "y":106.82
-                        }, 
-                        {
-                         "gid":13,
-                         "height":50,
-                         "id":111,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"doorIntro"
-                                }],
-                         "rotation":180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="33" nextobjectid="89">
+<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="34" nextobjectid="90">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -39,12 +39,19 @@
     </properties>
    </object>
   </objectgroup>
-  <objectgroup id="27" name="Objects" visible="0">
+  <objectgroup id="27" name="Objects">
    <object id="80" type="Vent" gid="40" x="51.6667" y="100" width="50" height="50">
     <properties>
      <property name="Offset" value="0.6;0.35;0.5"/>
      <property name="Rotate" value="-90;-90;0"/>
      <property name="Scale" value="0.2;0.3;0.2"/>
+    </properties>
+   </object>
+   <object id="89" type="Fenetre" gid="40" x="50" y="200" width="50" height="50">
+    <properties>
+     <property name="Offset" value="0.65;1.5;-0.5"/>
+     <property name="Rotate" value="90;0;0"/>
+     <property name="Scale" value="0.6;0.5;0.7"/>
     </properties>
    </object>
   </objectgroup>
@@ -69,7 +76,20 @@
 2684354566,3221225477,3221225477,3221225478,
 2684354565,0,0,1610612741,
 2684354565,0,0,1610612741,
-6,5,5,1610612742
+6,0,0,1610612742
+</data>
+  </layer>
+  <layer id="33" name="Fenetre" width="4" height="4">
+   <properties>
+    <property name="ConnectToCeiling" type="bool" value="false"/>
+    <property name="Materials" value="[mainWalls]"/>
+    <property name="Y" value="0,3,4"/>
+   </properties>
+   <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,5,5,0
 </data>
   </layer>
   <layer id="30" name="Walls2" width="4" height="4">

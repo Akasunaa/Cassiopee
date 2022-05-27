@@ -74,7 +74,11 @@
         "Enemy"
     ],
     "dependencies": {
+<<<<<<< HEAD
         "totalObjects": 3929,
+=======
+        "totalObjects": 3935,
+>>>>>>> 37337c23d328bbfca043c12bc30c999aec0930f7
         "totalAgents": 9,
         "referencedWorlds": [
             "Base",
@@ -162,6 +166,7 @@
             "/Cassiopee/Pieces/DialogLocationEntityLevel7",
             "/Cassiopee/Pieces/EndingDestroyableObject",
             "/Cassiopee/Pieces/Engrenage",
+            "/Cassiopee/Pieces/Fenetre",
             "/Cassiopee/Pieces/Helmet",
             "/Cassiopee/Pieces/LaboMachine",
             "/Cassiopee/Pieces/LaboOscillo",

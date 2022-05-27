@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="29" nextobjectid="76">
+<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="78">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -44,7 +44,20 @@
 2684354566,7,7,3221225478,
 2684354565,7,7,3221225478,
 2684354566,7,7,1610612741,
-6,7,7,1610612747
+6,0,0,1610612747
+</data>
+  </layer>
+  <layer id="29" name="Fenetre" width="4" height="4">
+   <properties>
+    <property name="ConnectToCeilling" type="bool" value="false"/>
+    <property name="Materials" value="[mainWalls]"/>
+    <property name="Y" value="0,3,4"/>
+   </properties>
+   <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,5,5,0
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
@@ -63,6 +76,13 @@
    <object id="73" type="/TrainingGround/SpiderBot" gid="40" x="50" y="150" width="50" height="50"/>
    <object id="74" type="/TrainingGround/SpiderBot" gid="40" x="100" y="200" width="50" height="50"/>
    <object id="75" type="/TrainingGround/SpiderBot" gid="40" x="50" y="50" width="50" height="50"/>
+   <object id="77" type="Fenetre" gid="40" x="50" y="200" width="50" height="50">
+    <properties>
+     <property name="Offset" value="0.65;1.5;-0.5"/>
+     <property name="Rotate" value="90;0;0"/>
+     <property name="Scale" value="0.6;0.5;0.7"/>
+    </properties>
+   </object>
   </objectgroup>
  </group>
 </map>

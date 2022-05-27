@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.524",
-    "versionCode": 592,
+    "version": "0.0.521",
+    "versionCode": 589,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",
@@ -74,7 +74,7 @@
         "Enemy"
     ],
     "dependencies": {
-        "totalObjects": 3944,
+        "totalObjects": 3931,
         "totalAgents": 9,
         "referencedWorlds": [
             "Base",
@@ -184,6 +184,7 @@
             "/Cassiopee/Pieces/TableDeReu",
             "/Cassiopee/Pieces/Tablette",
             "/Cassiopee/Pieces/Vent",
+            "/Cassiopee/Pieces/VentMetal",
             "/Cassiopee/Pieces/Walkman",
             "/Skybox/Materials/AllSky_Space_AnotherPlanet",
             "/TrainingGround/Pieces/SpiderBot"

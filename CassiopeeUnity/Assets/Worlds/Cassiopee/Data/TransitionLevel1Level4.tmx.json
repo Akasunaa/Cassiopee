@@ -117,13 +117,24 @@
                          "gid":40,
                          "height":50,
                          "id":66,
-                         "name":"",
+                         "name":"Bed",
+                         "properties":[
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"0,90,0"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":1
+                                }],
                          "rotation":0,
                          "type":"Lit",
                          "visible":true,
                          "width":50,
-                         "x":36.6667,
-                         "y":136
+                         "x":50,
+                         "y":150
                         }],
                  "opacity":1,
                  "type":"objectgroup",

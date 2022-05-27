@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="29" nextobjectid="67">
+<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="29" nextobjectid="67">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -55,7 +55,12 @@
    </object>
   </objectgroup>
   <objectgroup id="27" name="Objects">
-   <object id="66" type="Lit" gid="40" x="36.6667" y="136" width="50" height="50"/>
+   <object id="66" name="Bed" type="Lit" gid="40" x="50" y="150" width="50" height="50">
+    <properties>
+     <property name="Rotate" value="0,90,0"/>
+     <property name="Y" type="int" value="1"/>
+    </properties>
+   </object>
   </objectgroup>
  </group>
 </map>

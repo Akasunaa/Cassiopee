@@ -90,7 +90,12 @@
      <property name="Y" type="int" value="1"/>
     </properties>
    </object>
-   <object id="76" name="Gun" type="LaserPistol" gid="40" x="45.1735" y="123.443" width="50" height="50"/>
+   <object id="76" name="Gun" type="LaserPistol" gid="40" x="50" y="100" width="50" height="50">
+    <properties>
+     <property name="Rotate" value="90,0,0"/>
+     <property name="Y" type="int" value="2"/>
+    </properties>
+   </object>
    <object id="77" gid="13" x="100" y="150" width="50" height="50">
     <properties>
      <property name="Variable" value="doorLevel5Door1"/>

@@ -189,34 +189,6 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 0],
-                 "height":4,
-                 "id":33,
-                 "name":"Window",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"ConnectToCeiling",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
-                        }, 
-                        {
-                         "name":"Y",
-                         "type":"string",
-                         "value":"0;3;4"
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":4,
-                 "x":0,
-                 "y":0
-                }, 
-                {
                  "data":[1610612741, 0, 0, 2684354565, 1610612742, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 2684354566],
 
                  "height":4,

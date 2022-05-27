@@ -419,7 +419,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 11, 0, 0, 1610612741, 2684354565, 0, 0],
+                 "data":[0, 0, 0, 0, 1610612741, 2684354565, 0, 0, 1610612741, 1610612742, 0, 0, 1610612741, 2684354565, 0, 0],
                  "height":4,
                  "id":29,
                  "name":"Walls2",
@@ -869,24 +869,19 @@
                                 {
                                  "name":"Orientation",
                                  "type":"string",
-                                 "value":"down"
+                                 "value":"Bottom"
                                 }, 
                                 {
                                  "name":"Variable",
                                  "type":"string",
                                  "value":"wsh"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"float",
-                                 "value":0
                                 }],
                          "rotation":0,
                          "type":"",
                          "visible":true,
                          "width":50,
                          "x":102.142,
-                         "y":53.1999
+                         "y":86.2618
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -937,7 +932,7 @@
          "value":"180;0;0"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1834,6 +1829,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

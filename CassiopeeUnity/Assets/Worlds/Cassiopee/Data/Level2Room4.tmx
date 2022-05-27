@@ -222,7 +222,7 @@
    <data encoding="csv">
 0,0,0,0,
 1610612741,2684354565,0,0,
-1610612741,11,0,0,
+1610612741,1610612742,0,0,
 1610612741,2684354565,0,0
 </data>
   </layer>
@@ -368,11 +368,10 @@
      <property name="Variable" value="wsh"/>
     </properties>
    </object>
-   <object id="87" gid="14" x="102.142" y="53.1999" width="50" height="50">
+   <object id="87" gid="14" x="102.142" y="86.2618" width="50" height="50">
     <properties>
-     <property name="Orientation" value="down"/>
+     <property name="Orientation" value="Bottom"/>
      <property name="Variable" value="wsh"/>
-     <property name="Y" type="float" value="0"/>
     </properties>
    </object>
   </objectgroup>

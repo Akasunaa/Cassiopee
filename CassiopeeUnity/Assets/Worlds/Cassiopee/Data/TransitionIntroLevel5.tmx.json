@@ -154,11 +154,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"Music",
-         "type":"string",
-         "value":"alt.mp3"
-        }, 
-        {
          "name":"NoAgents",
          "type":"bool",
          "value":false
@@ -169,7 +164,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1066,6 +1061,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

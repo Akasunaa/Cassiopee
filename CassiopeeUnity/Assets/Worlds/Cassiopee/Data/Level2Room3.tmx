@@ -3,8 +3,6 @@
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
-  <property name="Skybox" value="/Skybox/AllSky_Space_AnotherPlanet"/>
-  <property name="SkyboxRotation" value="180;0;0"/>
  </properties>
  <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>
  <tileset firstgid="34" source="../../_Tiled/Deco.tsx"/>

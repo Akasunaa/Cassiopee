@@ -485,11 +485,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"AmbientColor",
-         "type":"string",
-         "value":"#FFFFFF"
-        }, 
-        {
          "name":"NoAgents",
          "type":"bool",
          "value":false

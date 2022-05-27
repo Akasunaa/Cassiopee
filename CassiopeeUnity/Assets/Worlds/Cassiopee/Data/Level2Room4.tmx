@@ -368,7 +368,7 @@
      <property name="Variable" value="wsh"/>
     </properties>
    </object>
-   <object id="87" gid="14" x="102.142" y="86.2618" width="50" height="50">
+   <object id="87" gid="14" x="131.557" y="166.972" width="50" height="50">
     <properties>
      <property name="Orientation" value="Bottom"/>
      <property name="Variable" value="wsh"/>

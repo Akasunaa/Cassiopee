@@ -290,6 +290,11 @@
          "name":"NoSpawning",
          "type":"bool",
          "value":false
+        }, 
+        {
+         "name":"Skybox",
+         "type":"string",
+         "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
         }],
  "renderorder":"left-up",
  "tiledversion":"1.7.2",

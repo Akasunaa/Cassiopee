@@ -1,11 +1,11 @@
 {
   "dependencies": {
     "com.unity.addressables": {
-      "version": "1.19.17",
+      "version": "1.20.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.scriptablebuildpipeline": "1.19.5",
+        "com.unity.scriptablebuildpipeline": "1.19.6",
         "com.unity.modules.assetbundle": "1.0.0",
         "com.unity.modules.imageconversion": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0",
@@ -89,7 +89,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
-      "version": "2.0.2",
+      "version": "3.0.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -115,7 +115,7 @@
       }
     },
     "com.unity.scriptablebuildpipeline": {
-      "version": "1.19.5",
+      "version": "1.19.6",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -138,7 +138,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.settings-manager": {
-      "version": "1.0.3",
+      "version": "2.0.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -179,7 +179,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.30",
+      "version": "1.1.31",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -230,17 +230,22 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.7.3",
-      "depth": 1,
+      "version": "1.6.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
+        "com.unity.modules.ai": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.physics2d": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.core-utils": {
-      "version": "2.0.0-pre.6",
+      "version": "2.0.0",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -249,13 +254,13 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.interaction.toolkit": {
-      "version": "2.0.0-pre.6",
+      "version": "2.0.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.inputsystem": "1.2.0",
         "com.unity.ugui": "1.0.0",
-        "com.unity.xr.core-utils": "2.0.0-pre.6",
+        "com.unity.xr.core-utils": "2.0.0",
         "com.unity.xr.legacyinputhelpers": "2.1.8",
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.imgui": "1.0.0",
@@ -287,7 +292,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.oculus": {
-      "version": "1.11.2",
+      "version": "1.12.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -297,24 +302,23 @@
       "url": "https://packages.unity.com"
     },
     "com.wetzold.travrsal.sdk": {
-      "version": "https://github.com/WetzoldStudios/traVRsal-sdk.git#2ecb49ac7a758b4c717cdbd918c2b6fd323e540b",
+      "version": "https://github.com/WetzoldStudios/traVRsal-sdk.git#de0c093bcd405c4fbe69839892655ecb2dd25275",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.addressables": "1.19.17",
+        "com.unity.addressables": "1.20.0",
         "com.unity.ai.navigation": "1.0.0-exp.4",
         "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.nuget.newtonsoft-json": "2.0.2",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
         "com.unity.render-pipelines.universal": "11.0.0",
-        "com.unity.settings-manager": "1.0.3",
-        "com.unity.test-framework": "1.1.30",
+        "com.unity.settings-manager": "2.0.1",
+        "com.unity.test-framework": "1.1.31",
         "com.unity.textmeshpro": "3.0.6",
-        "com.unity.visualscripting": "1.7.3",
-        "com.unity.xr.interaction.toolkit": "2.0.0-pre.6",
+        "com.unity.xr.interaction.toolkit": "2.0.1",
         "com.unity.xr.management": "4.2.1",
-        "com.unity.xr.oculus": "1.11.2"
+        "com.unity.xr.oculus": "1.12.0"
       },
-      "hash": "2ecb49ac7a758b4c717cdbd918c2b6fd323e540b"
+      "hash": "de0c093bcd405c4fbe69839892655ecb2dd25275"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

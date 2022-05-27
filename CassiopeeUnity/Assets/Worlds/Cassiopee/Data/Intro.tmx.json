@@ -158,8 +158,8 @@
                          "type":"Engrenage",
                          "visible":true,
                          "width":50,
-                         "x":0,
-                         "y":100
+                         "x":10.3425,
+                         "y":120.685
                         }, 
                         {
                          "gid":40,
@@ -316,6 +316,18 @@
                          "width":50,
                          "x":50,
                          "y":100
+                        }, 
+                        {
+                         "gid":42,
+                         "height":50,
+                         "id":110,
+                         "name":"DialogPieceIntro",
+                         "rotation":0,
+                         "type":"DialogLocationEntityIntro",
+                         "visible":true,
+                         "width":50,
+                         "x":70.1505,
+                         "y":106.82
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -353,7 +365,7 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":110,
+ "nextobjectid":112,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -372,7 +384,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.8.1",
  "tileheight":50,
  "tilesets":[
         {
@@ -1269,6 +1281,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.6",
+ "version":"1.8",
  "width":4
 }

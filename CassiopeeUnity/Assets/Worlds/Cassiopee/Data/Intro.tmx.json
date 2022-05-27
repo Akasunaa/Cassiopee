@@ -158,8 +158,8 @@
                          "type":"Engrenage",
                          "visible":true,
                          "width":50,
-                         "x":10.3425,
-                         "y":120.685
+                         "x":0,
+                         "y":100
                         }, 
                         {
                          "gid":40,
@@ -365,7 +365,7 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":112,
+ "nextobjectid":111,
  "orientation":"orthogonal",
  "properties":[
         {

@@ -135,6 +135,29 @@
                          "width":50,
                          "x":50,
                          "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":67,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"TabletteTransitionLevel4",
+                         "visible":true,
+                         "width":50,
+                         "x":61,
+                         "y":121
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -156,7 +179,7 @@
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":67,
+ "nextobjectid":68,
  "orientation":"orthogonal",
  "properties":[
         {

@@ -882,6 +882,34 @@
                          "width":50,
                          "x":131.557,
                          "y":166.972
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":91,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"1;0.5;1"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.5;0.5;0.5"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"float",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"TabletteLevel2Room4",
+                         "visible":true,
+                         "width":50,
+                         "x":112.596,
+                         "y":91.2027
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -908,7 +936,7 @@
          "y":0
         }],
  "nextlayerid":60,
- "nextobjectid":91,
+ "nextobjectid":92,
  "orientation":"orthogonal",
  "properties":[
         {

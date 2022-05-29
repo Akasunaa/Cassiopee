@@ -311,11 +311,80 @@
                                  "value":2
                                 }],
                          "rotation":0,
-                         "type":"Tablette",
+                         "type":"TabletteLevel1-3",
                          "visible":true,
                          "width":50,
-                         "x":136.177,
-                         "y":95.9857
+                         "x":141.282,
+                         "y":97.4443
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":125,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"TabletteLevel1-2",
+                         "visible":true,
+                         "width":50,
+                         "x":123.049,
+                         "y":98.7389
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":126,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"TabletteLevel1-4",
+                         "visible":true,
+                         "width":50,
+                         "x":138.608,
+                         "y":110.165
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":127,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"TabletteLevel1-1",
+                         "visible":true,
+                         "width":50,
+                         "x":123.049,
+                         "y":114.784
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -481,7 +550,7 @@
          "y":0
         }],
  "nextlayerid":39,
- "nextobjectid":122,
+ "nextobjectid":128,
  "orientation":"orthogonal",
  "properties":[
         {

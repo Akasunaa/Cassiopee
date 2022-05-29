@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="74">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="76">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -92,6 +92,18 @@
    <object id="72" name="Mug" type="Mug" gid="40" x="50" y="100" width="50" height="50">
     <properties>
      <property name="Offset" value="0,0,-0.5"/>
+     <property name="Y" type="int" value="2"/>
+    </properties>
+   </object>
+   <object id="74" type="TabletteLevel6" gid="40" x="50.6047" y="191.118" width="50" height="50">
+    <properties>
+     <property name="Scale" value=""/>
+     <property name="Y" type="int" value="2"/>
+    </properties>
+   </object>
+   <object id="75" type="TabletteLevel6Hide" gid="40" x="2.95673" y="130.828" width="50" height="50">
+    <properties>
+     <property name="Scale" value=""/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>

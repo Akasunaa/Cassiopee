@@ -252,6 +252,18 @@
                          "width":50,
                          "x":50,
                          "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":78,
+                         "name":"",
+                         "rotation":0,
+                         "type":"TabletteLevel3",
+                         "visible":true,
+                         "width":50,
+                         "x":53.6667,
+                         "y":102.667
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -278,7 +290,7 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":78,
+ "nextobjectid":79,
  "orientation":"orthogonal",
  "properties":[
         {

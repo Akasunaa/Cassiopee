@@ -909,7 +909,7 @@
                          "visible":true,
                          "width":50,
                          "x":112.596,
-                         "y":91.2027
+                         "y":86.8269
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -960,7 +960,7 @@
          "value":"180;0;0"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1857,6 +1857,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

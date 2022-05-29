@@ -61,7 +61,7 @@
      <property name="Y" type="int" value="1"/>
     </properties>
    </object>
-   <object id="67" type="TabletteTransitionLevel4" gid="40" x="61" y="121" width="50" height="50">
+   <object id="67" type="TabletteTransitionLevel4" gid="40" x="73" y="78.6667" width="50" height="50">
     <properties>
      <property name="Scale" value=""/>
      <property name="Y" type="int" value="2"/>

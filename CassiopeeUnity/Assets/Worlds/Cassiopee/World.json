@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.533",
-    "versionCode": 601,
+    "version": "0.0.539",
+    "versionCode": 607,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",
@@ -74,7 +74,7 @@
         "Enemy"
     ],
     "dependencies": {
-        "totalObjects": 3981,
+        "totalObjects": 4001,
         "totalAgents": 9,
         "referencedWorlds": [
             "Base",
@@ -181,7 +181,17 @@
             "/Cassiopee/Pieces/Pipes",
             "/Cassiopee/Pieces/PipesLong",
             "/Cassiopee/Pieces/TableDeReu",
-            "/Cassiopee/Pieces/Tablette",
+            "/Cassiopee/Pieces/TabletteLevel1-1",
+            "/Cassiopee/Pieces/TabletteLevel1-2",
+            "/Cassiopee/Pieces/TabletteLevel1-3",
+            "/Cassiopee/Pieces/TabletteLevel1-4",
+            "/Cassiopee/Pieces/TabletteLevel2Room2",
+            "/Cassiopee/Pieces/TabletteLevel2Room4",
+            "/Cassiopee/Pieces/TabletteLevel2Room5",
+            "/Cassiopee/Pieces/TabletteLevel3",
+            "/Cassiopee/Pieces/TabletteLevel6",
+            "/Cassiopee/Pieces/TabletteLevel6Hide",
+            "/Cassiopee/Pieces/TabletteTransitionLevel4",
             "/Cassiopee/Pieces/Vent",
             "/Cassiopee/Pieces/Walkman",
             "/Skybox/Materials/AllSky_Space_AnotherPlanet",

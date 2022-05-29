@@ -102,7 +102,7 @@
      <property name="TargetZone" value="Level1Room1"/>
     </properties>
    </object>
-   <object id="70" type="TabletteLevel2Room2" gid="40" x="52.9373" y="92.0281" width="50" height="50">
+   <object id="70" type="TabletteLevel2Room5" gid="40" x="52.9373" y="92.0281" width="50" height="50">
     <properties>
      <property name="Scale" value=""/>
      <property name="Y" type="int" value="2"/>

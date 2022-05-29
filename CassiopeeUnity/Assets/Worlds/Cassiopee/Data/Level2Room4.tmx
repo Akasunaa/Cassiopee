@@ -374,7 +374,7 @@
      <property name="Variable" value="wsh"/>
     </properties>
    </object>
-   <object id="91" type="TabletteLevel2Room4" gid="40" x="112.596" y="91.2027" width="50" height="50">
+   <object id="91" type="TabletteLevel2Room4" gid="40" x="112.596" y="86.8269" width="50" height="50">
     <properties>
      <property name="Offset" value="1;0.5;1"/>
      <property name="Scale" value="0.5;0.5;0.5"/>

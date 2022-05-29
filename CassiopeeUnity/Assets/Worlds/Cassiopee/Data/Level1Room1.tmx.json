@@ -6,50 +6,6 @@
          "id":5,
          "layers":[
                 {
-                 "draworder":"topdown",
-                 "id":38,
-                 "name":"Objets",
-                 "objects":[
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":116,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"1;0;0.5"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"-90;180;180"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.05,0.05,0.1"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":0
-                                }],
-                         "rotation":0,
-                         "type":"TableDeReu",
-                         "visible":true,
-                         "width":50,
-                         "x":24.3498,
-                         "y":124.429
-                        }],
-                 "opacity":1,
-                 "type":"objectgroup",
-                 "visible":true,
-                 "x":0,
-                 "y":0
-                }, 
-                {
                  "data":[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
                  "height":4,
                  "id":1,
@@ -385,6 +341,39 @@
                          "width":50,
                          "x":123.049,
                          "y":114.784
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":128,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"1;0;0.5"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"-90;180;180"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.05,0.05,0.1"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":0
+                                }],
+                         "rotation":0,
+                         "type":"TableDeReu",
+                         "visible":true,
+                         "width":50,
+                         "x":87.7993,
+                         "y":111.623
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -550,7 +539,7 @@
          "y":0
         }],
  "nextlayerid":39,
- "nextobjectid":128,
+ "nextobjectid":129,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -564,7 +553,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1461,6 +1450,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

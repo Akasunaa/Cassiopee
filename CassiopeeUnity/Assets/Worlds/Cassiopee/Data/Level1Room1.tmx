@@ -89,35 +89,27 @@
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="110" type="TabletteLevel1-3" gid="40" x="141.282" y="97.4443" width="50" height="50">
+   <object id="110" type="TabletteLevel1-3" gid="40" x="126.696" y="84.803" width="50" height="50">
     <properties>
-     <property name="Scale" value=""/>
-     <property name="Y" type="int" value="2"/>
+     <property name="Scale" value="0.5;0.5;0.5"/>
+     <property name="Y" type="int" value="0"/>
     </properties>
    </object>
-   <object id="125" type="TabletteLevel1-2" gid="40" x="123.049" y="98.7389" width="50" height="50">
+   <object id="125" type="TabletteLevel1-2" gid="40" x="123.778" y="169.968" width="50" height="50">
     <properties>
-     <property name="Scale" value=""/>
-     <property name="Y" type="int" value="2"/>
+     <property name="Scale" value="0.5;0.5;0.5"/>
+     <property name="Y" type="int" value="0"/>
     </properties>
    </object>
-   <object id="126" type="TabletteLevel1-4" gid="40" x="138.608" y="110.165" width="50" height="50">
+   <object id="126" type="TabletteLevel1-4" gid="40" x="111.623" y="139.823" width="50" height="50">
     <properties>
-     <property name="Scale" value=""/>
-     <property name="Y" type="int" value="2"/>
+     <property name="Scale" value="0.5;0.5;0.5"/>
+     <property name="Y" type="int" value="0"/>
     </properties>
    </object>
-   <object id="127" type="TabletteLevel1-1" gid="40" x="123.049" y="114.784" width="50" height="50">
+   <object id="127" type="TabletteLevel1-1" gid="40" x="126.453" y="108.463" width="50" height="50">
     <properties>
-     <property name="Scale" value=""/>
-     <property name="Y" type="int" value="2"/>
-    </properties>
-   </object>
-   <object id="128" type="TableDeReu" gid="40" x="87.7993" y="111.623" width="50" height="50">
-    <properties>
-     <property name="Offset" value="1;0;0.5"/>
-     <property name="Rotate" value="-90;180;180"/>
-     <property name="Scale" value="0.05,0.05,0.1"/>
+     <property name="Scale" value="0.5;0.5;0.5"/>
      <property name="Y" type="int" value="0"/>
     </properties>
    </object>

@@ -131,18 +131,6 @@
                          "width":50,
                          "x":150,
                          "y":50
-                        }, 
-                        {
-                         "gid":42,
-                         "height":50,
-                         "id":73,
-                         "name":"Dialog",
-                         "rotation":0,
-                         "type":"DialogLocationEntity",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -282,8 +270,8 @@
                          "type":"TabletteLevel6",
                          "visible":true,
                          "width":50,
-                         "x":50.6047,
-                         "y":191.118
+                         "x":110.165,
+                         "y":99.7113
                         }, 
                         {
                          "gid":40,
@@ -294,7 +282,7 @@
                                 {
                                  "name":"Scale",
                                  "type":"string",
-                                 "value":""
+                                 "value":"0.5;0.5;0.5"
                                 }, 
                                 {
                                  "name":"Y",
@@ -305,8 +293,8 @@
                          "type":"TabletteLevel6Hide",
                          "visible":true,
                          "width":50,
-                         "x":2.95673,
-                         "y":130.828
+                         "x":131.071,
+                         "y":146.873
                         }],
                  "opacity":1,
                  "type":"objectgroup",

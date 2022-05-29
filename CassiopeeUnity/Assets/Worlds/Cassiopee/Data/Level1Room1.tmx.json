@@ -259,19 +259,19 @@
                                 {
                                  "name":"Scale",
                                  "type":"string",
-                                 "value":""
+                                 "value":"0.5;0.5;0.5"
                                 }, 
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":2
+                                 "value":0
                                 }],
                          "rotation":0,
                          "type":"TabletteLevel1-3",
                          "visible":true,
                          "width":50,
-                         "x":141.282,
-                         "y":97.4443
+                         "x":126.696,
+                         "y":84.803
                         }, 
                         {
                          "gid":40,
@@ -282,19 +282,19 @@
                                 {
                                  "name":"Scale",
                                  "type":"string",
-                                 "value":""
+                                 "value":"0.5;0.5;0.5"
                                 }, 
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":2
+                                 "value":0
                                 }],
                          "rotation":0,
                          "type":"TabletteLevel1-2",
                          "visible":true,
                          "width":50,
-                         "x":123.049,
-                         "y":98.7389
+                         "x":123.778,
+                         "y":169.968
                         }, 
                         {
                          "gid":40,
@@ -305,19 +305,19 @@
                                 {
                                  "name":"Scale",
                                  "type":"string",
-                                 "value":""
+                                 "value":"0.5;0.5;0.5"
                                 }, 
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":2
+                                 "value":0
                                 }],
                          "rotation":0,
                          "type":"TabletteLevel1-4",
                          "visible":true,
                          "width":50,
-                         "x":138.608,
-                         "y":110.165
+                         "x":111.623,
+                         "y":139.823
                         }, 
                         {
                          "gid":40,
@@ -328,40 +328,7 @@
                                 {
                                  "name":"Scale",
                                  "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":2
-                                }],
-                         "rotation":0,
-                         "type":"TabletteLevel1-1",
-                         "visible":true,
-                         "width":50,
-                         "x":123.049,
-                         "y":114.784
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":128,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"1;0;0.5"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"-90;180;180"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.05,0.05,0.1"
+                                 "value":"0.5;0.5;0.5"
                                 }, 
                                 {
                                  "name":"Y",
@@ -369,11 +336,11 @@
                                  "value":0
                                 }],
                          "rotation":0,
-                         "type":"TableDeReu",
+                         "type":"TabletteLevel1-1",
                          "visible":true,
                          "width":50,
-                         "x":87.7993,
-                         "y":111.623
+                         "x":126.453,
+                         "y":108.463
                         }],
                  "opacity":1,
                  "type":"objectgroup",

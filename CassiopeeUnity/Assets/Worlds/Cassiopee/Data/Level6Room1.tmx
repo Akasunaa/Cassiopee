@@ -65,7 +65,6 @@
      <property name="TargetZone" value="Level7"/>
     </properties>
    </object>
-   <object id="73" name="Dialog" type="DialogLocationEntity" gid="42" x="100" y="100" width="50" height="50"/>
   </objectgroup>
   <objectgroup id="27" name="Objects">
    <object id="65" name="LaboTable" type="LaboTable" gid="40" x="50" y="150" width="50" height="50">
@@ -95,15 +94,15 @@
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="74" type="TabletteLevel6" gid="40" x="50.6047" y="191.118" width="50" height="50">
+   <object id="74" type="TabletteLevel6" gid="40" x="110.165" y="99.7113" width="50" height="50">
     <properties>
      <property name="Scale" value=""/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="75" type="TabletteLevel6Hide" gid="40" x="2.95673" y="130.828" width="50" height="50">
+   <object id="75" type="TabletteLevel6Hide" gid="40" x="131.071" y="146.873" width="50" height="50">
     <properties>
-     <property name="Scale" value=""/>
+     <property name="Scale" value="0.5;0.5;0.5"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>

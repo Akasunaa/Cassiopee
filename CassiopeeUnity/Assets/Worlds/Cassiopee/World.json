@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.539",
-    "versionCode": 607,
+    "version": "0.0.543",
+    "versionCode": 611,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",
@@ -74,7 +74,7 @@
         "Enemy"
     ],
     "dependencies": {
-        "totalObjects": 4001,
+        "totalObjects": 3997,
         "totalAgents": 9,
         "referencedWorlds": [
             "Base",
@@ -155,7 +155,6 @@
             "/Cassiopee/Pieces/Arrow",
             "/Cassiopee/Pieces/ButtonSoundPlayer",
             "/Cassiopee/Pieces/chaise",
-            "/Cassiopee/Pieces/DialogLocationEntity",
             "/Cassiopee/Pieces/DialogLocationEntityIntro",
             "/Cassiopee/Pieces/DialogLocationEntityLevel4",
             "/Cassiopee/Pieces/DialogLocationEntityLevel5",

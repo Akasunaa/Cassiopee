@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="74">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="76">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -65,7 +65,6 @@
      <property name="TargetZone" value="Level7"/>
     </properties>
    </object>
-   <object id="73" name="Dialog" type="DialogLocationEntity" gid="42" x="100" y="100" width="50" height="50"/>
   </objectgroup>
   <objectgroup id="27" name="Objects">
    <object id="65" name="LaboTable" type="LaboTable" gid="40" x="50" y="150" width="50" height="50">
@@ -92,6 +91,18 @@
    <object id="72" name="Mug" type="Mug" gid="40" x="50" y="100" width="50" height="50">
     <properties>
      <property name="Offset" value="0,0,-0.5"/>
+     <property name="Y" type="int" value="2"/>
+    </properties>
+   </object>
+   <object id="74" type="TabletteLevel6" gid="40" x="110.165" y="99.7113" width="50" height="50">
+    <properties>
+     <property name="Scale" value=""/>
+     <property name="Y" type="int" value="2"/>
+    </properties>
+   </object>
+   <object id="75" type="TabletteLevel6Hide" gid="40" x="131.071" y="146.873" width="50" height="50">
+    <properties>
+     <property name="Scale" value="0.5;0.5;0.5"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>

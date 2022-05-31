@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="60" nextobjectid="91">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="60" nextobjectid="92">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -342,10 +342,10 @@
      <property name="Scale" value="0.1;0.09;0.1"/>
     </properties>
    </object>
-   <object id="74" type="Walkman" gid="40" x="108.463" y="93.0686" width="50" height="50">
+   <object id="74" type="Walkman" gid="40" x="133.989" y="92.0962" width="50" height="50">
     <properties>
      <property name="Offset" value="0;0;1"/>
-     <property name="Scale" value="0.2;0.2;0.2"/>
+     <property name="Scale" value="0.4;0.4;0.4"/>
      <property name="Y" type="float" value="0.9"/>
     </properties>
    </object>
@@ -356,7 +356,7 @@
      <property name="Y" type="float" value="0.8"/>
     </properties>
    </object>
-   <object id="76" type="Mug" gid="40" x="107.977" y="93.7979" width="50" height="50">
+   <object id="76" type="Mug" gid="40" x="107.248" y="96.472" width="50" height="50">
     <properties>
      <property name="Offset" value="1;0.5;1"/>
      <property name="Scale" value="0.5;0.5;0.5"/>
@@ -372,6 +372,13 @@
     <properties>
      <property name="Orientation" value="Bottom"/>
      <property name="Variable" value="wsh"/>
+    </properties>
+   </object>
+   <object id="91" type="TabletteLevel2Room4" gid="40" x="112.596" y="86.8269" width="50" height="50">
+    <properties>
+     <property name="Offset" value="1;0.5;1"/>
+     <property name="Scale" value="0.5;0.5;0.5"/>
+     <property name="Y" type="float" value="2"/>
     </properties>
    </object>
   </objectgroup>

@@ -145,6 +145,29 @@
                          "width":50,
                          "x":50,
                          "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":91,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"TabletteLevel2Room2",
+                         "visible":true,
+                         "width":50,
+                         "x":72.727,
+                         "y":149.547
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -303,7 +326,7 @@
          "y":0
         }],
  "nextlayerid":34,
- "nextobjectid":90,
+ "nextobjectid":92,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -327,7 +350,7 @@
          "value":"180;0;0"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1224,6 +1247,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

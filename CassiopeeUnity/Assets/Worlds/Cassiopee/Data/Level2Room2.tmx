@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="34" nextobjectid="90">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="34" nextobjectid="92">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -52,6 +52,12 @@
      <property name="Offset" value="0.65;1.5;-0.5"/>
      <property name="Rotate" value="90;0;0"/>
      <property name="Scale" value="0.6;0.5;0.7"/>
+    </properties>
+   </object>
+   <object id="91" type="TabletteLevel2Room2" gid="40" x="72.727" y="149.547" width="50" height="50">
+    <properties>
+     <property name="Scale" value=""/>
+     <property name="Y" type="int" value="2"/>
     </properties>
    </object>
   </objectgroup>

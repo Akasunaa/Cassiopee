@@ -252,6 +252,18 @@
                          "width":50,
                          "x":50,
                          "y":200
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":78,
+                         "name":"",
+                         "rotation":0,
+                         "type":"TabletteLevel3",
+                         "visible":true,
+                         "width":50,
+                         "x":53.6667,
+                         "y":102.667
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -278,7 +290,7 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":78,
+ "nextobjectid":79,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -297,7 +309,7 @@
          "value":"\/Skybox\/AllSky_Space_AnotherPlanet"
         }],
  "renderorder":"left-up",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.7.2",
  "tileheight":50,
  "tilesets":[
         {
@@ -1194,6 +1206,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.8",
+ "version":"1.6",
  "width":4
 }

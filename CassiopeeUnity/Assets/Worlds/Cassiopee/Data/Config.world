@@ -95,6 +95,21 @@
             "fileName": "TransitionLevel1Level4.tmx",
             "x": 0,
             "y": 0
+        },
+        {
+            "fileName": "Level8EndingC.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level8EndingD.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Level7Room2.tmx",
+            "x": 0,
+            "y": 0
         }
     ]
 }

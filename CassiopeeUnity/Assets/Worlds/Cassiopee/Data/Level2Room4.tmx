@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="60" nextobjectid="92">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="60" nextobjectid="93">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -342,7 +342,7 @@
      <property name="Scale" value="0.1;0.09;0.1"/>
     </properties>
    </object>
-   <object id="74" type="Walkman" gid="40" x="133.989" y="92.0962" width="50" height="50">
+   <object id="74" type="Walkman" gid="40" x="99.4685" y="92.0962" width="50" height="50">
     <properties>
      <property name="Offset" value="0;0;1"/>
      <property name="Scale" value="0.4;0.4;0.4"/>
@@ -368,7 +368,7 @@
      <property name="Variable" value="wsh"/>
     </properties>
    </object>
-   <object id="87" gid="14" x="131.557" y="166.972" width="50" height="50">
+   <object id="87" gid="14" x="136.419" y="138.772" width="50" height="50">
     <properties>
      <property name="Orientation" value="Bottom"/>
      <property name="Variable" value="wsh"/>
@@ -381,6 +381,7 @@
      <property name="Y" type="float" value="2"/>
     </properties>
    </object>
+   <object id="92" type="ButtonSoundPlayer" gid="40" x="100" y="200" width="50" height="50"/>
   </objectgroup>
  </group>
 </map>

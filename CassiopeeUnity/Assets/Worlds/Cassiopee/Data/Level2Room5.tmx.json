@@ -146,34 +146,6 @@
                         {
                          "gid":40,
                          "height":50,
-                         "id":65,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Offset",
-                                 "type":"string",
-                                 "value":"0.5;0.35;0.3"
-                                }, 
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"-90;-90;90"
-                                }, 
-                                {
-                                 "name":"Scale",
-                                 "type":"string",
-                                 "value":"0.2;0.2;0.2"
-                                }],
-                         "rotation":0,
-                         "type":"Vent",
-                         "visible":true,
-                         "width":50,
-                         "x":101,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
                          "id":66,
                          "name":"",
                          "properties":[

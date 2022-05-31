@@ -75,7 +75,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[5, 5, 1610612742, 0, 0, 0, 0, 0, 5, 5, 5, 5, 0, 1610612741, 0, 0],
+                 "data":[5, 5, 1610612742, 0, 1610612741, 0, 0, 0, 1610612742, 5, 5, 5, 0, 1610612741, 0, 0],
                  "height":4,
                  "id":29,
                  "name":"InnerWalls",
@@ -101,7 +101,7 @@
                          "gid":8,
                          "height":50,
                          "id":65,
-                         "name":"",
+                         "name":"Ending B",
                          "properties":[
                                 {
                                  "name":"OneWay",
@@ -136,7 +136,7 @@
                          "gid":8,
                          "height":50,
                          "id":72,
-                         "name":"",
+                         "name":"Ending A",
                          "properties":[
                                 {
                                  "name":"OneWay",
@@ -154,6 +154,24 @@
                          "width":50,
                          "x":100,
                          "y":150
+                        }, 
+                        {
+                         "gid":8,
+                         "height":50,
+                         "id":74,
+                         "name":"room2",
+                         "properties":[
+                                {
+                                 "name":"TargetZone",
+                                 "type":"string",
+                                 "value":"Level7Room2"
+                                }],
+                         "rotation":90,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -259,6 +277,34 @@
                          "width":50,
                          "x":100,
                          "y":100
+                        }, 
+                        {
+                         "gid":41,
+                         "height":50,
+                         "id":75,
+                         "name":"IndicatorA",
+                         "properties":[
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"0,180,0"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.5,0.5,0.5"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"EndingIndicatorEndingA",
+                         "visible":true,
+                         "width":50,
+                         "x":50,
+                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -280,7 +326,7 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":74,
+ "nextobjectid":76,
  "orientation":"orthogonal",
  "properties":[
         {

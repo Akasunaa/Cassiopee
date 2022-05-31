@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.543",
-    "versionCode": 611,
+    "version": "0.0.556",
+    "versionCode": 624,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",
@@ -74,7 +74,7 @@
         "Enemy"
     ],
     "dependencies": {
-        "totalObjects": 3997,
+        "totalObjects": 4470,
         "totalAgents": 9,
         "referencedWorlds": [
             "Base",
@@ -141,8 +141,11 @@
             "/Cassiopee/Data/Level5Room1",
             "/Cassiopee/Data/Level6Room1",
             "/Cassiopee/Data/Level7",
+            "/Cassiopee/Data/Level7Room2",
             "/Cassiopee/Data/Level8EndingA",
             "/Cassiopee/Data/Level8EndingB",
+            "/Cassiopee/Data/Level8EndingC",
+            "/Cassiopee/Data/Level8EndingD",
             "/Cassiopee/Data/TransitionIntroLevel5",
             "/Cassiopee/Data/TransitionLevel1Level4",
             "/Cassiopee/Materials/MainPanel",
@@ -155,11 +158,17 @@
             "/Cassiopee/Pieces/Arrow",
             "/Cassiopee/Pieces/ButtonSoundPlayer",
             "/Cassiopee/Pieces/chaise",
+            "/Cassiopee/Pieces/DialogLocationEntityEndingA",
+            "/Cassiopee/Pieces/DialogLocationEntityEndingB",
+            "/Cassiopee/Pieces/DialogLocationEntityEndingC",
+            "/Cassiopee/Pieces/DialogLocationEntityEndingD",
             "/Cassiopee/Pieces/DialogLocationEntityIntro",
             "/Cassiopee/Pieces/DialogLocationEntityLevel4",
             "/Cassiopee/Pieces/DialogLocationEntityLevel5",
             "/Cassiopee/Pieces/DialogLocationEntityLevel7",
             "/Cassiopee/Pieces/EndingDestroyableObject",
+            "/Cassiopee/Pieces/EndingIndicatorEndingA",
+            "/Cassiopee/Pieces/EndingIndicatorEndingC",
             "/Cassiopee/Pieces/Engrenage",
             "/Cassiopee/Pieces/Fenetre",
             "/Cassiopee/Pieces/Helmet",
@@ -194,7 +203,8 @@
             "/Cassiopee/Pieces/Vent",
             "/Cassiopee/Pieces/Walkman",
             "/Skybox/Materials/AllSky_Space_AnotherPlanet",
-            "/TrainingGround/Pieces/SpiderBot"
+            "/TrainingGround/Pieces/SpiderBot",
+            "[exit]"
         ],
         "referencedSpeech": [
             "Step onto the marker to open the portal, and then walk through!"

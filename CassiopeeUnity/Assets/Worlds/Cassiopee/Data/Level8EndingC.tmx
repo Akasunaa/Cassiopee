@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="68">
+ <properties>
+  <property name="AutoElevate" type="bool" value="false"/>
+  <property name="NoAgents" type="bool" value="false"/>
+  <property name="NoSpawning" type="bool" value="false"/>
+ </properties>
+ <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>
+ <tileset firstgid="34" source="../../_Tiled/Deco.tsx"/>
+ <group id="5" name="Floor 0">
+  <properties>
+   <property name="Height" type="float" value="2.5"/>
+  </properties>
+  <layer id="1" name="Ground" width="4" height="4">
+   <properties>
+    <property name="Materials" value="[ground]"/>
+    <property name="Walkable" type="bool" value="true"/>
+   </properties>
+   <data encoding="csv">
+4,4,4,4,
+4,4,4,4,
+4,4,4,4,
+4,4,4,4
+</data>
+  </layer>
+  <layer id="28" name="Ceiling" width="4" height="4" visible="0">
+   <properties>
+    <property name="AtCeiling" type="bool" value="true"/>
+    <property name="Materials" value="[ceiling]"/>
+   </properties>
+   <data encoding="csv">
+3,3,3,0,
+3,3,3,0,
+3,3,3,0,
+0,0,0,0
+</data>
+  </layer>
+  <layer id="3" name="Walls" width="4" height="4">
+   <properties>
+    <property name="ConnectToCeiling" type="bool" value="true"/>
+    <property name="Materials" value="[mainWalls]"/>
+   </properties>
+   <data encoding="csv">
+2684354566,3221225477,3221225477,3221225478,
+2684354565,0,0,1610612741,
+2684354565,0,0,1610612741,
+6,5,5,1610612742
+</data>
+  </layer>
+  <layer id="29" name="InnerWalls" width="4" height="4">
+   <properties>
+    <property name="ConnectToCeiling" type="bool" value="true"/>
+   </properties>
+   <data encoding="csv">
+0,0,6,5,
+0,0,0,0,
+0,0,0,0,
+3221225477,3221225477,3221225478,0
+</data>
+  </layer>
+  <objectgroup id="4" name="Transitions">
+   <object id="65" gid="20" x="100" y="50" width="50" height="50" rotation="-90"/>
+   <object id="66" gid="8" x="50" y="150" width="50" height="50">
+    <properties>
+     <property name="TargetZone" value="[exit]"/>
+    </properties>
+   </object>
+  </objectgroup>
+  <objectgroup id="27" name="Objects">
+   <object id="67" name="DialogPieceEndingC" type="DialogLocationEntityEndingC" gid="42" x="100" y="100" width="50" height="50"/>
+  </objectgroup>
+ </group>
+</map>

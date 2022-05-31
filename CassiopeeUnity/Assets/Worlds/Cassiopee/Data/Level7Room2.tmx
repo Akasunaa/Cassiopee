@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="72">
+ <properties>
+  <property name="AutoElevate" type="bool" value="false"/>
+  <property name="NoAgents" type="bool" value="false"/>
+  <property name="NoSpawning" type="bool" value="false"/>
+ </properties>
+ <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>
+ <tileset firstgid="34" source="../../_Tiled/Deco.tsx"/>
+ <group id="5" name="Floor 0">
+  <properties>
+   <property name="Height" type="float" value="2.5"/>
+  </properties>
+  <layer id="1" name="Ground" width="4" height="4">
+   <properties>
+    <property name="Materials" value="[ground]"/>
+    <property name="Walkable" type="bool" value="true"/>
+   </properties>
+   <data encoding="csv">
+4,4,4,4,
+4,4,4,4,
+4,4,4,4,
+4,4,4,4
+</data>
+  </layer>
+  <layer id="28" name="Ceiling" width="4" height="4" visible="0">
+   <properties>
+    <property name="AtCeiling" type="bool" value="true"/>
+    <property name="Materials" value="[ceiling]"/>
+   </properties>
+   <data encoding="csv">
+3,3,3,0,
+3,3,3,0,
+3,3,3,0,
+0,0,0,0
+</data>
+  </layer>
+  <layer id="3" name="Walls" width="4" height="4">
+   <properties>
+    <property name="ConnectToCeiling" type="bool" value="true"/>
+    <property name="Materials" value="[walls]"/>
+   </properties>
+   <data encoding="csv">
+2684354566,3221225477,3221225477,3221225478,
+2684354565,0,0,1610612741,
+2684354565,0,0,1610612741,
+6,5,5,1610612742
+</data>
+  </layer>
+  <layer id="29" name="InnerWalls" width="4" height="4">
+   <properties>
+    <property name="ConnectToCeiling" type="bool" value="true"/>
+   </properties>
+   <data encoding="csv">
+0,2684354565,2684354565,0,
+0,6,6,0,
+0,0,0,0,
+3221225478,3221225477,0,2684354566
+</data>
+  </layer>
+  <objectgroup id="4" name="Transitions">
+   <object id="65" name="room 1" gid="20" x="50" y="100" width="50" height="50" rotation="-90"/>
+   <object id="67" name="Ending C" gid="8" x="100" y="0" width="50" height="50" rotation="90">
+    <properties>
+     <property name="OneWay" type="bool" value="true"/>
+     <property name="TargetZone" value="Level8EndingC"/>
+    </properties>
+   </object>
+   <object id="69" name="Ending D" gid="8" x="50" y="150" width="50" height="50" rotation="90">
+    <properties>
+     <property name="OneWay" type="bool" value="true"/>
+     <property name="TargetZone" value="Level8EndingD"/>
+    </properties>
+   </object>
+  </objectgroup>
+  <objectgroup id="27" name="Objects">
+   <object id="66" name="Ending C" gid="13" x="200" y="100" width="50" height="50" rotation="180">
+    <properties>
+     <property name="Variable" value="DoorEndingCLevel7"/>
+    </properties>
+   </object>
+   <object id="68" name="Ending D" gid="13" x="100" y="150" width="50" height="50"/>
+   <object id="70" name="Ending C" gid="14" x="100" y="100" width="50" height="50" rotation="180">
+    <properties>
+     <property name="Variable" value="DoorEndingCLevel7"/>
+     <property name="Y" type="int" value="2"/>
+    </properties>
+   </object>
+   <object id="71" name="EndingIndicatorC" type="EndingIndicatorEndingC" gid="41" x="50" y="100" width="50" height="50">
+    <properties>
+     <property name="Offset" value="0,0.55,0"/>
+     <property name="Rotate" value="0,180,0"/>
+     <property name="Scale" value="0.5,0.5,0.5"/>
+     <property name="Y" type="int" value="2"/>
+    </properties>
+   </object>
+  </objectgroup>
+ </group>
+</map>

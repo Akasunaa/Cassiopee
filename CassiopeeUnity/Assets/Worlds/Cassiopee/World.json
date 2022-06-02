@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.557",
-    "versionCode": 625,
+    "version": "0.0.558",
+    "versionCode": 626,
     "name": "Cassiopee",
     "shortDescription": "Jeu cree a l'occasion du projet Cassiopee",
     "minSize": "4,4",
@@ -11,11 +11,9 @@
         "Distance"
     ],
     "inventoryItems": [
-        "/Base/PlasmaGun",
-        "/Base/Flashlight"
+        "/Base/PlasmaGun"
     ],
-    "initialItemMain": "/Base/PlasmaGun",
-    "initialItemSecondary": "/Base/Flashlight",
+    "initialItemSecondary": "/Base/PlasmaGun",
     "initialVariables": [
         {
             "key": "combo-laser",

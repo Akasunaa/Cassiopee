@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 94af2cabc5dd1334490edc850bcf0415
   m_CachedHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 85db4fa24bc952e644f3870525fae8f5
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -35,9 +35,9 @@ MonoBehaviour:
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 52adfd26de393474788e650ed752c240
+    m_Id: 48d35a6883c493947986fa0135a0d4cf
   m_RemoteCatalogLoadPath:
-    m_Id: 8f80196c97270ba499041aa9d7c62c5c
+    m_Id: fff94994e41f45b48858915ee8ce5def
   m_ContentStateBuildPathProfileVariableName: 
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
@@ -75,9 +75,9 @@ MonoBehaviour:
       - m_Id: 273074359d7656447868b15c0737506f
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 48d35a6883c493947986fa0135a0d4cf
-        m_Value: C:/Users/shado/Documents/Unity/Cassiopee/CassiopeeUnity/Assets/../traVRsal/Cassiopee/[BuildTarget]
+        m_Value: C:/Users/prome/OneDrive/Bureau/Cassiopee/CassiopeeUnity/Assets/../traVRsal/Cassiopee/[BuildTarget]
       - m_Id: fff94994e41f45b48858915ee8ce5def
-        m_Value: C:/Users/shado/Documents/Unity/Cassiopee/CassiopeeUnity/Assets/../traVRsal/Cassiopee/[BuildTarget]
+        m_Value: C:/Users/prome/OneDrive/Bureau/Cassiopee/CassiopeeUnity/Assets/../traVRsal/Cassiopee/[BuildTarget]
       - m_Id: 52adfd26de393474788e650ed752c240
         m_Value: ServerData/Worlds/Cassiopee/[BuildTarget]
       - m_Id: 8f80196c97270ba499041aa9d7c62c5c

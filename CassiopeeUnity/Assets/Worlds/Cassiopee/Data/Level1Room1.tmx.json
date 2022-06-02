@@ -264,14 +264,14 @@
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":0
+                                 "value":1
                                 }],
                          "rotation":0,
                          "type":"TabletteLevel1-3",
                          "visible":true,
                          "width":50,
-                         "x":126.696,
-                         "y":84.803
+                         "x":133.017,
+                         "y":96.715
                         }, 
                         {
                          "gid":40,
@@ -287,14 +287,14 @@
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":0
+                                 "value":1
                                 }],
                          "rotation":0,
                          "type":"TabletteLevel1-2",
                          "visible":true,
                          "width":50,
-                         "x":123.778,
-                         "y":169.968
+                         "x":138.85,
+                         "y":144.685
                         }, 
                         {
                          "gid":40,
@@ -310,14 +310,14 @@
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":0
+                                 "value":1
                                 }],
                          "rotation":0,
                          "type":"TabletteLevel1-4",
                          "visible":true,
                          "width":50,
-                         "x":111.623,
-                         "y":139.823
+                         "x":89.0145,
+                         "y":146.144
                         }, 
                         {
                          "gid":40,
@@ -333,14 +333,14 @@
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":0
+                                 "value":1
                                 }],
                          "rotation":0,
                          "type":"TabletteLevel1-1",
                          "visible":true,
                          "width":50,
-                         "x":126.453,
-                         "y":108.463
+                         "x":85.6119,
+                         "y":96.3079
                         }],
                  "opacity":1,
                  "type":"objectgroup",

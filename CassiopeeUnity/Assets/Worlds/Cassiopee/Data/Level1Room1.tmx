@@ -89,28 +89,28 @@
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="110" type="TabletteLevel1-3" gid="40" x="126.696" y="84.803" width="50" height="50">
+   <object id="110" type="TabletteLevel1-3" gid="40" x="133.017" y="96.715" width="50" height="50">
     <properties>
      <property name="Scale" value="0.5;0.5;0.5"/>
-     <property name="Y" type="int" value="0"/>
+     <property name="Y" type="int" value="1"/>
     </properties>
    </object>
-   <object id="125" type="TabletteLevel1-2" gid="40" x="123.778" y="169.968" width="50" height="50">
+   <object id="125" type="TabletteLevel1-2" gid="40" x="138.85" y="144.685" width="50" height="50">
     <properties>
      <property name="Scale" value="0.5;0.5;0.5"/>
-     <property name="Y" type="int" value="0"/>
+     <property name="Y" type="int" value="1"/>
     </properties>
    </object>
-   <object id="126" type="TabletteLevel1-4" gid="40" x="111.623" y="139.823" width="50" height="50">
+   <object id="126" type="TabletteLevel1-4" gid="40" x="89.0145" y="146.144" width="50" height="50">
     <properties>
      <property name="Scale" value="0.5;0.5;0.5"/>
-     <property name="Y" type="int" value="0"/>
+     <property name="Y" type="int" value="1"/>
     </properties>
    </object>
-   <object id="127" type="TabletteLevel1-1" gid="40" x="126.453" y="108.463" width="50" height="50">
+   <object id="127" type="TabletteLevel1-1" gid="40" x="85.6119" y="96.3079" width="50" height="50">
     <properties>
      <property name="Scale" value="0.5;0.5;0.5"/>
-     <property name="Y" type="int" value="0"/>
+     <property name="Y" type="int" value="1"/>
     </properties>
    </object>
   </objectgroup>

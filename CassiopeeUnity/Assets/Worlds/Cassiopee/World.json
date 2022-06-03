@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.574",
-    "versionCode": 642,
+    "version": "0.0.578",
+    "versionCode": 646,
     "name": "Cassiopee",
     "shortDescription": "Game created for the Cassiopee",
     "coverImage": "CoverImage.png",
@@ -73,7 +73,7 @@
         "Enemy"
     ],
     "dependencies": {
-        "totalObjects": 4474,
+        "totalObjects": 4482,
         "totalAgents": 9,
         "referencedWorlds": [
             "Base",
@@ -152,6 +152,9 @@
             "/Cassiopee/Materials/OrangeNeon",
             "/Cassiopee/Pieces/1ext",
             "/Cassiopee/Pieces/2020",
+            "/Cassiopee/Pieces/2089",
+            "/Cassiopee/Pieces/2094",
+            "/Cassiopee/Pieces/2103",
             "/Cassiopee/Pieces/2civil",
             "/Cassiopee/Pieces/3deng",
             "/Cassiopee/Pieces/4inond",

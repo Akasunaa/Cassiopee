@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="76">
+<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="30" nextobjectid="76">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -51,14 +51,14 @@
     <property name="ConnectToCeiling" type="bool" value="true"/>
    </properties>
    <data encoding="csv">
-0,0,0,6,
+1610612742,0,0,6,
 0,0,0,0,
 0,0,0,0,
-0,0,0,2684354566
+0,0,0,0
 </data>
   </layer>
   <objectgroup id="4" name="Transitions">
-   <object id="67" gid="20" x="150" y="200" width="50" height="50" rotation="-90"/>
+   <object id="67" gid="20" x="50" y="0" width="50" height="50" rotation="90"/>
    <object id="68" gid="8" x="150" y="50" width="50" height="50" rotation="-90">
     <properties>
      <property name="OneWay" type="bool" value="true"/>
@@ -67,42 +67,43 @@
    </object>
   </objectgroup>
   <objectgroup id="27" name="Objects">
-   <object id="65" name="LaboTable" type="LaboTable" gid="40" x="50" y="150" width="50" height="50">
+   <object id="65" name="LaboTable" type="LaboTable" gid="40" x="100" y="200" width="50" height="50">
     <properties>
      <property name="Offset" value="0,0.5,0.5"/>
-     <property name="Rotate" value="0,90,0"/>
+     <property name="Rotate" value="0,0,0"/>
      <property name="Y" type="int" value="1"/>
     </properties>
    </object>
-   <object id="70" name="Oscillo" type="LaboOscillo" gid="41" x="0" y="150" width="50" height="50">
+   <object id="70" name="Oscillo" type="LaboOscillo" gid="41" x="150" y="150" width="50" height="50">
     <properties>
-     <property name="Offset" value="0.3,0.15,0"/>
-     <property name="Rotate" value="0,-90,0"/>
-     <property name="Y" type="int" value="2"/>
+     <property name="Offset" value=""/>
+     <property name="Rotate" value="0,180,0"/>
+     <property name="Y" type="int" value="3"/>
     </properties>
    </object>
-   <object id="71" name="Machine" type="LaboMachine" gid="41" x="0" y="100" width="50" height="50">
+   <object id="71" name="Machine" type="LaboMachine" gid="41" x="0" y="200" width="50" height="50">
     <properties>
      <property name="Offset" value="0.6,0.2,0.1"/>
      <property name="Rotate" value="0,-60,0"/>
+     <property name="Scale" value="0.5,0.5,0.5"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="72" name="Mug" type="Mug" gid="40" x="50" y="100" width="50" height="50">
+   <object id="72" name="Mug" type="Mug" gid="40" x="50" y="150" width="50" height="50">
     <properties>
-     <property name="Offset" value="0,0,-0.5"/>
+     <property name="Offset" value=""/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="74" type="TabletteLevel6" gid="40" x="110.165" y="99.7113" width="50" height="50">
+   <object id="74" type="TabletteLevel6" gid="40" x="50" y="50" width="50" height="50">
     <properties>
      <property name="Scale" value=""/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="75" type="TabletteLevel6Hide" gid="40" x="131.071" y="146.873" width="50" height="50">
+   <object id="75" type="TabletteLevel6Hide" gid="40" x="100" y="100" width="50" height="50">
     <properties>
-     <property name="Scale" value="0.5;0.5;0.5"/>
+     <property name="Scale" value="0.5,0.5,0.5"/>
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>

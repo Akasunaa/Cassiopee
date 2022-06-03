@@ -255,9 +255,14 @@
                                  "value":"0,0,0.4"
                                 }, 
                                 {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.9,0.9,0.9"
+                                }, 
+                                {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":2
+                                 "value":0
                                 }],
                          "rotation":0,
                          "type":"EndingDestroyableObject",

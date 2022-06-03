@@ -75,7 +75,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2684354566],
+                 "data":[1610612742, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":4,
                  "id":29,
                  "name":"WallsInner",
@@ -102,12 +102,12 @@
                          "height":50,
                          "id":67,
                          "name":"",
-                         "rotation":-90,
+                         "rotation":90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":150,
-                         "y":200
+                         "x":50,
+                         "y":0
                         }, 
                         {
                          "gid":8,
@@ -157,7 +157,7 @@
                                 {
                                  "name":"Rotate",
                                  "type":"string",
-                                 "value":"0,90,0"
+                                 "value":"0,0,0"
                                 }, 
                                 {
                                  "name":"Y",
@@ -168,8 +168,8 @@
                          "type":"LaboTable",
                          "visible":true,
                          "width":50,
-                         "x":50,
-                         "y":150
+                         "x":100,
+                         "y":200
                         }, 
                         {
                          "gid":41,
@@ -180,23 +180,23 @@
                                 {
                                  "name":"Offset",
                                  "type":"string",
-                                 "value":"0.3,0.15,0"
+                                 "value":""
                                 }, 
                                 {
                                  "name":"Rotate",
                                  "type":"string",
-                                 "value":"0,-90,0"
+                                 "value":"0,180,0"
                                 }, 
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":2
+                                 "value":3
                                 }],
                          "rotation":0,
                          "type":"LaboOscillo",
                          "visible":true,
                          "width":50,
-                         "x":0,
+                         "x":150,
                          "y":150
                         }, 
                         {
@@ -216,6 +216,11 @@
                                  "value":"0,-60,0"
                                 }, 
                                 {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.5,0.5,0.5"
+                                }, 
+                                {
                                  "name":"Y",
                                  "type":"int",
                                  "value":2
@@ -225,7 +230,7 @@
                          "visible":true,
                          "width":50,
                          "x":0,
-                         "y":100
+                         "y":200
                         }, 
                         {
                          "gid":40,
@@ -236,7 +241,7 @@
                                 {
                                  "name":"Offset",
                                  "type":"string",
-                                 "value":"0,0,-0.5"
+                                 "value":""
                                 }, 
                                 {
                                  "name":"Y",
@@ -248,7 +253,7 @@
                          "visible":true,
                          "width":50,
                          "x":50,
-                         "y":100
+                         "y":150
                         }, 
                         {
                          "gid":40,
@@ -270,8 +275,8 @@
                          "type":"TabletteLevel6",
                          "visible":true,
                          "width":50,
-                         "x":110.165,
-                         "y":99.7113
+                         "x":50,
+                         "y":50
                         }, 
                         {
                          "gid":40,
@@ -282,7 +287,7 @@
                                 {
                                  "name":"Scale",
                                  "type":"string",
-                                 "value":"0.5;0.5;0.5"
+                                 "value":"0.5,0.5,0.5"
                                 }, 
                                 {
                                  "name":"Y",
@@ -293,8 +298,8 @@
                          "type":"TabletteLevel6Hide",
                          "visible":true,
                          "width":50,
-                         "x":131.071,
-                         "y":146.873
+                         "x":100,
+                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",

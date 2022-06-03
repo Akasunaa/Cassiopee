@@ -97,7 +97,8 @@
    <object id="71" name="EndingDestroyableObject" type="EndingDestroyableObject" gid="40" x="100" y="150" width="50" height="50">
     <properties>
      <property name="Offset" value="0,0,0.4"/>
-     <property name="Y" type="int" value="2"/>
+     <property name="Scale" value="0.9,0.9,0.9"/>
+     <property name="Y" type="int" value="0"/>
     </properties>
    </object>
    <object id="73" name="DialogPieceLevel7" type="DialogLocationEntityLevel7" gid="42" x="100" y="100" width="50" height="50"/>

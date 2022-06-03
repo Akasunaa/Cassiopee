@@ -144,7 +144,7 @@
                          "id":67,
                          "name":"DialogPieceEndingC",
                          "rotation":0,
-                         "type":"DialogLocationEntityEndingC",
+                         "type":"DialogEndingC",
                          "visible":true,
                          "width":50,
                          "x":100,
@@ -189,7 +189,7 @@
          "value":false
         }],
  "renderorder":"left-up",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.8.1",
  "tileheight":50,
  "tilesets":[
         {
@@ -1086,6 +1086,6 @@
         }],
  "tilewidth":50,
  "type":"map",
- "version":"1.6",
+ "version":"1.8",
  "width":4
 }

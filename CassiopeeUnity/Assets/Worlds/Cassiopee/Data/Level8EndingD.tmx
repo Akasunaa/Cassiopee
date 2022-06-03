@@ -67,7 +67,7 @@
    </object>
   </objectgroup>
   <objectgroup id="27" name="Objects">
-   <object id="67" name="DialogPieceEndingD" type="DialogLocationEntityEndingD" gid="42" x="50" y="100" width="50" height="50"/>
+   <object id="67" name="DialogPieceEndingD" type="DialogEndingD" gid="42" x="50" y="100" width="50" height="50"/>
   </objectgroup>
  </group>
 </map>

@@ -259,7 +259,7 @@
                                 {
                                  "name":"Scale",
                                  "type":"string",
-                                 "value":"0.5;0.5;0.5"
+                                 "value":"0.5,0.5,0.5"
                                 }, 
                                 {
                                  "name":"Y",
@@ -270,8 +270,8 @@
                          "type":"TabletteLevel1-3",
                          "visible":true,
                          "width":50,
-                         "x":133.017,
-                         "y":96.715
+                         "x":111.381,
+                         "y":128.318
                         }, 
                         {
                          "gid":40,
@@ -280,9 +280,14 @@
                          "name":"",
                          "properties":[
                                 {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
                                  "name":"Scale",
                                  "type":"string",
-                                 "value":"0.5;0.5;0.5"
+                                 "value":"0.5,0.5,0.5"
                                 }, 
                                 {
                                  "name":"Y",
@@ -293,8 +298,8 @@
                          "type":"TabletteLevel1-2",
                          "visible":true,
                          "width":50,
-                         "x":138.85,
-                         "y":144.685
+                         "x":100,
+                         "y":100
                         }, 
                         {
                          "gid":40,
@@ -305,7 +310,7 @@
                                 {
                                  "name":"Scale",
                                  "type":"string",
-                                 "value":"0.5;0.5;0.5"
+                                 "value":"0.5,0.5,0.5"
                                 }, 
                                 {
                                  "name":"Y",
@@ -316,8 +321,8 @@
                          "type":"TabletteLevel1-4",
                          "visible":true,
                          "width":50,
-                         "x":89.0145,
-                         "y":146.144
+                         "x":124.994,
+                         "y":144.199
                         }, 
                         {
                          "gid":40,
@@ -328,7 +333,7 @@
                                 {
                                  "name":"Scale",
                                  "type":"string",
-                                 "value":"0.5;0.5;0.5"
+                                 "value":"0.5,0.5,0.5"
                                 }, 
                                 {
                                  "name":"Y",
@@ -339,8 +344,133 @@
                          "type":"TabletteLevel1-1",
                          "visible":true,
                          "width":50,
-                         "x":85.6119,
-                         "y":96.3079
+                         "x":100.198,
+                         "y":100.684
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":129,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.45,0.5,0.7"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"0,-90,0"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":0,
+                         "type":"2020",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":130,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.45,1.8,0.4"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"0,-90,0"
+                                }],
+                         "rotation":0,
+                         "type":"2089",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":100
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":131,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.45,1.5,0.7"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"0,-90,0"
+                                }],
+                         "rotation":0,
+                         "type":"2094",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":132,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.45,1.8,0.4"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"0,-90,0"
+                                }],
+                         "rotation":0,
+                         "type":"2103",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":150
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":133,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Offset",
+                                 "type":"string",
+                                 "value":"0.4,0,0.5"
+                                }, 
+                                {
+                                 "name":"Rotate",
+                                 "type":"string",
+                                 "value":"-90,0,0"
+                                }, 
+                                {
+                                 "name":"Scale",
+                                 "type":"string",
+                                 "value":"0.07,0.1,0.07"
+                                }],
+                         "rotation":0,
+                         "type":"TableDeReu",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":150
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -380,7 +510,7 @@
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"combo-laser-four"
+                                 "value":"combo-laser-three"
                                 }, 
                                 {
                                  "name":"Y",
@@ -403,7 +533,7 @@
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"combo-laser-three"
+                                 "value":"combo-laser-one"
                                 }, 
                                 {
                                  "name":"Y",
@@ -426,7 +556,7 @@
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"combo-laser-one"
+                                 "value":"combo-laser-two"
                                 }, 
                                 {
                                  "name":"Y",
@@ -449,7 +579,7 @@
                                 {
                                  "name":"Variable",
                                  "type":"string",
-                                 "value":"combo-laser-two"
+                                 "value":"combo-laser-four"
                                 }, 
                                 {
                                  "name":"Y",
@@ -480,6 +610,18 @@
                          "width":50,
                          "x":50,
                          "y":50
+                        }, 
+                        {
+                         "gid":42,
+                         "height":50,
+                         "id":134,
+                         "name":"",
+                         "rotation":0,
+                         "type":"ButtonSoundPlayer",
+                         "visible":true,
+                         "width":50,
+                         "x":98.7389,
+                         "y":55.6308
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -506,7 +648,7 @@
          "y":0
         }],
  "nextlayerid":39,
- "nextobjectid":129,
+ "nextobjectid":135,
  "orientation":"orthogonal",
  "properties":[
         {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="39" nextobjectid="129">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="4" height="4" tilewidth="50" tileheight="50" infinite="0" nextlayerid="39" nextobjectid="135">
  <properties>
   <property name="NoAgents" type="bool" value="false"/>
   <property name="NoSpawning" type="bool" value="false"/>
@@ -89,28 +89,61 @@
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="110" type="TabletteLevel1-3" gid="40" x="133.017" y="96.715" width="50" height="50">
+   <object id="110" type="TabletteLevel1-3" gid="40" x="111.381" y="128.318" width="50" height="50">
     <properties>
-     <property name="Scale" value="0.5;0.5;0.5"/>
+     <property name="Scale" value="0.5,0.5,0.5"/>
      <property name="Y" type="int" value="1"/>
     </properties>
    </object>
-   <object id="125" type="TabletteLevel1-2" gid="40" x="138.85" y="144.685" width="50" height="50">
+   <object id="125" type="TabletteLevel1-2" gid="40" x="100" y="100" width="50" height="50">
     <properties>
-     <property name="Scale" value="0.5;0.5;0.5"/>
+     <property name="Offset" value=""/>
+     <property name="Scale" value="0.5,0.5,0.5"/>
      <property name="Y" type="int" value="1"/>
     </properties>
    </object>
-   <object id="126" type="TabletteLevel1-4" gid="40" x="89.0145" y="146.144" width="50" height="50">
+   <object id="126" type="TabletteLevel1-4" gid="40" x="124.994" y="144.199" width="50" height="50">
     <properties>
-     <property name="Scale" value="0.5;0.5;0.5"/>
+     <property name="Scale" value="0.5,0.5,0.5"/>
      <property name="Y" type="int" value="1"/>
     </properties>
    </object>
-   <object id="127" type="TabletteLevel1-1" gid="40" x="85.6119" y="96.3079" width="50" height="50">
+   <object id="127" type="TabletteLevel1-1" gid="40" x="100.198" y="100.684" width="50" height="50">
     <properties>
-     <property name="Scale" value="0.5;0.5;0.5"/>
+     <property name="Scale" value="0.5,0.5,0.5"/>
      <property name="Y" type="int" value="1"/>
+    </properties>
+   </object>
+   <object id="129" type="2020" gid="40" x="150" y="100" width="50" height="50">
+    <properties>
+     <property name="Offset" value="0.45,0.5,0.7"/>
+     <property name="Rotate" value="0,-90,0"/>
+     <property name="Y" type="int" value="2"/>
+    </properties>
+   </object>
+   <object id="130" type="2089" gid="40" x="150" y="100" width="50" height="50">
+    <properties>
+     <property name="Offset" value="0.45,1.8,0.4"/>
+     <property name="Rotate" value="0,-90,0"/>
+    </properties>
+   </object>
+   <object id="131" type="2094" gid="40" x="150" y="150" width="50" height="50">
+    <properties>
+     <property name="Offset" value="0.45,1.5,0.7"/>
+     <property name="Rotate" value="0,-90,0"/>
+    </properties>
+   </object>
+   <object id="132" type="2103" gid="40" x="150" y="150" width="50" height="50">
+    <properties>
+     <property name="Offset" value="0.45,1.8,0.4"/>
+     <property name="Rotate" value="0,-90,0"/>
+    </properties>
+   </object>
+   <object id="133" type="TableDeReu" gid="40" x="100" y="150" width="50" height="50">
+    <properties>
+     <property name="Offset" value="0.4,0,0.5"/>
+     <property name="Rotate" value="-90,0,0"/>
+     <property name="Scale" value="0.07,0.1,0.07"/>
     </properties>
    </object>
   </objectgroup>
@@ -122,25 +155,25 @@
    </object>
    <object id="96" type="/Base/Button" gid="14" x="50" y="200" width="50" height="50">
     <properties>
-     <property name="Variable" value="combo-laser-four"/>
+     <property name="Variable" value="combo-laser-three"/>
      <property name="Y" type="float" value="1"/>
     </properties>
    </object>
    <object id="98" type="/Base/Button" gid="14" x="150" y="200" width="50" height="50">
     <properties>
-     <property name="Variable" value="combo-laser-three"/>
+     <property name="Variable" value="combo-laser-one"/>
      <property name="Y" type="float" value="1"/>
     </properties>
    </object>
    <object id="99" type="/Base/Button" gid="14" x="200" y="0" width="50" height="50" rotation="-180">
     <properties>
-     <property name="Variable" value="combo-laser-one"/>
+     <property name="Variable" value="combo-laser-two"/>
      <property name="Y" type="float" value="1"/>
     </properties>
    </object>
    <object id="100" type="/Base/Button" gid="14" x="100" y="0" width="50" height="50" rotation="-180">
     <properties>
-     <property name="Variable" value="combo-laser-two"/>
+     <property name="Variable" value="combo-laser-four"/>
      <property name="Y" type="float" value="1"/>
     </properties>
    </object>
@@ -149,6 +182,7 @@
      <property name="Variable" value="combo-laser"/>
     </properties>
    </object>
+   <object id="134" type="ButtonSoundPlayer" gid="42" x="98.7389" y="55.6308" width="50" height="50"/>
   </objectgroup>
  </group>
 </map>

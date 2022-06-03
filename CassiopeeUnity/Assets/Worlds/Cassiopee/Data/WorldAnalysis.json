@@ -1,5 +1,5 @@
 {
-    "totalObjects": 4470,
+    "totalObjects": 4482,
     "totalAgents": 9,
     "referencedWorlds": [
         "Base",
@@ -77,6 +77,10 @@
         "/Cassiopee/Materials/MetalPanel",
         "/Cassiopee/Materials/OrangeNeon",
         "/Cassiopee/Pieces/1ext",
+        "/Cassiopee/Pieces/2020",
+        "/Cassiopee/Pieces/2089",
+        "/Cassiopee/Pieces/2094",
+        "/Cassiopee/Pieces/2103",
         "/Cassiopee/Pieces/2civil",
         "/Cassiopee/Pieces/3deng",
         "/Cassiopee/Pieces/4inond",

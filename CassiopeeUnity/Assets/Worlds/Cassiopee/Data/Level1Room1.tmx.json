@@ -264,7 +264,7 @@
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":1
+                                 "value":2
                                 }],
                          "rotation":0,
                          "type":"TabletteLevel1-3",
@@ -292,7 +292,7 @@
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":1
+                                 "value":2
                                 }],
                          "rotation":0,
                          "type":"TabletteLevel1-2",
@@ -315,7 +315,7 @@
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":1
+                                 "value":2
                                 }],
                          "rotation":0,
                          "type":"TabletteLevel1-4",
@@ -338,14 +338,14 @@
                                 {
                                  "name":"Y",
                                  "type":"int",
-                                 "value":1
+                                 "value":2
                                 }],
                          "rotation":0,
                          "type":"TabletteLevel1-1",
                          "visible":true,
                          "width":50,
-                         "x":100.198,
-                         "y":100.684
+                         "x":87.3136,
+                         "y":128.884
                         }, 
                         {
                          "gid":40,

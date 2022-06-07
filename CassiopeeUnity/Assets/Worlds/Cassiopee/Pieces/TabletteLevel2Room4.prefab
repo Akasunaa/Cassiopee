@@ -62,7 +62,7 @@ MonoBehaviour:
   autoReturn: 0
   hideHand: 1
   activateGravity: 1
-  deactivateKinematic: 1
+  deactivateKinematic: 0
   onGrab:
     m_PersistentCalls:
       m_Calls:

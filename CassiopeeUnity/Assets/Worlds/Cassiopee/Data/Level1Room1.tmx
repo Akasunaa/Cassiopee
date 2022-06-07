@@ -108,7 +108,7 @@
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="127" type="TabletteLevel1-1" gid="40" x="95.336" y="110.651" width="50" height="50">
+   <object id="127" type="TabletteLevel1-1" gid="40" x="87.3136" y="128.884" width="50" height="50">
     <properties>
      <property name="Scale" value="0.5,0.5,0.5"/>
      <property name="Y" type="int" value="2"/>

@@ -61,6 +61,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoReturn: 0
   hideHand: 1
+  activateGravity: 1
+  deactivateKinematic: 0
   onGrab:
     m_PersistentCalls:
       m_Calls:
@@ -76,8 +78,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  activateGravity: 1
-  deactivateKinematic: 1
   onDrop:
     m_PersistentCalls:
       m_Calls:
@@ -93,6 +93,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onTouchHead:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!82 &8994054996094546411
 AudioSource:
   m_ObjectHideFlags: 0

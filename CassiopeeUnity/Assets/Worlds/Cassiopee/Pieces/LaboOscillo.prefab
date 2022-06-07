@@ -60,12 +60,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoReturn: 0
   hideHand: 1
+  activateGravity: 1
+  deactivateKinematic: 0
   onGrab:
     m_PersistentCalls:
       m_Calls: []
-  activateGravity: 1
-  deactivateKinematic: 1
   onDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  onTouchHead:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1001 &8391656326122031178

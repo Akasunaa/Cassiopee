@@ -805,7 +805,7 @@
                                 {
                                  "name":"Y",
                                  "type":"float",
-                                 "value":0.8
+                                 "value":2
                                 }],
                          "rotation":0,
                          "type":"Ordi",
@@ -839,8 +839,8 @@
                          "type":"Mug",
                          "visible":true,
                          "width":50,
-                         "x":107.248,
-                         "y":96.472
+                         "x":128.641,
+                         "y":191.768
                         }, 
                         {
                          "gid":13,
@@ -908,8 +908,8 @@
                          "type":"TabletteLevel2Room4",
                          "visible":true,
                          "width":50,
-                         "x":112.596,
-                         "y":86.8269
+                         "x":122.563,
+                         "y":90.9596
                         }, 
                         {
                          "gid":40,

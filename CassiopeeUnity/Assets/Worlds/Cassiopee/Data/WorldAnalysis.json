@@ -1,5 +1,5 @@
 {
-    "totalObjects": 4482,
+    "totalObjects": 4780,
     "totalAgents": 9,
     "referencedWorlds": [
         "Base",
@@ -73,6 +73,8 @@
         "/Cassiopee/Data/Level8EndingD",
         "/Cassiopee/Data/TransitionIntroLevel5",
         "/Cassiopee/Data/TransitionLevel1Level4",
+        "/Cassiopee/Data/TransitionLevel6Level7",
+        "/Cassiopee/Data/TransitionLevel6Level7Room2",
         "/Cassiopee/Materials/MainPanel",
         "/Cassiopee/Materials/MetalPanel",
         "/Cassiopee/Materials/OrangeNeon",

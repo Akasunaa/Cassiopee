@@ -29,7 +29,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                 "data":[3, 3, 3, 0, 3, 3, 3, 0, 3, 3, 3, 0, 0, 0, 0, 0],
                  "height":4,
                  "id":28,
                  "name":"Ceiling",
@@ -46,7 +46,7 @@
                          "value":"[ceiling]"
                         }],
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":4,
                  "x":0,
                  "y":0
@@ -75,21 +75,16 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 0, 0, 0, 3221225477, 3221225477, 2684354565, 0, 0, 0, 2684354565, 0, 2684354566, 2684354565, 2684354565],
+                 "data":[5, 5, 1610612742, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3221225477, 3221225478, 0, 0],
                  "height":4,
                  "id":29,
-                 "name":"WallsInner",
+                 "name":"InnerWalls",
                  "opacity":1,
                  "properties":[
                         {
                          "name":"ConnectToCeiling",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"Materials",
-                         "type":"string",
-                         "value":"[mainWalls]"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -105,19 +100,19 @@
                         {
                          "gid":20,
                          "height":50,
-                         "id":72,
+                         "id":65,
                          "name":"",
-                         "rotation":0,
+                         "rotation":90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":50,
-                         "y":150
+                         "x":150,
+                         "y":0
                         }, 
                         {
                          "gid":8,
                          "height":50,
-                         "id":73,
+                         "id":66,
                          "name":"",
                          "properties":[
                                 {
@@ -128,13 +123,13 @@
                                 {
                                  "name":"TargetZone",
                                  "type":"string",
-                                 "value":"Level3Room1"
+                                 "value":"TransitionLevel6Level7Room2"
                                 }],
                          "rotation":90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":150,
+                         "x":100,
                          "y":150
                         }],
                  "opacity":1,
@@ -147,154 +142,7 @@
                  "draworder":"topdown",
                  "id":27,
                  "name":"Objects",
-                 "objects":[
-                        {
-                         "gid":13,
-                         "height":50,
-                         "id":66,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"doorLevel5Trap1"
-                                }],
-                         "rotation":180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":50
-                        }, 
-                        {
-                         "gid":14,
-                         "height":50,
-                         "id":68,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"doorLevel5Door1"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":2
-                                }],
-                         "rotation":180,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":50
-                        }, 
-                        {
-                         "gid":14,
-                         "height":50,
-                         "id":69,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"doorLevel5Trap1"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":2
-                                }],
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":200
-                        }, 
-                        {
-                         "gid":41,
-                         "height":50,
-                         "id":75,
-                         "name":"Helmet",
-                         "properties":[
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":1
-                                }],
-                         "rotation":0,
-                         "type":"Helmet",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":100
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":76,
-                         "name":"Gun",
-                         "properties":[
-                                {
-                                 "name":"Rotate",
-                                 "type":"string",
-                                 "value":"90,0,0"
-                                }, 
-                                {
-                                 "name":"Y",
-                                 "type":"int",
-                                 "value":2
-                                }],
-                         "rotation":0,
-                         "type":"LaserPistol",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
-                        }, 
-                        {
-                         "gid":13,
-                         "height":50,
-                         "id":77,
-                         "name":"",
-                         "properties":[
-                                {
-                                 "name":"Variable",
-                                 "type":"string",
-                                 "value":"doorLevel5Door1"
-                                }],
-                         "rotation":0,
-                         "type":"",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":150
-                        }, 
-                        {
-                         "gid":40,
-                         "height":50,
-                         "id":78,
-                         "name":"",
-                         "rotation":0,
-                         "type":"ButtonSoundPlayer",
-                         "visible":true,
-                         "width":50,
-                         "x":0,
-                         "y":150
-                        }, 
-                        {
-                         "gid":42,
-                         "height":50,
-                         "id":79,
-                         "name":"DialogPieceLevel5",
-                         "rotation":0,
-                         "type":"DialogLocationEntityLevel5",
-                         "visible":true,
-                         "width":50,
-                         "x":100,
-                         "y":100
-                        }],
+                 "objects":[],
                  "opacity":1,
                  "type":"objectgroup",
                  "visible":true,
@@ -314,10 +162,15 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":31,
- "nextobjectid":80,
+ "nextlayerid":30,
+ "nextobjectid":67,
  "orientation":"orthogonal",
  "properties":[
+        {
+         "name":"AutoElevate",
+         "type":"bool",
+         "value":false
+        }, 
         {
          "name":"NoAgents",
          "type":"bool",

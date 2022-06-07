@@ -110,6 +110,16 @@
             "fileName": "Level7Room2.tmx",
             "x": 0,
             "y": 0
+        },
+        {
+            "fileName": "TransitionLevel6Level7.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "TransitionLevel6Level7Room2.tmx",
+            "x": 0,
+            "y": 0
         }
     ]
 }

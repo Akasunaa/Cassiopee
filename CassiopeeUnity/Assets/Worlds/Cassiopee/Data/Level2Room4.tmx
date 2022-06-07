@@ -353,10 +353,10 @@
     <properties>
      <property name="Offset" value="1.3;-1;1"/>
      <property name="Rotate" value="0;0;0"/>
-     <property name="Y" type="float" value="0.8"/>
+     <property name="Y" type="float" value="2"/>
     </properties>
    </object>
-   <object id="76" type="Mug" gid="40" x="107.248" y="96.472" width="50" height="50">
+   <object id="76" type="Mug" gid="40" x="112.839" y="119.567" width="50" height="50">
     <properties>
      <property name="Offset" value="1;0.5;1"/>
      <property name="Scale" value="0.5;0.5;0.5"/>
@@ -374,7 +374,7 @@
      <property name="Variable" value="wsh"/>
     </properties>
    </object>
-   <object id="91" type="TabletteLevel2Room4" gid="40" x="112.596" y="86.8269" width="50" height="50">
+   <object id="91" type="TabletteLevel2Room4" gid="40" x="122.563" y="90.9596" width="50" height="50">
     <properties>
      <property name="Offset" value="1;0.5;1"/>
      <property name="Scale" value="0.5;0.5;0.5"/>

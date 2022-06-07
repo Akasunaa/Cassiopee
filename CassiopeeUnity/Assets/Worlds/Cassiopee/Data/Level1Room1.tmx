@@ -92,26 +92,26 @@
    <object id="110" type="TabletteLevel1-3" gid="40" x="111.381" y="128.318" width="50" height="50">
     <properties>
      <property name="Scale" value="0.5,0.5,0.5"/>
-     <property name="Y" type="int" value="1"/>
+     <property name="Y" type="int" value="2"/>
     </properties>
    </object>
    <object id="125" type="TabletteLevel1-2" gid="40" x="100" y="100" width="50" height="50">
     <properties>
      <property name="Offset" value=""/>
      <property name="Scale" value="0.5,0.5,0.5"/>
-     <property name="Y" type="int" value="1"/>
+     <property name="Y" type="int" value="2"/>
     </properties>
    </object>
    <object id="126" type="TabletteLevel1-4" gid="40" x="124.994" y="144.199" width="50" height="50">
     <properties>
      <property name="Scale" value="0.5,0.5,0.5"/>
-     <property name="Y" type="int" value="1"/>
+     <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="127" type="TabletteLevel1-1" gid="40" x="100.198" y="100.684" width="50" height="50">
+   <object id="127" type="TabletteLevel1-1" gid="40" x="95.336" y="110.651" width="50" height="50">
     <properties>
      <property name="Scale" value="0.5,0.5,0.5"/>
-     <property name="Y" type="int" value="1"/>
+     <property name="Y" type="int" value="2"/>
     </properties>
    </object>
    <object id="129" type="2020" gid="40" x="150" y="100" width="50" height="50">

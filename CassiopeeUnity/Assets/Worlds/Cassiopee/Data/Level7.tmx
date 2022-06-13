@@ -101,7 +101,7 @@
      <property name="Y" type="int" value="0"/>
     </properties>
    </object>
-   <object id="73" name="DialogPieceLevel7" type="DialogLocationEntityLevel7" gid="42" x="100" y="100" width="50" height="50"/>
+   <object id="73" name="DialogPieceLevel7" type="DialogLocationEntityLevel7" gid="42" x="150" y="150" width="50" height="50"/>
    <object id="75" name="IndicatorA" type="EndingIndicatorEndingA" gid="41" x="50" y="50" width="50" height="50">
     <properties>
      <property name="Rotate" value="0,180,0"/>

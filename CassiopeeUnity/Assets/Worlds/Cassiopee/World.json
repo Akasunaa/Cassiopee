@@ -73,7 +73,7 @@
         "Enemy"
     ],
     "dependencies": {
-        "totalObjects": 4780,
+        "totalObjects": 4800,
         "totalAgents": 9,
         "referencedWorlds": [
             "Base",
@@ -164,10 +164,6 @@
             "/Cassiopee/Pieces/Arrow",
             "/Cassiopee/Pieces/ButtonSoundPlayer",
             "/Cassiopee/Pieces/chaise",
-            "/Cassiopee/Pieces/DialogEndingA",
-            "/Cassiopee/Pieces/DialogEndingB",
-            "/Cassiopee/Pieces/DialogEndingC",
-            "/Cassiopee/Pieces/DialogEndingD",
             "/Cassiopee/Pieces/DialogLocationEntityIntro",
             "/Cassiopee/Pieces/DialogLocationEntityLevel5",
             "/Cassiopee/Pieces/DialogLocationEntityLevel7",

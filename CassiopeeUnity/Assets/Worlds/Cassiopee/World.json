@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.603",
-    "versionCode": 671,
+    "version": "0.0.611",
+    "versionCode": 679,
     "name": "Cassiopee",
     "shortDescription": "Game created for the Cassiopee",
     "coverImage": "CoverImage.png",
@@ -73,7 +73,7 @@
         "Enemy"
     ],
     "dependencies": {
-        "totalObjects": 4780,
+        "totalObjects": 4788,
         "totalAgents": 9,
         "referencedWorlds": [
             "Base",
@@ -164,10 +164,6 @@
             "/Cassiopee/Pieces/Arrow",
             "/Cassiopee/Pieces/ButtonSoundPlayer",
             "/Cassiopee/Pieces/chaise",
-            "/Cassiopee/Pieces/DialogEndingA",
-            "/Cassiopee/Pieces/DialogEndingB",
-            "/Cassiopee/Pieces/DialogEndingC",
-            "/Cassiopee/Pieces/DialogEndingD",
             "/Cassiopee/Pieces/DialogLocationEntityIntro",
             "/Cassiopee/Pieces/DialogLocationEntityLevel5",
             "/Cassiopee/Pieces/DialogLocationEntityLevel7",

@@ -75,7 +75,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[0, 0, 6, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2684354566, 3221225477, 3221225477],
+                 "data":[5, 6, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2684354566, 3221225477, 3221225477],
                  "height":4,
                  "id":29,
                  "name":"InnerWalls",
@@ -120,12 +120,12 @@
                                  "type":"string",
                                  "value":"[exit]"
                                 }],
-                         "rotation":180,
+                         "rotation":90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":150,
-                         "y":50
+                         "x":50,
+                         "y":0
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -139,16 +139,57 @@
                  "name":"Objects",
                  "objects":[
                         {
-                         "gid":42,
+                         "gid":14,
                          "height":50,
-                         "id":67,
-                         "name":"DialogPieceEndingB",
-                         "rotation":0,
-                         "type":"DialogEndingB",
+                         "id":68,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"EndingBTrigger"
+                                }, 
+                                {
+                                 "name":"Y",
+                                 "type":"int",
+                                 "value":2
+                                }],
+                         "rotation":180,
+                         "type":"",
                          "visible":true,
                          "width":50,
-                         "x":50,
-                         "y":100
+                         "x":200,
+                         "y":50
+                        }, 
+                        {
+                         "gid":40,
+                         "height":50,
+                         "id":69,
+                         "name":"",
+                         "rotation":0,
+                         "type":"ButtonSoundPlayer",
+                         "visible":true,
+                         "width":50,
+                         "x":100,
+                         "y":150
+                        }, 
+                        {
+                         "gid":13,
+                         "height":50,
+                         "id":70,
+                         "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"EndingBTrigger"
+                                }],
+                         "rotation":180,
+                         "type":"",
+                         "visible":true,
+                         "width":50,
+                         "x":150,
+                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -170,7 +211,7 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":68,
+ "nextobjectid":71,
  "orientation":"orthogonal",
  "properties":[
         {

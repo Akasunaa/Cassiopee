@@ -1,7 +1,7 @@
 {
     "key": "Cassiopee",
-    "version": "0.0.611",
-    "versionCode": 679,
+    "version": "0.0.620",
+    "versionCode": 688,
     "name": "Cassiopee",
     "shortDescription": "Game created for the Cassiopee",
     "coverImage": "CoverImage.png",
@@ -73,7 +73,7 @@
         "Enemy"
     ],
     "dependencies": {
-        "totalObjects": 4788,
+        "totalObjects": 4800,
         "totalAgents": 9,
         "referencedWorlds": [
             "Base",

@@ -51,7 +51,7 @@
     <property name="ConnectToCeiling" type="bool" value="true"/>
    </properties>
    <data encoding="csv">
-5,6,0,5,
+5,5,0,5,
 0,0,0,0,
 0,0,0,0,
 0,0,3221225477,3221225477
@@ -59,7 +59,7 @@
   </layer>
   <objectgroup id="4" name="Transitions">
    <object id="65" gid="20" x="100" y="150" width="50" height="50" rotation="90"/>
-   <object id="66" gid="8" x="150" y="50" width="50" height="50" rotation="180">
+   <object id="66" gid="8" x="50" y="0" width="50" height="50" rotation="90">
     <properties>
      <property name="TargetZone" value="[exit]"/>
     </properties>
@@ -72,8 +72,12 @@
      <property name="Y" type="int" value="2"/>
     </properties>
    </object>
-   <object id="69" type="ButtonSoundPlayer" gid="40" x="50" y="100" width="50" height="50"/>
-   <object id="70" gid="13" x="155" y="68.3333" width="50" height="50" rotation="180"/>
+   <object id="69" type="ButtonSoundPlayer" gid="40" x="50" y="150" width="50" height="50"/>
+   <object id="70" gid="13" x="150" y="50" width="50" height="50" rotation="180">
+    <properties>
+     <property name="Variable" value="EndingATrigger"/>
+    </properties>
+   </object>
   </objectgroup>
  </group>
 </map>

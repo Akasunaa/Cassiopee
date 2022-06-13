@@ -75,7 +75,7 @@
                  "y":0
                 }, 
                 {
-                 "data":[5, 6, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3221225477, 3221225477],
+                 "data":[5, 5, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3221225477, 3221225477],
                  "height":4,
                  "id":29,
                  "name":"InnerWalls",
@@ -120,12 +120,12 @@
                                  "type":"string",
                                  "value":"[exit]"
                                 }],
-                         "rotation":180,
+                         "rotation":90,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":150,
-                         "y":50
+                         "x":50,
+                         "y":0
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -171,19 +171,25 @@
                          "visible":true,
                          "width":50,
                          "x":50,
-                         "y":100
+                         "y":150
                         }, 
                         {
                          "gid":13,
                          "height":50,
                          "id":70,
                          "name":"",
+                         "properties":[
+                                {
+                                 "name":"Variable",
+                                 "type":"string",
+                                 "value":"EndingATrigger"
+                                }],
                          "rotation":180,
                          "type":"",
                          "visible":true,
                          "width":50,
-                         "x":155,
-                         "y":68.3333
+                         "x":150,
+                         "y":50
                         }],
                  "opacity":1,
                  "type":"objectgroup",

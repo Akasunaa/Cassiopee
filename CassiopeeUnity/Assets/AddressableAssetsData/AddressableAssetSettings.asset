@@ -35,9 +35,9 @@ MonoBehaviour:
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 48d35a6883c493947986fa0135a0d4cf
+    m_Id: 52adfd26de393474788e650ed752c240
   m_RemoteCatalogLoadPath:
-    m_Id: fff94994e41f45b48858915ee8ce5def
+    m_Id: 8f80196c97270ba499041aa9d7c62c5c
   m_ContentStateBuildPathProfileVariableName: 
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
@@ -76,9 +76,9 @@ MonoBehaviour:
       - m_Id: 273074359d7656447868b15c0737506f
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 48d35a6883c493947986fa0135a0d4cf
-        m_Value: C:/Users/shado/Documents/Unity/Cassiopee/CassiopeeUnity/Assets/../traVRsal/Cassiopee/[BuildTarget]
+        m_Value: C:/Users/prome/OneDrive/Bureau/Cassiopee/CassiopeeUnity/Assets/../traVRsal/Cassiopee/[BuildTarget]
       - m_Id: fff94994e41f45b48858915ee8ce5def
-        m_Value: C:/Users/shado/Documents/Unity/Cassiopee/CassiopeeUnity/Assets/../traVRsal/Cassiopee/[BuildTarget]
+        m_Value: C:/Users/prome/OneDrive/Bureau/Cassiopee/CassiopeeUnity/Assets/../traVRsal/Cassiopee/[BuildTarget]
       - m_Id: 52adfd26de393474788e650ed752c240
         m_Value: ServerData/Worlds/Cassiopee/[BuildTarget]
       - m_Id: 8f80196c97270ba499041aa9d7c62c5c

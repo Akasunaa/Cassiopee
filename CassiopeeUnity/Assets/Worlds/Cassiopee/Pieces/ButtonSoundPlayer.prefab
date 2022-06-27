@@ -785,6 +785,7 @@ GameObject:
   - component: {fileID: 3108245878065013553}
   - component: {fileID: 4547300201165136447}
   - component: {fileID: 5381179900812167414}
+  - component: {fileID: 4677462457836755165}
   m_Layer: 0
   m_Name: ButtonSoundPlayer
   m_TagString: Untagged
@@ -1342,6 +1343,45 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3947183577886565497}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onFalse:
+    m_PersistentCalls:
+      m_Calls: []
+  onChange:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &4677462457836755165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6900636130999593749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2678d028126d614caf9fef530c55832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variable: wsh
+  variableChannel: 0
+  invert: 0
+  action: 6
+  targetObject: {fileID: 0}
+  component: {fileID: 0}
+  onTrue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7779536635555490923}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1

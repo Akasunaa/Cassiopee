@@ -124,7 +124,6 @@
      <property name="Rotate" value="0,180,0"/>
     </properties>
    </object>
-   <object id="76" name="DialogPieceLevel4" type="AlarmSound" gid="42" x="50" y="100" width="50" height="50"/>
   </objectgroup>
  </group>
 </map>

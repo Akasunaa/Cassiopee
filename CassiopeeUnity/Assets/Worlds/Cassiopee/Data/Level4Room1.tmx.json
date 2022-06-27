@@ -349,18 +349,6 @@
                          "width":50,
                          "x":100,
                          "y":100
-                        }, 
-                        {
-                         "gid":42,
-                         "height":50,
-                         "id":76,
-                         "name":"DialogPieceLevel4",
-                         "rotation":0,
-                         "type":"AlarmSound",
-                         "visible":true,
-                         "width":50,
-                         "x":50,
-                         "y":100
                         }],
                  "opacity":1,
                  "type":"objectgroup",

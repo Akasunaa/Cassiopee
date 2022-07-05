@@ -41,8 +41,31 @@ Voici le lien pour accèder à notre <a href="https://docs.google.com/document/d
 
 ## Synopsis
 
-Le 20 avril 2052 un vaisseau inconnu apparaît subitement dans l’orbite terrestre. L’Agence Spatiale Mondiale de Reconnaissance (ASMR) envoie un de ses meilleurs éléments pour enquêter : vous. Le vaisseau semble abandonné, 
-mais la plupart des accès ont été verrouillés… 
-La seule chose que vous trouvez en arrivant sur les lieux, est une photographie de la Terre dévastée. 
-Quel est le sens de cette photographie ? Pourquoi n’y a-t-il personne ? Pour le découvrir, il va falloir éprouver votre sens de l’orientation et faire preuve d’ingéniosité. 
-Parviendrez-vous à lever le voile sur tous les mystères qui se terrent au cœur du complexe ? 
+On the 20th april 2052 an unknown ship suddenly appears in Earth's orbit. The Global Space Recon Agency (**GSRA**) sends one of its best element to investigate : you. 
+The derelict vessel seems abandonned, but all accesses hatches have been unlocked, leaving you free to enter the ship...
+The only thing you find when entering the abandonned craft is a picture of Earth, devastated and burning.
+What is the meaning of this picture ? Why is the ship abandonned, left adrift in the coldness of space ? You will need to use every bit of your orientation skills and ingenuity to uncover the truth lying deep inside this dead ship. Will you manage to lift the veil on all the mysteries hiding in the bowels of this vessel ?
+
+## Poster
+
+![Template Poster_TSP (2)-1](https://user-images.githubusercontent.com/74375728/177331465-322f889e-5133-4f29-bc7a-91679c02f313.png)
+
+## Team
+
+<a href="https://github.com/Akasunaa">Prométhée TONEATTI</a> - **Project Manager**, **Lead Dev** et **3D Designer**
+
+<a href="https://github.com/BiscuitPrime">Henri NOMICO</a> - **Dev** et **3D Designer**
+
+<a href="https://github.com/Hugo-Carbiener">Hugo CARBIENER</a> - **Dev** et **3D Designer**
+
+<a href="https://github.com/Flegmatik-surf">Alexandre LAFERRERE</a> - **Scriptwriter** et **Game Designer**
+
+## Workload
+
+### 240h
+
+## User Manual
+
+There is the link to access our <a href="https://docs.google.com/document/d/1p_Kr26oOAOk0mju2inpCoPoOIq1i2BCkjvA2FMp9xs0/edit?usp=sharing">User Manual</a> (English version available).
+<br>
+<br>

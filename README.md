@@ -2,7 +2,7 @@
 
 *Version Française*
 
-**Le Dernier Recours** est un jeu VR fait sur Oculus VR à l'aide de la technologie <a href="https://travrsal.com/">TraVRsal</a>. Ce projet a été réalisé au sein des <a href="https://www.telecom-sudparis.eu/ecole/les-projets-cassiopee/">Projets Cassiopées</a> de notre école <a href="https://www.telecom-sudparis.eu/">Télécom Sudparis</a>.
+**Le Dernier Recours** est un jeu VR fait pour Oculus à l'aide de la technologie <a href="https://travrsal.com/">TraVRsal</a>. Ce projet a été réalisé au sein des <a href="https://www.telecom-sudparis.eu/ecole/les-projets-cassiopee/">Projets Cassiopées</a> de notre école <a href="https://www.telecom-sudparis.eu/">Télécom Sudparis</a>.
 
 ## Synopsis
 
@@ -25,7 +25,7 @@ Parviendrez-vous à lever le voile sur tous les mystères qui se terrent au cœu
 
 ## Temps de travail
 
-### 240h
+### 400h
 
 ## Manuel d'utilisateur
 
@@ -62,7 +62,7 @@ What is the meaning of this picture ? Why is the ship abandonned, left adrift in
 
 ## Workload
 
-### 240h
+### 400h
 
 ## User Manual
 

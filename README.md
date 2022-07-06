@@ -33,6 +33,13 @@ Voici le lien pour accèder à notre <a href="https://docs.google.com/document/d
 <br>
 <br>
 
+## Screenshots
+
+![Illustration1](https://user-images.githubusercontent.com/74375728/177495323-813d8a64-b39b-4eb5-8131-234e2119dd65.PNG)
+
+![Illustration2](https://user-images.githubusercontent.com/74375728/177495342-3a93ca76-d2c4-4d83-b1d3-fc83db922229.PNG)
+
+
 # The Last Resort - Cassiopee Project
 
 *English Version*
